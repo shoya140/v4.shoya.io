@@ -1,0 +1,7 @@
+{{ define "main" }}
+  <ul>
+    {{ range where .Pages.ByPublishDate "Section" "posts" }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> ({{ .Date.Format "2006-01-02" }})
+    {{ end }}
+  </ul>
+{{ end }}

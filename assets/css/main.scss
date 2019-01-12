@@ -1,0 +1,161 @@
+$font: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+$base-font-size: 16px;
+$large-font-size: 18px;
+$huge-font-size: 24px;
+$palm-font-size: 14px;
+$base-line-height: 1.8;
+$spacing-unit: 30px;
+
+$white-color: #fdfdfd;
+$brand-color: #9694b1;
+$brand-color-light: lighten($brand-color, 30%);
+$brand-color-dark: darken($brand-color, 30%);
+$brand-color-very-dark: darken($brand-color, 50%);
+
+$on-palm: 500px;
+$on-laptop: 1000px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:hover{
+        color: $brand-color-dark;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 400;
+    color: $brand-color-very-dark;
+    background-color: $white-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.content {
+    padding: 10px 0;
+    background-color: $brand-color-light;
+
+    @include media-query($on-palm) {
+        font-size: $palm-font-size;
+        text-align: justify;
+    }
+}
+
+.wrapper {
+    max-width: 700px;
+    padding: 0 20px;
+    margin-right: auto;
+    margin-left: auto;
+    @include media-query($on-palm) {
+        padding: 0 10px;
+    }
+}
+
+.site-header {
+    border-bottom: 1px solid $brand-color-light;
+    min-height: 56px;
+    background-color: $white-color;
+}
+
+.logo {
+    line-height: 56px;
+    color: $brand-color-very-dark;
+}
+
+.site-nav {
+    float: right;
+    line-height: 56px;
+    z-index: 10;
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        color: $brand-color-very-dark;
+        line-height: $base-line-height;
+        &:not(:first-child) {
+            margin-left: 14px;
+        }
+    }
+
+    .language-icon {
+        display: block;
+        float: right;
+        line-height: 0;
+        padding: 10px;
+        text-align: center;
+
+        img {
+            width: 36px;
+            height: 36px;
+        }
+    }
+
+    .disabled-icon {
+        opacity: 0.2;
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: $spacing-unit*0.4;
+        background-color: $white-color;
+        border: 1px solid $brand-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $brand-color-very-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+        }
+    }
+}
+
+.site-footer {
+    border-top: 1px solid $brand-color-light;
+    padding: 20px 0;
+    font-size: $palm-font-size;
+    text-align: center;
+}

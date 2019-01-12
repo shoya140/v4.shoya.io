@@ -1,4 +1,22 @@
-baseURL = "http://example.org/"
+baseURL = "https://shoya.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "portfol.io"
+title = "shoya.io"
+
+DefaultContentLanguage = "en"
+[Languages]
+  [Languages.en]
+    [Languages.en.params.navigation]
+      blog = "Blog"
+      publication = "Publications"
+      software = "Software"
+      aboutme = "About me"
+      author = "Shoya Ishimaru"
+      language = "English"
+  [Languages.jp]
+    [Languages.jp.params.navigation]
+      blog = "ブログ"
+      publication = "論文"
+      software = "ソフトウェア"
+      aboutme = "自己紹介"
+      author = "石丸 翔也"
+      language = "日本語"
