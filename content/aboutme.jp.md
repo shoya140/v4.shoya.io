@@ -2,7 +2,9 @@
 title: "石丸 翔也"
 ---
 
-<img src="/assets/img/icon_portrait.jpg" class="image-trimmed-by-circle image-on-frame" width="150px" alt="石丸 翔也">
+<img src="/img/icon_portrait.jpg" class="image-trimmed-by-circle image-on-frame" width="150px" alt="石丸 翔也">
+
+# 石丸 翔也
 
 2016年大阪府立大学大学院博士前期課程修了。現在はDFKI（ドイツ人工知能研究センター）にて人間の能力を拡張する技術の研究に取り組んでいる。専門は行動認識と認知科学。2014年より慶應義塾大学KMD研究所リサーチャー。2016年より大阪府立大学客員研究員。2016年よりカイザースラウテルン工科大学リサーチアソシエイト。研究者になる前はソフトウェア開発者として活動し、作品が数多くのコンテストで入賞。ペパボ・はてな・クックパッド・リクルートなどでアルバイトやインターンシップを経験した。2015年度のIPA未踏事業にて心の状態を可視化するシステム「心温計」を開発し、未踏スーパークリエータの認定を受けた。大学・高校・TEDxなどで講演多数。面白い発明で世界中の人を幸せにすることが目標。
 
@@ -43,7 +45,7 @@ title: "石丸 翔也"
 * <a href="https://www.dfki.de/web/presse/pressemitteilung/2017/HyperMind">世界最大規模の技術展示会CeBITにて研究成果を展示</a> (03.2017)
 * <a href="https://www.ipa.go.jp/about/press/20160602.html">2015年度IPA未踏スーパークリエータに認定</a> (06.2016)
 * <a href="http://mashupaward.jp/">MashupAwards11</a> 準決勝 (11.2015)
-* <a href="http://shoya.io/blog/honor2/">平成27年度大阪府立大学学長顕彰</a> (11.2015)
+* <a href="http://shoya.io/jp/blog/honor2/">平成27年度大阪府立大学学長顕彰</a> (11.2015)
 * <a href="http://www.osakafu-u.ac.jp/">大阪府立大学 知能情報工学分野/情報数理科学専攻 ポスター発表会</a> 優秀発表賞(09.2015)
 * <a href="http://recruit-jinji.jp/workshop2015/">株式会社リクルートホールディングス 2Weeks US Workshop 2015</a> 優勝 (08.2015)
 * <a href="https://mashupawards.doorkeeper.jp/events/25862">Mashup Awards主催 JINS MEME HACKATHON</a> 最優秀賞 (07.2015)
@@ -54,7 +56,7 @@ title: "石丸 翔也"
 * <a href ="https://sites.google.com/site/miru2014okayama/wakate">MIRU2014 若手プログラム</a> Best Wakate Presentation Award, Audience Award (06.2014)
 * <a href="http://jp.startup-dating.com/2013/05/super-hackathon-2013-in-osak">スーパーハッカソン2013</a> 3位・審査委員賞 (05.2013)
 * <a href="http://bussorenre.com/?p=45">KyotoHackathon</a> 優勝 (12.2012)
-* <a href="http://shoya.io/blog/honor/">平成24年度大阪府立大学学長顕彰</a> (11.2012)
+* <a href="http://shoya.io/jp/blog/honor/">平成24年度大阪府立大学学長顕彰</a> (11.2012)
 * <a href="http://ma8.mashupaward.jp/">MashupAwards8</a> 準決勝 (11.2012)
 * <a href="http://internship.blog.klab.jp/2012/08/10/ptlab1-day1/">KLab株式会社第1回プロトタイピングラボ</a> 優勝 (08.2012)
 * <a href="https://www.cyberagent.co.jp/list/mockplan.html">株式会社サイバーエージェントモックプランコンテスト</a> 決勝 (06.2012)

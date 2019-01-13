@@ -10,13 +10,14 @@ DefaultContentLanguage = "en"
       publication = "Publications"
       software = "Software"
       aboutme = "About me"
-      author = "Shoya Ishimaru"
-      language = "English"
+      language = "English page"
   [Languages.jp]
     [Languages.jp.params.navigation]
       blog = "ブログ"
       publication = "論文"
       software = "ソフトウェア"
       aboutme = "自己紹介"
-      author = "石丸 翔也"
-      language = "日本語"
+      language = "日本語のページ"
+
+[frontmatter]
+date  = [":filename", ":default"]

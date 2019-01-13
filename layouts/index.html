@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ range .Pages}}
+  {{ range where .Pages "Section" "project" }}
     <div class="card">
       <div class="card-img-container">
         <img class="card-img" src="/img/project_hypermind.jpg" />
@@ -10,9 +10,4 @@
       </div>
     </div>
   {{ end }}
-  <ul>
-    {{ range where .Pages.ByPublishDate "Section" "blog" }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> ({{ .Date.Format "2006-01-02" }})
-    {{ end }}
-  </ul>
 {{ end }}
