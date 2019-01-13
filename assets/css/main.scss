@@ -14,6 +14,7 @@ $brand-color-very-dark: darken($brand-color, 50%);
 
 $on-palm: 500px;
 $on-laptop: 1000px;
+$content-width: 700px;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
@@ -54,7 +55,7 @@ body {
 }
 
 .wrapper {
-    max-width: 700px;
+    max-width: $content-width;
     padding: 0 20px;
     margin-right: auto;
     margin-left: auto;
@@ -158,4 +159,46 @@ body {
     padding: 20px 0;
     font-size: $palm-font-size;
     text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 20px 0;
+    background-color: $white-color;
+    border-radius: 0.3rem;
+
+    @include media-query($on-palm) {
+        flex-direction: column;
+    }
+
+    .card-img-container {
+        position: relative;
+    }
+
+    .card-img {
+        border-radius: 0.2rem 0 0 0.2rem;
+        height: 100%;
+        width: 15em;
+        object-fit: cover;
+
+        @include media-query($on-palm) {
+            border-radius: 0.3rem 0.3rem 0 0;
+            max-height: 16em;
+            width: 100%;
+        }
+    }
+
+    .card-body {
+        padding: 1.5em 1.3em;
+    }
+    .card-title {
+        margin: 0;
+        line-height: 1.2;
+    }
+    .card-text {
+        margin: 0.5em 0;
+        line-height: 1.5;
+    }
 }
