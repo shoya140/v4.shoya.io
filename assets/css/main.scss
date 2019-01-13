@@ -182,15 +182,27 @@ body {
 }
 
 .card {
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: stretch;
     margin: 20px 0;
     background-color: $white-color;
     border-radius: 0.3rem;
+    z-index: 1;
 
     @include media-query($on-palm) {
         flex-direction: column;
+    }
+
+    a{
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        z-index: 2;
     }
 
     .card-img-container {
@@ -198,7 +210,7 @@ body {
     }
 
     .card-img {
-        border-radius: 0.2rem 0 0 0.2rem;
+        border-radius: 0.3rem 0 0 0.3rem;
         height: 100%;
         width: 15em;
         max-width: unset;
@@ -239,13 +251,13 @@ body {
         padding-left: 0;
         padding-right: 0;
     }
-      a{
-          position: absolute;
-          display: block;
-          width: 100%;
-          height: 100%;
-          left: 0;
-          top: 0;
+    a{
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
     }
 }
 
