@@ -1,6 +1,7 @@
 $font: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
 $base-font-size: 16px;
 $large-font-size: 20px;
+$huge-font-size: 24px;
 $palm-font-size: 14px;
 $base-line-height: 1.8;
 $spacing-unit: 30px;
@@ -26,6 +27,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     font-size: $large-font-size;
     text-align: left;
+}
+
+h1 {
+    font-size: $huge-font-size;
 }
 
 dl, dd, ol, ul {
@@ -171,7 +176,7 @@ body {
 
 .site-footer {
     border-top: 1px solid $gray-color;
-    padding: 20px 0;
+    padding: 10px 0 20px 0;
     font-size: $palm-font-size;
     text-align: center;
 }

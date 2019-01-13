@@ -6,17 +6,17 @@ DefaultContentLanguage = "en"
 [Languages]
   [Languages.en]
     [Languages.en.params.navigation]
-      blog = "Blog"
-      publication = "Publications"
+      projects = "Projects"
+      publications = "Publications"
       software = "Software"
-      aboutme = "About me"
+      posts = "Posts"
       language = "English page"
   [Languages.jp]
     [Languages.jp.params.navigation]
-      blog = "ブログ"
-      publication = "論文"
+      projects = "プロジェクト"
+      publications = "論文"
       software = "ソフトウェア"
-      aboutme = "自己紹介"
+      posts = "ブログ"
       language = "日本語のページ"
 
 [frontmatter]

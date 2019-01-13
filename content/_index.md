@@ -1,12 +1,14 @@
 ---
 title: "Shoya Ishimaru"
+aliases:
+  - /aboutme/
 ---
 
 <img src="/img/icon_portrait.jpg" class="image-trimmed-by-circle image-on-frame" width="150px" alt="Shoya Ishimaru">
 
 # Shoya Ishimaru
 
-Shoya Ishimaru is a researcher at German Research Center for Artificial Intelligence (DFKI) and working toward Ph.D degree in The University of Kaiserslautern. His research interests are (1) inventing new technologies augmenting abilities of human begins and (2) investigating influences of the augmentations to human minds [[publications](/publications/)].
+Shoya Ishimaru is a researcher at the German Research Center for Artificial Intelligence (DFKI) and working toward Ph.D degree in the University of Kaiserslautern. His research interests are (1) inventing new technologies augmenting abilities of human begins and (2) investigating influences of the augmentations to human minds [[publications](/publications/)].
 
 He received B.E. and M.E. degree in Electrical Engineering and Information Science from Osaka Prefecture University in 2014 and 2016. He has been a researcher at Keio Media Design Research Institute since 2014, a visiting researcher at Osaka Prefecture University since 2016, and a research associate at University of Kaiserslautern since 2016. Shoya is also a software developer [[software](/software/)]. He likes not only programming but designing beautiful software. As an internship/part-time engineer, he worked for many IT companies including paperboy&co., Hatena, and Recruit. In 2016, he received a title of MITOU Super Creator by Ministry of Economy, Trade, and Industry in Japan by developing a system for visualizing the mental state. He gave a number of invited talks at universities, high schools, and TEDx. His mission in life is to invent amazing applications and to satisfy people all over the world.
 

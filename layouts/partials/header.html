@@ -10,10 +10,10 @@
         </svg>
       </a>
       <div class="trigger">
-        <a class="page-link" href='{{ "/blog/" | relLangURL }}'>{{ .Site.Params.Navigation.Blog }}</a>
-        <a class="page-link" href='{{ "/publications/" | relLangURL }}'>{{ .Site.Params.Navigation.Publication }}</a>
+        <a class="page-link" href='{{ "/projects/" | relLangURL }}'>{{ .Site.Params.Navigation.Projects }}</a>
+        <a class="page-link" href='{{ "/publications/" | relLangURL }}'>{{ .Site.Params.Navigation.Publications }}</a>
         <a class="page-link" href='{{ "/software/" | relLangURL }}'>{{ .Site.Params.Navigation.Software }}</a>
-        <a class="page-link" href='{{ "/aboutme/" | relLangURL }}'>{{ .Site.Params.Navigation.Aboutme }}</a>
+        <a class="page-link" href='{{ "/posts/" | relLangURL }}'>{{ .Site.Params.Navigation.Posts }}</a>
         {{ if .IsTranslated }}
           {{ range .Translations }}
             <a class="language-icon" href="{{ .Permalink }}"><img src="/img/icon_language.svg" /></a>

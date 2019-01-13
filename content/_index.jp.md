@@ -1,5 +1,8 @@
 ---
 title: "石丸 翔也"
+aliases:
+  - /jp/aboutme/
+  - /aboutme/jp/
 ---
 
 <img src="/img/icon_portrait.jpg" class="image-trimmed-by-circle image-on-frame" width="150px" alt="石丸 翔也">
