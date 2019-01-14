@@ -15,23 +15,23 @@ relations:
 
 手順は[はてなスター日記](http://d.hatena.ne.jp/hatenastar/20070707)の通りで、headなど任意の場所で以下のコードを読み込む。
 
-{% highlight html %}
+{{< highlight html >}}
 <script type="text/javascript" src="http://s.hatena.ne.jp/js/HatenaStar.js"></script>
 <script type="text/javascript">
     Hatena.Star.Token = 'YOUR_TOKEN';
     Hatena.Star.EntryLoader.headerTagAndClassName = ['div','hatena-star'];
 </script>
-{% endhighlight %}
+{{< /highlight >}}
 
 EntryLoader.headerTagAndClassNameにaタグを内包するDOMを指定すると、その場所にリンク先のはてなスターが表示される。
 
 ページ内のどこでも設置できるようにしたかったので、ハイパーリンクを設置した上で文字はdisplay:none;で消すという黒魔術を使ってみた。
 
-{% highlight html %}
+{{< highlight html >}}
 <div class="hatena-star">
     <a href="PAGE_URL" style="display:none;">hatena</a>
 </div>
-{% endhighlight %}
+{{< /highlight >}}
 
 はてなスターがあるとどのエントリが盛り上がっているか視覚的に分かって便利。
 

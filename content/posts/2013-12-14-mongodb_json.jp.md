@@ -10,7 +10,7 @@ MongoDBから条件に合うオブジェクトを取り出して, エンコー�
 
 ## 問題
 
-{% highlight python %}
+{{< highlight python >}}
 
 # DB接続確立
 conn = pymongo.Connection("localhost", 27017)
@@ -20,15 +20,15 @@ db = conn["restaurant"]
 item = db.restaurant.menu.find_one({"date":"13.12.2013"})
 json.dumps(item)
 
-{% endhighlight %}
+{{< /highlight >}}
 
 実行結果:エラー
 
-{% highlight python %}
+{{< highlight python >}}
 
 TypeError: ObjectId('52aa539a86d00a0fac59fb10') is not JSON serializable
 
-{% endhighlight %}
+{{< /highlight >}}
 
 MongoDBから得られたオブジェクトをjsonモジュールのdumpus関数に直接渡すとエラーが生じる.
 この問題は, PythonのJSONモジュールがMongoDBの特殊なObjectID型をJSONに変換する方法を知らないことによる.
@@ -37,14 +37,14 @@ MongoDBから得られたオブジェクトをjsonモジュールのdumpus関数
 
 JSONエンコードする前にディクショナリから_idキーを削除する.
 
-{% highlight python %}
+{{< highlight python >}}
 
 # 取り出しとエンコード
 item = db.restaurant.menu.find_one({"date":"13.12.2013"})
 del item["_id"]
 json.dumps(item)
 
-{% endhighlight %}
+{{< /highlight >}}
 
 実行結果:正しくエンコードされる.
 

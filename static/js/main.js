@@ -1,6 +1,5 @@
 const whiteColor = "#ffffff"
-const brandColor = "#257985"
-const grayColor = "#f6f6f6"
+const brandColor = "#02396c"
 const blackColor = "#132238"
 
 $(function(){
@@ -18,7 +17,7 @@ $(function(){
   $(".post-list-item").hover(function(){
     rollIn($(this), brandColor)
   }, function(){
-    rollOut($(this), grayColor)
+    rollOut($(this), whiteColor)
   })
   $(".post-list-item").click(function(){
     rollOut($(this))
@@ -27,10 +26,10 @@ $(function(){
   $(".page-button").hover(function(){
     rollIn($(this), brandColor)
   }, function(){
-    rollOut($(this), grayColor)
+    rollOut($(this), whiteColor)
   })
   $(".page-button").click(function(){
-    rollOut($(this), grayColor)
+    rollOut($(this), whiteColor)
   })
 
   $(".tweet-button").hover(function(){

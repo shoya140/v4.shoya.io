@@ -13,7 +13,7 @@ Dropboxには、ファイル/フォルダを選択して公開リンクを作成
 
 公開リンクにブラウザでアクセスすると、通常はファイル/フォルダのダウンロードやコメントの投稿を行うためのWebページが表示される。ここで、URLの末尾にあるパラメータdl=0をraw=1に変更すると、Publicフォルダと同じようにブラウザ上でのレンダリングを実行することができる。実際には```https://dl.dropboxusercontent.com```にリダイレクトされているようなので、こちらに書き換えても大丈夫。[ファイルやフォルダのダウンロードを強制する/dropbox.com でレンダリングを実行する - Dropbox](https://www.dropbox.com/help/desktop-web/force-download) を参考にした。
 
-{% highlight bash %}
+{{< highlight bash >}}
 # 通常の公開リンク; DropboxのWebページが表示される
 https://www.dropbox.com/s/oxw7w2l72bpsato/dibtp.jpg?dl=0
 
@@ -25,7 +25,7 @@ https://www.dropbox.com/s/oxw7w2l72bpsato/dibtp.jpg?raw=1
 
 # 同様にブラウザ上でレンダリングされる
 https://dl.dropboxusercontent.com/s/oxw7w2l72bpsato/dibtp.jpg
-{% endhighlight %}
+{{< /highlight >}}
 
 この方法で従来通りWebサイト向けのファイルをホスティングすることができるが、ファイルひとつひとつを選択して公開リンクを作成するのは手間である。そこで、特に容量の大きなもののみにこの方法を使って、残りのほとんどは仕方なくGitリポジトリに加えることにした。
 

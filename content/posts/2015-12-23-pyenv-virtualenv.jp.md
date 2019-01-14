@@ -14,65 +14,65 @@ tags: ['engineering']
 
 [Homebrew](http://brew.sh/)でインストールする。
 
-{% highlight bash %}
+{{< highlight bash >}}
 $ brew install pyenv-virtualenv
-{% endhighlight %}
+{{< /highlight >}}
 
 .zshrc(.bashrc)に下記の設定を追記する。
 
-{% highlight bash %}
+{{< highlight bash >}}
 export PYENV_ROOT="${HOME}/.pyenv"
 if [ -d "${PYENV_ROOT}" ]; then
     eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
 fi
-{% endhighlight %}
+{{< /highlight >}}
 
 Pythonをインストール (例:3.5.10)
 
-{% highlight bash %}
+{{< highlight bash >}}
 $ pyenv install 3.5.10
 $ pyenv global 3.5.10
 $ pyenv rehash
-{% endhighlight %}
+{{< /highlight >}}
 
 ## OpenCVの導入
 
 Homebrewでインストールする。
 
-{% highlight bash %}
+{{< highlight bash >}}
 $ brew install opencv3 --with-contrib --with-python3 --without-python
-{% endhighlight %}
+{{< /highlight >}}
 
 現在のPythonが見ているところにpathを通す。<br/>新しい仮想環境を作る度に下記のコマンドを実行する。
 
-{% highlight bash %}
+{{< highlight bash >}}
 # python2
 $ echo /usr/local/opt/opencv3/lib/python2.7/site-packages > $(python -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())")/opencv.pth
 
 # python3
 $ echo /usr/local/opt/opencv3/lib/python3.5/site-packages > $(python -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())")/opencv.pth
-{% endhighlight %}
+{{< /highlight >}}
 
 numpyも一緒に入るけどpipで管理するものを使う
 
-{% highlight bash %}
+{{< highlight bash >}}
 $ pip install numpy
-{% endhighlight %}
+{{< /highlight >}}
 
 ## Jupyterなど定番ライブラリの導入
 
 pipでインストールする
 
-{% highlight bash %}
+{{< highlight bash >}}
 $ pip install numpy scipy pandas scikit-learn matplotlib jupyter
-{% endhighlight %}
+{{< /highlight >}}
 
 virtualenvの上でmatplotlibを使うための設定
 
-{% highlight bash %}
+{{< highlight bash >}}
 $ echo backend : TkAgg > ~/.matplotlib/matplotlibrc
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 参考1 virtualenvの使い方
 
@@ -80,17 +80,17 @@ $ echo backend : TkAgg > ~/.matplotlib/matplotlibrc
 
 virtualenvの作成 (例:tutorialディレクトリ以下では3.5.0から作った3.5.0-tutorialを使用)
 
-{% highlight bash %}
+{{< highlight bash >}}
 $ mkdir tutorial && cd tutorial
 $ pyenv virtualenv 3.5.0 3.5.0-tutorial
 $ pyenv local 3.5.0-tutorial
-{% endhighlight %}
+{{< /highlight >}}
 
 virtualenvの削除
 
-{% highlight bash %}
+{{< highlight bash >}}
 $ pyenv uninstall 3.5.0-tutorial
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 参考2 OSX以外(Linux, Windows)での実行
 
@@ -98,7 +98,7 @@ scipyやOpenCVのセットアップで躓くことが多いのでminicondaを使
 
 [shoya140/docker-image-ml](https://github.com/shoya140/docker-image-ml)
 
-{% highlight Dockerfile %}
+{{< highlight Dockerfile >}}
 FROM centos
 MAINTAINER shoya140
 
@@ -115,4 +115,4 @@ RUN pyenv rehash
 
 RUN conda install numpy scipy pandas scikit-learn
 RUN conda install -c https://conda.binstar.org/menpo opencv
-{% endhighlight %}
+{{< /highlight >}}

@@ -1,6 +1,7 @@
 baseURL = "https://shoya.io/"
 languageCode = "en-us"
 title = "shoya.io"
+pygmentsstyle = "github"
 
 DefaultContentLanguage = "en"
 [Languages]
@@ -9,7 +10,7 @@ DefaultContentLanguage = "en"
       projects = "Projects"
       publications = "Publications"
       software = "Software"
-      posts = "Posts"
+      posts = "Blog"
       language = "English page"
   [Languages.jp]
     [Languages.jp.params.navigation]

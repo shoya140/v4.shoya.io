@@ -10,7 +10,7 @@ doctestはpythonに標準で搭載されているテストツールで、docstri
 
 ## 記述例
 
-{% highlight python %}
+{{< highlight python >}}
 import doctest
 
 def average(*numbers):
@@ -23,11 +23,11 @@ def average(*numbers):
 
 if __name__ == '__main__':
     doctest.testmod()
-{% endhighlight %}
+{{< /highlight >}}
 
 上記のコードを実行すると
 
-{% highlight bash %}
+{{< highlight bash >}}
 $ python hello.py
 **********************************************************************
 File "hello.py", line 6, in __main__.average
@@ -41,11 +41,11 @@ Got:
 1 items had failures:
    1 of   1 in __main__.average
 ***Test Failed*** 1 failures.
-{% endhighlight %}
+{{< /highlight >}}
 
 失敗しました。除算を用いるので引数を浮動小数点として扱うように修正します。
 
-{% highlight python %}
+{{< highlight python >}}
 import doctest
 
 def average(*numbers):
@@ -59,15 +59,15 @@ def average(*numbers):
 
 if __name__ == '__main__':
     doctest.testmod()
-{% endhighlight %}
+{{< /highlight >}}
 
-{% highlight bash %}
+{{< highlight bash >}}
 $ python hello.py
-{% endhighlight %}
+{{< /highlight >}}
 
 実行結果が何も表示されません。すなわちテストが通ったことを意味します。通ったテストのログはオプション-vをつけることで表示することが可能です。
 
-{% highlight bash %}
+{{< highlight bash >}}
 $python hello.py -v
 Trying:
     average(1, 2)
@@ -81,13 +81,13 @@ ok
 1 tests in 2 items.
 1 passed and 0 failed.
 Test passed.
-{% endhighlight %}
+{{< /highlight >}}
 
 ## python -m doctest -v [ファイル名]
 
 Python2.6以降にはdoctest.testmod()を実行するコマンドラインショートカット(-m doctest)があり、doctest.testmod()をコード内に記述する必要がなくなりました。
 
-{% highlight python %}
+{{< highlight python >}}
 def average(*numbers):
     """
     This method returns the average value of args.
@@ -99,11 +99,11 @@ def average(*numbers):
 
 if __name__ == '__main__':
     pass
-{% endhighlight %}
+{{< /highlight >}}
 
 main関数を空にしてコマンドラインからテストします。
 
-{% highlight bash %}
+{{< highlight bash >}}
 $ python -m doctest -v hello.py
 Trying:
     average(1, 2)
@@ -117,7 +117,7 @@ ok
 1 tests in 2 items.
 1 passed and 0 failed.
 Test passed.
-{% endhighlight %}
+{{< /highlight >}}
 
 テストが実行されました。
 
@@ -129,7 +129,7 @@ Test passed.
 
 出力結果をTrue, Falseで判断することで、表記揺れによるテスト失敗を回避することができました。また、この方法では弾く(Falseを想定した)テストも書けるので便利です。
 
-{% highlight python %}
+{{< highlight python >}}
 def average(*numbers):
     """
     This method returns the average value of numbers.
@@ -149,9 +149,9 @@ def average(*numbers):
 
 if __name__ == '__main__':
     pass
-{% endhighlight %}
+{{< /highlight >}}
 
-{% highlight bash %}
+{{< highlight bash >}}
 $ python -m doctest -v hello.py
 Trying:
     average(0, 2) #failed
@@ -193,4 +193,4 @@ ok
 5 tests in 2 items.
 4 passed and 1 failed.
 ***Test Failed*** 1 failures.
-{% endhighlight %}
+{{< /highlight >}}

@@ -14,7 +14,7 @@ Sublimeの慣れないキーバインドに、「shift+option+command+数字」�
 
 今回は「Key Bindings - User」に以下の設定を記入した。
 
-{% highlight js %}
+{{< highlight js >}}
 
 [
     {
@@ -49,7 +49,7 @@ Sublimeの慣れないキーバインドに、「shift+option+command+数字」�
     },
 ]
 
-{% endhighlight %}
+{{< /highlight >}}
 
 この設定で「control+v, control+s」で画面を左右分割、「control+s, control+p」で画面を上下分割、「control+s, control+s」で1画面に戻せる。3, 4つに分割する機会は少ないので今のところはそれぞれ2分割まで。現在の状態からさらに縦横に分割していくにはどうしたらいいんだろう...
 

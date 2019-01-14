@@ -56,7 +56,7 @@ aliases:
 * <a href="http://www.microsoft.com/ja-jp/education/imagine-cup.aspx">Imagine Cup 2015</a> イノベーション部門 日本予選大会Best3 (04.2015)
 * <a href="http://recruit-jinji.jp/adf_fes2015/">APPLICATION DEVELOPER FESTIVAL</a> 運営スタッフ (03.2015)
 * <a href="http://imabarihigashi-s.esnet.ed.jp/08communication/261006-challengehighschool-kouen/261006-challengehighschool-koien.html">えひめ学力向上チャレンジハイスクール事業 同世代のトップランナーによる講演会</a> 講演 (10.2014)
-* <a href ="https://sites.google.com/site/miru2014okayama/wakate">MIRU2014 若手プログラム</a> Best Wakate Presentation Award, Audience Award (06.2014)
+* <a href ="https://sites.google.com/site/miru2014okayama/wakate">MIRU2014 若手プログラム</a> Best Presentation Award, Audience Award (06.2014)
 * <a href="http://jp.startup-dating.com/2013/05/super-hackathon-2013-in-osak">スーパーハッカソン2013</a> 3位・審査委員賞 (05.2013)
 * <a href="http://bussorenre.com/?p=45">KyotoHackathon</a> 優勝 (12.2012)
 * <a href="http://shoya.io/jp/posts/honor/">平成24年度大阪府立大学学長顕彰</a> (11.2012)

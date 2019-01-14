@@ -23,37 +23,37 @@ keywords: GitLab, Git, インストール, セットアップ
 ## 1. 導入準備 (必要に応じて)
 GitLabを導入する前に、sudoコマンド、エディタ(Vim)、Git、Python、Ruby、MySQLをインストールします。既にインストールしている場合は<strong>手順2</strong>まで読み飛ばしてください。
 
-{% highlight bash %}
+{{< highlight bash >}}
 # run as root!
 apt-get update -y
 apt-get upgrade -y
 apt-get install sudo -y
 
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 1.1. Vimインストール
 
 Vimをインストールして、標準のエディタとして設定。
 
-{% highlight bash %}
+{{< highlight bash >}}
 # Install Vim
 sudo apt-get install -y vim
 sudo update-alternatives --set editor /usr/bin/vim.basic
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 1.2. Gitインストール
 
-{% highlight bash %}
+{{< highlight bash >}}
 # Install git
 sudo apt-get install -y git-core
 
 # Make sure Git is version 1.7.10 or higher, for example 1.7.12 or 1.8.4
 git --version
-{% endhighlight %}
+{{< /highlight >}}
 
 Gitのバージョンが1.7.10より小さい場合は以下の手順でアップデート
 
-{% highlight bash %}
+{{< highlight bash >}}
 # Remove packaged Git
 sudo apt-get remove git-core
 
@@ -69,7 +69,7 @@ make prefix=/usr/local all
 # Install into /usr/local/bin
 sudo make prefix=/usr/local install
 
-{% endhighlight %}
+{{< /highlight >}}
 
 ※Gitを/usr/local/bin/gitにインストールしたので、<strong>手順8</strong>でconfig/gitlab.ymlを編集するときにbin_pathを/usr/local/bin/gitに書き換えること。
 
@@ -77,7 +77,7 @@ sudo make prefix=/usr/local install
 
 "python2"でpython2.xが起動するように設定する。
 
-{% highlight bash %}
+{{< highlight bash >}}
 # Install python
 sudo apt-get install -y python
 
@@ -95,13 +95,13 @@ sudo ln -s /usr/bin/python /usr/bin/python2
 
 # For reStructuredText markup language support install required package:
 sudo apt-get install -y python-docutils
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 1.4. Ruby インストール
 
 システムデフォルトのRubyは1.9.3より古い可能性大なのでアップデート。
 
-{% highlight bash %}
+{{< highlight bash >}}
 # Remove the old Ruby 1.8 if present
 sudo apt-get remove ruby1.8
 
@@ -114,27 +114,27 @@ cd ruby-2.0.0-p353
 # Install ruby
 make
 sudo make install
-{% endhighlight %}
+{{< /highlight >}}
 
 Bandlerインストール
 
-{% highlight bash %}
+{{< highlight bash >}}
 sudo gem install bundler --no-ri --no-rdoc
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 1.5 MySQLインストール
 
-{% highlight bash %}
+{{< highlight bash >}}
 # Install the database packages
 sudo apt-get install -y mysql-server mysql-client libmysqlclient-dev
 
 # Secure your installation.
 sudo mysql_secure_installation
-{% endhighlight %}
+{{< /highlight >}}
 
 GitLab用にユーザとデータベースを作成
 
-{% highlight bash %}
+{{< highlight bash >}}
 # Login to MySQL
 mysql -u root -p
 
@@ -150,25 +150,25 @@ mysql> GRANT SELECT, LOCK TABLES, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, A
 
 # Quit the database session
 mysql> \q
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 2. Gitユーザの作成
 
-{% highlight bash %}
+{{< highlight bash >}}
 sudo adduser --disabled-login --gecos 'GitLab' git
-{% endhighlight %}
+{{< /highlight >}}
 
 以降の手順はGitユーザで行います。
 
 ## 3. 必要パッケージのインストール
 
-{% highlight bash %}
+{{< highlight bash >}}
 sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server redis-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 4. GitLab shellインストール
 
-{% highlight bash %}
+{{< highlight bash >}}
 cd /home/git
 
 # Clone gitlab shell
@@ -179,38 +179,38 @@ cd gitlab-shell
 
 # switch to right version
 sudo -u git -H git checkout v1.7.0
-{% endhighlight %}
+{{< /highlight >}}
 
 config.yml.exampleをもとにconfig.ymlを作成して、http://localhost/のところをGitLabをセットアップするURL(例: http://YOUR_DOMAIN.COM)に書き換える。
 
-{% highlight bash %}
+{{< highlight bash >}}
 # Copy config.yml from config.yml.example
 sudo -u git -H cp config.yml.example config.yml
 
 # Edit config and replace gitlab_url
 # with something like 'http://YOUR_DOMAIN.COM/'
 sudo -u git -H editor config.yml
-{% endhighlight %}
+{{< /highlight >}}
 
 hostsのlocalhostにYOUR_DMAIN.COMを追記する。
 
-{% highlight bash %}
+{{< highlight bash >}}
 # Edit hosts
 sudo vim /etc/hosts
 
 # Add a new hosts setting like this
 127.0.0.1    YOUR_DOMAIN.COM
-{% endhighlight %}
+{{< /highlight >}}
 
 インストール
 
-{% highlight bash %}
+{{< highlight bash >}}
 sudo -u git -H ./bin/install
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 5. GitLabインストール
 
-{% highlight bash %}
+{{< highlight bash >}}
 cd /home/git
 
 # Clone GitLab repository
@@ -246,31 +246,31 @@ sudo chmod -R u+rwX  public/uploads
 sudo -u git -H git config --global user.name "GitLab"
 sudo -u git -H git config --global user.email "gitlab@localhost"
 sudo -u git -H git config --global core.autocrlf input
-{% endhighlight %}
+{{< /highlight >}}
 
 config/gitlab.yml.exampleをもとにconfig/gitlab.ymlを作成して、localhostのところをGitLabをセットアップするURLに編集する。gitのインストール先をusr/local/bin/gitに変更した場合はgit bin_pathも書き換える。
 
-{% highlight bash %}
+{{< highlight bash >}}
 # Copy the example GitLab config
 sudo -u git -H cp config/gitlab.yml.example config/gitlab.yml
 
 # Make sure to change "localhost" to the fully-qualified domain name of your
 # host serving GitLab where necessary
 sudo -u git -H editor config/gitlab.yml
-{% endhighlight %}
+{{< /highlight >}}
 
 config/unicorn.rb.example config/unicorn.rbを作成して編集する。
-{% highlight bash %}
+{{< highlight bash >}}
 # Copy the example Unicorn config
 sudo -u git -H cp config/unicorn.rb.example config/unicorn.rb
 
 # Enable cluster mode if you expect to have a high load instance
 # Ex. change amount of workers to 3 for 2GB RAM server
 sudo -u git -H editor config/unicorn.rb
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 6. MySQLとの接続確認
-{% highlight bash %}
+{{< highlight bash >}}
 # Mysql
 sudo -u git cp config/database.yml.mysql config/database.yml
 
@@ -283,77 +283,77 @@ sudo -u git -H editor config/database.yml
 
 # Make config/database.yml readable to git only
 sudo -u git -H chmod o-rwx config/database.yml
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 7. Gemインストール
-{% highlight bash %}
+{{< highlight bash >}}
 cd /home/git/gitlab
 
 sudo -u git -H bundle install --deployment --without development test postgres aws
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 8. データベース初期化
 
-{% highlight bash %}
+{{< highlight bash >}}
 # Type 'yes' to create the database.
 sudo -u git -H bundle exec rake gitlab:setup RAILS_ENV=production
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 9. 起動ファイル導入
 
-{% highlight bash %}
+{{< highlight bash >}}
 sudo rm /etc/init.d/gitlab
 sudo curl --output /etc/init.d/gitlab https://raw.github.com/gitlabhq/gitlabhq/6-0-stable/lib/support/init.d/gitlab
 sudo chmod +x /etc/init.d/gitlab
-{% endhighlight %}
+{{< /highlight >}}
 
 サーバー起動時にGitLabが自動起動するよう設定
 
-{% highlight bash %}
+{{< highlight bash >}}
 sudo update-rc.d gitlab defaults 21
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 10. Redis起動
 
-{% highlight bash %}
+{{< highlight bash >}}
 sudo /etc/init.d/redis-server start
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 11. GitLabの起動
 
-{% highlight bash %}
+{{< highlight bash >}}
 /etc/init.d/gitlab start
-{% endhighlight %}
+{{< /highlight >}}
 
 停止と再起動は下記の通り。
 
-{% highlight bash %}
+{{< highlight bash >}}
 /etc/init.d/gitlab stop
 /etc/init.d/gitlab restart
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 12. Nginx(リバースプロキシ)の設定
-{% highlight bash %}
+{{< highlight bash >}}
 # Install nginx
 sudo apt-get install -y nginx
-{% endhighlight %}
+{{< /highlight >}}
 
 gitlab用設定ファイルの導入
 
-{% highlight bash %}
+{{< highlight bash >}}
 sudo cp lib/support/nginx/gitlab /etc/nginx/sites-available/gitlab
 sudo ln -s /etc/nginx/sites-available/gitlab /etc/nginx/sites-enabled/gitlab
 
 # Change YOUR_SERVER_FQDN to the fully-qualified
 # domain name of your host serving GitLab.
 sudo editor /etc/nginx/sites-available/gitlab
-{% endhighlight %}
+{{< /highlight >}}
 
 Nginx再起動
 
-{% highlight bash %}
+{{< highlight bash >}}
 sudo /etc/init.d/nginx restart
-{% endhighlight %}
+{{< /highlight >}}
 
 <img src="/img/blog_gitlab_ss.png" class="image-on-frame image-center">
 
@@ -368,41 +368,41 @@ Pass: 5iveL!fe
 
 ## <span class="lsf">check</span> httpsプロトコルでgit cloneできない
 
-{% highlight bash %}
+{{< highlight bash >}}
 git config –global http.sslVerify false
-{% endhighlight %}
+{{< /highlight >}}
 を実行して、証明書チェックを外す。<br/>
 参考：[GIT:リポジトリにHTTPSでアクセスしてみる - 自転車で通勤しましょ♪ブログ](http://319ring.net/blog/archives/1164)
 
 ## <span class="lsf">check</span> Can't save project. Please try again later
 
 redis-serverをアップデートする
-{% highlight bash %}
+{{< highlight bash >}}
 echo "deb http://backports.debian.org/debian-backports squeeze-backports main" >> /etc/apt/sources.list
 apt-get update
 apt-get -t squeeze-backports install redis-server
-{% endhighlight %}
+{{< /highlight >}}
 参考：["Can't save project. Please try again later" - GitHub issues](https://github.com/gitlabhq/gitlabhq/issues/3328)
 
 ## <span class="lsf">check</span> 502 Bad Gateway ページが見つからない
 
 タイムアウト値を30から180くらいに変更する
-{% highlight bash %}
+{{< highlight bash >}}
 sudo -u git -H editor config/unicorn.rb
-{% endhighlight %}
+{{< /highlight >}}
 参考：[502 Bad Gateway from Nginx for large GitLab fork - stackoverflow](http://stackoverflow.com/questions/18501406/502-bad-gateway-from-nginx-for-large-gitlab-fork)
 
 ## <span class="lsf">check</span> gitlab-shell self-check failed
 
 virtual hostsの設定を取りこぼしてないか確認する
 
-{% highlight bash %}
+{{< highlight bash >}}
 # Edit hosts
 sudo vim /etc/hosts
 
 # Add a new hosts setting like this
 127.0.0.1    YOUR_DOMAIN.COM
-{% endhighlight %}
+{{< /highlight >}}
 
 ## <span class="lsf">check</span> その他の問題解決
 
@@ -410,9 +410,9 @@ sudo vim /etc/hosts
 エラーメッセージから原因を見つけて修復する。
 
 <strong>・インストール情報の表示</strong>
-{% highlight bash %}
+{{< highlight bash >}}
 sudo -u git -H bundle exec rake gitlab:env:info RAILS_ENV=production
-{% endhighlight %}
+{{< /highlight >}}
 
 成功例
 <pre>
@@ -446,9 +446,9 @@ Git:            /usr/bin/git
 
 <strong>・起動確認</strong>
 
-{% highlight bash %}
+{{< highlight bash >}}
 sudo -u git -H bundle exec rake gitlab:check RAILS_ENV=production
-{% endhighlight %}
+{{< /highlight >}}
 
 成功例
 <pre>

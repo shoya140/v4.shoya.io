@@ -13,7 +13,7 @@ KarabinerのVi mode extraに入っている「Spaceとhjkl同時押しでカー�
 
 注意: Commandキーを英数/かなにマッピングする設定と、Capslockを単体のときはEscape, 何かのキーと同時押しのときはControlにマッピングする設定も含まれています。"rules":以下を読んで必要なものを選んで使ってください。
 
-{% highlight javascript %}
+{{< highlight javascript >}}
 {
     "global": {
         "check_for_updates_on_startup": true,
@@ -157,11 +157,11 @@ KarabinerのVi mode extraに入っている「Spaceとhjkl同時押しでカー�
         }
     ]
 }
-{% endhighlight %}
+{{< /highlight >}}
 
 ## ~/.hammerspoon/init.lua
 
-{% highlight lua %}
+{{< highlight lua >}}
 local function keyCode(key, modifiers)
    modifiers = modifiers or {}
    return function()
@@ -190,4 +190,4 @@ remapKey({'ctrl', 'cmd'}, 'l', keyCode('right', {'cmd'}))
 remapKey({'ctrl', 'shift', 'cmd'}, 'h', keyCode('left', {'shift', 'cmd'}))
 remapKey({'ctrl', 'shift', 'cmd'}, 'j', keyCode('down', {'shift', 'cmd'}))
 remapKey({'ctrl', 'shift', 'cmd'}, 'k', keyCode('up', {'shift', 'cmd'}))
-{% endhighlight %}
+{{< /highlight >}}

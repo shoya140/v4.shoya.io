@@ -1,4 +1,4 @@
 ---
 title: "プロジェクト"
-layout: "cards"
+layout: "projects"
 ---

@@ -17,23 +17,23 @@ AWSのアカウントを作成した状態から深層学習のための環境�
 
 [NVIDIAのwebサイト](https://developer.nvidia.com/cudnn)でAccelerated Computing Developer Programに登録してダウンロード。登録が完了するまでに3日ほどかかる。ダウンロードしたものをインスタンス上で解凍して指定の位置に置く。
 
-{% highlight bash %}
+{{< highlight bash >}}
 $ tar zxvf cudnn-6.5-linux-x64-v2.tgz
 $ sudo cp lib* /opt/nvidia/cuda/lib64/
 $ sudo cp cudnn.h /opt/nvidia/cuda/include/
-{% endhighlight %}
+{{< /highlight >}}
 
 ## chainerとjupyterのセットアップ
 
-{% highlight bash %}
+{{< highlight bash >}}
 $ sudo CUDA_PATH=/opt/nvidia/cuda pip install chainer
 $ sudo yum install gcc atlas-devel lapack-devel blas-devel libpng-devel freetype-devel
 $ sudo pip install scipy matplotlib pandas docopt scikit-learn jupyter
-{% endhighlight %}
+{{< /highlight >}}
 
 jupyter notebookを立ち上げてブラウザからアクセスできるようにする。
 
-{% highlight bash %}
+{{< highlight bash >}}
 $ ipython
 # 下記を実行して出力されたハッシュをコピー
 from notebook.auth import passwd
@@ -49,7 +49,7 @@ c.NotebookApp.open_browser = False
 c.NotebookApp.port = 任意のポート(セキュリティグループの設定で開けておく)
 
 $ jupyter notebook
-{% endhighlight %}
+{{< /highlight >}}
 
 SSL/HTTPSを使用する方法は[こちら](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html)を参照。
 

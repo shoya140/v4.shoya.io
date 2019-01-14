@@ -8,7 +8,7 @@ eyecatch: http://ecx.images-amazon.com/images/I/51iXhiKTamL.jpg
 
 「コンピュータプログラミングの概念・技法・モデル」(ガウディ本)のサンプルコードを実行するためにOz言語の環境を整えた。Ozは開発環境であるMozartシステムやEmacsを必要とし、それらはウェブサイト上で無料で公開されているのだけれど、パッケージをダウンロードしてくるのが面倒なのですべてHomebrewで管理することにした。
 
-{% highlight bash %}
+{{< highlight bash >}}
 # emacs
 brew install emacs --japanese --cocoa --srgb --with-gnutls -v
 brew linkapps
@@ -20,7 +20,7 @@ brew install brew-cask
 # mozart
 brew tap caskroom/homebrew-versions
 brew install mozart2
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 補足
 
@@ -32,10 +32,10 @@ homebrew-versionsに送ったpull requestが無事にmergeされたのでcaskroo
 
 mozart2がhomebrew-caskではなくhomevrewで管理されるようになったので現在は以下のコマンドでインストールできます。
 
-{% highlight bash %}
+{{< highlight bash >}}
 brew install emacs --japanese --cocoa --srgb --with-gnutls -v
 brew install mozart2
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 動作確認
 

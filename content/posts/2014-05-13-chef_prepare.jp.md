@@ -10,7 +10,7 @@ keywords: chef, vagrant, prepare, 404, error
 
 Chefでknife solo prepareがうまく実行されない。Chef 11.14.0.alpha.2のwgetで404が返ってくるのが問題。
 
-{% highlight bash %}
+{{< highlight bash >}}
 
 shoya@tornado$ knife solo prepare dev_debian
 Bootstrapping Chef...
@@ -33,7 +33,7 @@ Please detail your operating system type, version and any other relevant details
 Metadata URL: https://www.opscode.com/chef/metadata?v=11.14.0.alpha.2&prerelease=false&nightlies=false&p=debian&pv=6&m=x86_64
 Generating node config 'nodes/dev_debian.json'...
 
-{% endhighlight %}
+{{< /highlight >}}
 
 ## 解決
 
@@ -41,7 +41,7 @@ Generating node config 'nodes/dev_debian.json'...
 
 opscode(version 11.14.0.alpha.2)側の問題なので、オプションでchefのバージョンを指定してあげるといいよとの回答。
 
-{% highlight bash %}
+{{< highlight bash >}}
 
 shoya@tornado$ knife solo prepare dev_debian --bootstrap-version 11.12.0
 Bootstrapping Chef...
@@ -68,6 +68,6 @@ Unpacking chef (from .../chef_11.12.0-1_amd64.deb) ...
 Setting up chef (11.12.0-1) ...
 Thank you for installing Chef!
 
-{% endhighlight %}
+{{< /highlight >}}
 
 新しいバージョンが提供されるまではこれが応急処置みたい。
