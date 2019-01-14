@@ -2,7 +2,7 @@
 layout: post
 title: 文章と期待値
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 ---
 
 やる気はあるのに手が動かないという状態は期待値の設定がおかしいのかもしれない。

@@ -2,7 +2,7 @@
 layout: post
 title: プログラミングしてて楽しいと感じる３つの瞬間
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 keywords: プログラミング, 意義, 楽しい
 ---
 

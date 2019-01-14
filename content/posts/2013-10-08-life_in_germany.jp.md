@@ -2,7 +2,7 @@
 layout: post
 title: こちらの生活にもずいぶん慣れた
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 keywords: ドイツ, 留学
 relations:
   - DFKI

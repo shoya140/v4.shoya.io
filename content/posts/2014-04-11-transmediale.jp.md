@@ -2,7 +2,7 @@
 layout: post
 title: トランスメディアーレに行ってきました
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 keywords: トランスメディアーレ, ベルリン
 ---
 

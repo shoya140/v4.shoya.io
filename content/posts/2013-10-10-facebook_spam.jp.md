@@ -2,7 +2,7 @@
 layout: post
 title: スパムアカウントからの友達申請をブロックした
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 keywords: facebook, 友達申請, スパム, ブロック
 ---
 

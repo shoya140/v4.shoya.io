@@ -2,7 +2,7 @@
 layout: post
 title: 文体にまつわる話
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 keywords: ブログ, 文体, スタイル
 ---
 

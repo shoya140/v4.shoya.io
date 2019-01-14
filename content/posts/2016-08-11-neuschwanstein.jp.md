@@ -2,7 +2,7 @@
 layout: post
 title: ノイシュバンシュタイン城
 categories: ['blog']
-tags: ['Sightseeing']
+tags: ['sightseeing']
 eyecatch: /img/blog_neuschwanstein02.jpg
 ---
 

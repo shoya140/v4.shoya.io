@@ -2,7 +2,7 @@
 layout: post
 title: Jekyllの記事を人気順にソートする
 categories: ['blog']
-tags: ['Engineering']
+tags: ['engineering']
 keywords: Jekyll, はてな, facebook, twitter
 relations:
   - hatena_star

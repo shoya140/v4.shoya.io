@@ -2,7 +2,7 @@
 layout: post
 title: フランスで暮らし始めて1週間
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 eyecatch: /img/blog_1st_week_in_france01.jpg
 relations:
   - birthday_in_paris

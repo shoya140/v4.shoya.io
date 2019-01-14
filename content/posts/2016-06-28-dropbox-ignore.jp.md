@@ -2,7 +2,7 @@
 layout: post
 title: Dropboxへアップロードしたくないディレクトリをignoreする
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 ---
 
 Dropboxで同期しているディレクトリの中に、ローカルで必要だけどわざわざアップロードしたくないものはないだろうか。Dropboxの「[選択型同期の競合](https://www.dropbox.com/ja/help/1946)」という機能を使えば多少面倒ではあるがこれらのディレクトリをアップロードの対象から外すことができる。

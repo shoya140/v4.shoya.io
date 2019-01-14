@@ -2,7 +2,7 @@
 layout: post
 title: Steiff Museum
 categories: ['blog']
-tags: ['Sightseeing']
+tags: ['sightseeing']
 eyecatch: /img/blog_steiff-museum05.jpg
 ---
 

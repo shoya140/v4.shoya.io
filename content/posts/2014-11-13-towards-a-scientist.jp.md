@@ -2,7 +2,7 @@
 layout: post
 title: なんで科学者を目指すようになったか
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 eyecatch: /img/blog_towards_a_scientist_01.jpg
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: doctestを使ってpythonの簡単な単体テストを書く
 categories: ['blog']
-tags: ['Engineering']
+tags: ['engineering']
 keywords: python, test, doctest
 ---
 

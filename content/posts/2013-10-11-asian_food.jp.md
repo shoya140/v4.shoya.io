@@ -2,7 +2,7 @@
 layout: post
 title: Asian Food
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 keywords: ドイツ, インスタントラーメン, カイザースラウテルン
 relations:
   - life_in_germany

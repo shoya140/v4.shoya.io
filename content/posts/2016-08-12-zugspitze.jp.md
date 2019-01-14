@@ -2,7 +2,7 @@
 layout: post
 title: ドイツ最高峰ツークシュピッツェ
 categories: ['blog']
-tags: ['Sightseeing']
+tags: ['sightseeing']
 eyecatch: /img/blog_zugspitze10.jpg
 ---
 

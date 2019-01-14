@@ -2,7 +2,7 @@
 layout: post
 title: 心に響いた一節を、いつでも読み返せるように。
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 keywords: 本, 引用
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Sol-31
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 relations:
   - 1st_week_in_france
   - life_in_germany

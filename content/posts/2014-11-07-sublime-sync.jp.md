@@ -2,7 +2,7 @@
 layout: post
 title: Sublime Text3の設定をGit+Dropboxで安全に同期する
 categories: ['blog']
-tags: ['Engineering']
+tags: ['engineering']
 eyecatch: /img/blog_sublime_sync.png
 ---
 

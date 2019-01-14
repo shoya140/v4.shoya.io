@@ -2,7 +2,7 @@
 layout: post
 title: HomebrewでOz開発環境を整える[Mozart2][Emacs]
 categories: ['blog']
-tags: ['Engineering']
+tags: ['engineering']
 eyecatch: http://ecx.images-amazon.com/images/I/51iXhiKTamL.jpg
 ---
 

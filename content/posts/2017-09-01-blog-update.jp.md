@@ -2,7 +2,7 @@
 layout: post
 title: Dropbox Publicフォルダの終了に伴うブログ改修
 categories: ['blog']
-tags: ['Engineering']
+tags: ['engineering']
 ---
 
 Dropboxには、ファイル/フォルダを選択して公開リンクを作成せずとも指定ディレクトリ以下をまるごと外部に公開できる「Publicフォルダ」という非常に機能があった。しかし、新規ユーザ、Dropbox Basicユーザの順にこの機能が制限され、2017年9月1日をもってDropbox Plusユーザも使用することができなくなってしまった。[Public フォルダ - Dropbox](https://www.dropbox.com/ja/help/files-folders/public-folder)

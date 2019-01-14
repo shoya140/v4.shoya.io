@@ -2,7 +2,7 @@
 layout: post
 title: 転んでもただでは起きない性格
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 ---
 
 そろそろ客観的に考えられる頃だと思うので、この2年間について語ろうと思う。

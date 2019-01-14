@@ -2,7 +2,7 @@
 layout: post
 title: BootcampでWindows8.1を起動する際にHyper-Vが実行されない問題
 categories: ['blog']
-tags: ['Engineering']
+tags: ['engineering']
 ---
 
 Windows Phoneのエミュレータが起動できなくなる問題を発見したので報告します。

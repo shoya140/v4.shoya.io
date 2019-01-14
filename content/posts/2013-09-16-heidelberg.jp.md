@@ -2,7 +2,7 @@
 layout: post
 title: ハイデルベルクを観光しました
 categories: ['blog']
-tags: ['Sightseeing']
+tags: ['sightseeing']
 keywords: ハイデルベルク, 観光
 relations:
   - deidesheim

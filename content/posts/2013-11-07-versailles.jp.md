@@ -2,7 +2,7 @@
 layout: post
 title: ヴェルサイユ宮殿
 categories: ['blog']
-tags: ['Sightseeing']
+tags: ['sightseeing']
 keywords: ベルサイユ宮殿, 観光
 relations:
   - paris

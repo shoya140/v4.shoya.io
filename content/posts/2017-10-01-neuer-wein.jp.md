@@ -2,7 +2,7 @@
 layout: post
 title: 今年もNeuer Weinの季節がやってきた
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 eyecatch: /img/blog_neuer_wein01.jpg
 ---
 

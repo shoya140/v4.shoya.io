@@ -2,8 +2,8 @@
 layout: post
 title: 産業の中心地フランクフルト
 categories: ['blog']
-tags: ['Sightseeing']
-keywords: Sightseeing
+tags: ['sightseeing']
+keywords: sightseeing
 relations:
   - deidesheim
   - heidelberg

@@ -2,7 +2,7 @@
 layout: post
 title: メイワクメールをワクワクに変えるSpam Museum
 categories: ['blog']
-tags: ['ReleaseNote']
+tags: ['release']
 keywords: Spam Museum
 relations:
   - Paletta

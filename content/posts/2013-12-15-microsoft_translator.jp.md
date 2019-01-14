@@ -2,7 +2,7 @@
 layout: post
 title: PythonでMicrosoft Translator APIを使ってみる
 categories: ['blog']
-tags: ['Engineering']
+tags: ['engineering']
 keywords: Python, Microsoft Translator API, 自動翻訳
 ---
 

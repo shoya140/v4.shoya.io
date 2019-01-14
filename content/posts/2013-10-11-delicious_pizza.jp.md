@@ -2,7 +2,7 @@
 layout: post
 title: ピザを焼く
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 keywords: ピザ, ドイツ
 relations:
   - blau

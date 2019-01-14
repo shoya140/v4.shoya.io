@@ -2,7 +2,7 @@
 layout: post
 title: Jekyllにはてなスター導入した
 categories: ['blog']
-tags: ['Engineering']
+tags: ['engineering']
 keywords: Jekyll, はてなスター
 relations:
   - ranking_plugin

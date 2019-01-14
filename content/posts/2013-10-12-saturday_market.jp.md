@@ -2,7 +2,7 @@
 layout: post
 title: Saturday Market
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 keywords: ドイツ, Saturday Market
 relations:
   - life_in_germany

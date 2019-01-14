@@ -2,7 +2,7 @@
 layout: post
 title: はてなのサマーインターンに参加しました
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 keywords: はてなインターン2012
 relations:
   - paperboy

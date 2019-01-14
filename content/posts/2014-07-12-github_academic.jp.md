@@ -2,7 +2,7 @@
 layout: post
 title: GitHubの学割クーポンを延長する
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 keywords: GitHub, 学割, 学生, プライベートリポジトリ, academic
 ---
 

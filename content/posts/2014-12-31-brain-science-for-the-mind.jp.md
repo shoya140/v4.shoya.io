@@ -2,7 +2,7 @@
 layout: post
 title: 「心の脳科学」読んだ
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 
 ---
 

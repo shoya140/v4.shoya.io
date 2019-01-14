@@ -2,7 +2,7 @@
 layout: post
 title: Alfredを使って論文を最速で検索する
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 ---
 
 Alfredのcustom web searchesにGoogle Scholar ```https://scholar.google.com/scholar?q={query}``` を登録して、いつどこからでも素早く論文を検索できるようにしました。

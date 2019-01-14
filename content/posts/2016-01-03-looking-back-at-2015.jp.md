@@ -2,7 +2,7 @@
 layout: post
 title: 2015年振り返り
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 ---
 
 <img src="/img/blog_looking_back_at_2015_01.jpg" class="image-on-frame-small">

@@ -2,7 +2,7 @@
 layout: post
 title: Sublime Text3でLaTeXをコンパイルする[Mac]
 categories: ['blog']
-tags: ['Engineering']
+tags: ['engineering']
 ---
 
 Sublime Textにはcommand+bでコードを実行する機能(Build System)がある。今回はビルドできるファイルにLaTeXを加えてみた。Sublime TextでLaTeXを扱う方法、調べたらLaTeXToolsとかを入れていろいろ頑張る方法が出てくるのだけれど、既にMacTeXの環境(ターミナルからplatexコマンドなどが使える状態)があるのならもっと簡単に構築できると思う。

@@ -2,7 +2,7 @@
 layout: post
 title: モン・サン・ミッシェル
 categories: ['blog']
-tags: ['Sightseeing']
+tags: ['sightseeing']
 keywords: モン・サン・ミッシェル, 観光
 relations:
  - paris

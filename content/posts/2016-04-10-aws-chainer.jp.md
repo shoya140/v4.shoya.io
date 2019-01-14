@@ -2,7 +2,7 @@
 layout: post
 title: AWSのGPUインスタンスでchainerとjupyter notebookを使う
 categories: ['blog']
-tags: ['Engineering']
+tags: ['engineering']
 ---
 
 AWSのアカウントを作成した状態から深層学習のための環境を作るまでの手順メモ

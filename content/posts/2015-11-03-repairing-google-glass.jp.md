@@ -2,7 +2,7 @@
 layout: post
 title: Google Glassを修理する
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 ---
 
 ## 背景

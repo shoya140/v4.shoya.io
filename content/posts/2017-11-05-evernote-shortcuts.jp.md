@@ -2,7 +2,7 @@
 layout: post
 title: Evernoteに登録すると便利なショートカットキー
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 eyecatch: /img/blog_evernote_shortcuts01.png
 ---
 

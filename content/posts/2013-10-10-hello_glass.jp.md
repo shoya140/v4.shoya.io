@@ -2,7 +2,7 @@
 layout: post
 title: Hello, Glass.
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 keywords: Google Glass
 ---
 

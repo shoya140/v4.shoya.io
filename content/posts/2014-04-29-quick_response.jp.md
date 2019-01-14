@@ -2,7 +2,7 @@
 layout: post
 title: Quick Response
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 keywords: メール, 返信, Quick Response
 ---
 

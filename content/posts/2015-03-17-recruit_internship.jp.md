@@ -2,7 +2,7 @@
 layout: post
 title: リクルートホールディングスのインターンシップに参加しました
 categories: ['blog']
-tags: ['Note']
+tags: ['note']
 keywords: リクルート, サマーインターン
 eyecatch: /img/blog_recruit_internship01.png
 relations:

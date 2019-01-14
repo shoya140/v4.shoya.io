@@ -2,7 +2,7 @@
 layout: post
 title: プロセスが完了しました
 categories: ['blog']
-tags: ['Engineering']
+tags: ['engineering']
 keywords: Mac, ターミナル, プロセスが完了しました, ログイン
 ---
 
