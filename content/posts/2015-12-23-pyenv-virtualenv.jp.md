@@ -96,7 +96,7 @@ $ pyenv uninstall 3.5.0-tutorial
 
 scipyやOpenCVのセットアップで躓くことが多いのでminicondaを使っている。例えば下記のDockerfileからcontainerを作成してその上で実行する。(Python3系のcondaはOpenCVをサポートしていないので注意)
 
-<cite>[shoya140/docker-image-ml](https://github.com/shoya140/docker-image-ml)</cite>
+[shoya140/docker-image-ml](https://github.com/shoya140/docker-image-ml)
 
 {% highlight Dockerfile %}
 FROM centos

@@ -8,7 +8,7 @@ eyecatch: /img/blog_memelogger_ios_dev_01.png
 
 <img src="/img/blog_memelogger_ios_dev_01.png" class="image-on-frame-small">
 
-[JINS MEME Advent Calendar 2015](http://qiita.com/advent-calendar/2015/jinsmeme) 3日目の記事です。昨日の記事は@hatoneさんによる <cite>[JINE MEME iOSアプリ開発入門 -公式サンプルアプリを動かす-](http://hatone.hateblo.jp/entry/2015/12/01/162235)</cite>でした。サンプルアプリが動いたら、次はセンサから得られるデータについてもっと詳しく見てみたいはず！今日はセンサデータをグラフ表示したり保存する方法について紹介します。記事の前半は作ったものの紹介で後半は実装の工夫です。
+[JINS MEME Advent Calendar 2015](http://qiita.com/advent-calendar/2015/jinsmeme) 3日目の記事です。昨日の記事は@hatoneさんによる [JINE MEME iOSアプリ開発入門 -公式サンプルアプリを動かす-](http://hatone.hateblo.jp/entry/2015/12/01/162235)でした。サンプルアプリが動いたら、次はセンサから得られるデータについてもっと詳しく見てみたいはず！今日はセンサデータをグラフ表示したり保存する方法について紹介します。記事の前半は作ったものの紹介で後半は実装の工夫です。
 
 ## 背景
 

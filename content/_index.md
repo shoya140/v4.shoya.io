@@ -49,7 +49,7 @@ He received B.E. and M.E. degree in Electrical Engineering and Information Scien
 * <a href="https://www.dfki.de/web/presse/pressemitteilung/2017/HyperMind">Demonstration at CeBIT in Hannover</a>, 2017
 * <a href="http://www.meti.go.jp/english/press/2016/0602_01.html">Certificated as Super Creator by METI and IPA Japan</a>, 2016
 * <a href="http://mashupaward.jp/">MashupAwards11</a>: Semifinal stage, 2015
-* <a href="http://shoya.io/jp/blog/honor2/">President's Honor in Osaka Prefecture University</a>, 2015
+* <a href="http://shoya.io/jp/posts/honor2/">President's Honor in Osaka Prefecture University</a>, 2015
 * <a href="http://www.osakafu-u.ac.jp/">Poster Presentation in Osaka Prefecture University</a>: Best Presentation Award, 2015
 * <a href="http://recruit-jinji.jp/workshop2015/">2Weeks US Workshop 2015 by Recruit Holdings Co.</a>: Champion, 2015
 * <a href="https://mashupawards.doorkeeper.jp/events/25862">JINS MEME HACKATHON Powered by Mashup Awards</a>: Champion, 2015
@@ -58,7 +58,7 @@ He received B.E. and M.E. degree in Electrical Engineering and Information Scien
 * <a href="http://recruit-jinji.jp/adf_fes2015/">APPLICATION DEVELOPER FESTIVAL</a>: Staff, 2015
 * <a href="https://sites.google.com/site/miru2014okayama/wakate">MIRU2014 Young Researchers' Program</a>: Best Wakate Presentation Award, Audience Award, 2014
 * <a href="http://jp.startup-dating.com/2013/05/super-hackathon-2013-in-osak">Super Hackathon 2013 in Osaka</a>: Third place, 2013
-* <a href="http://shoya.io/jp/blog/honor/">President's Honor in Osaka Prefecture University</a>, 2012
+* <a href="http://shoya.io/jp/posts/honor/">President's Honor in Osaka Prefecture University</a>, 2012
 * <a href="http://bussorenre.com/?p=45">Kyoto Hackathon</a>: Champion, 2012
 * <a href="http://ma8.mashupaward.jp/">MashupAwards8</a>: Semifinal stage, 2012
 * <a href="http://internship.blog.klab.jp/2012/08/10/ptlab1-day1/">Prototyping Lab, KLab Inc</a>: Champion, 2012

@@ -5,13 +5,13 @@ categories: ['blog']
 tags: ['Engineering']
 ---
 
-Dropboxには、ファイル/フォルダを選択して公開リンクを作成せずとも指定ディレクトリ以下をまるごと外部に公開できる「Publicフォルダ」という非常に機能があった。しかし、新規ユーザ、Dropbox Basicユーザの順にこの機能が制限され、2017年9月1日をもってDropbox Plusユーザも使用することができなくなってしまった。<cite>[Public フォルダ - Dropbox](https://www.dropbox.com/ja/help/files-folders/public-folder)</cite>
+Dropboxには、ファイル/フォルダを選択して公開リンクを作成せずとも指定ディレクトリ以下をまるごと外部に公開できる「Publicフォルダ」という非常に機能があった。しかし、新規ユーザ、Dropbox Basicユーザの順にこの機能が制限され、2017年9月1日をもってDropbox Plusユーザも使用することができなくなってしまった。[Public フォルダ - Dropbox](https://www.dropbox.com/ja/help/files-folders/public-folder)
 
 このブログはJekyllでビルドしてGitHub Pages上で公開していて、画像はなるべくGit管理に入れたくないという理由でPublicフォルダでホスティングしていた。今回、機能の終了に伴って8月末に少しだけブログを改修したので、その過程で得た知見を共有する。
 
 ## 公開リンクのURLを少し変えてファイルのホスティングを行う
 
-公開リンクにブラウザでアクセスすると、通常はファイル/フォルダのダウンロードやコメントの投稿を行うためのWebページが表示される。ここで、URLの末尾にあるパラメータdl=0をraw=1に変更すると、Publicフォルダと同じようにブラウザ上でのレンダリングを実行することができる。実際には```https://dl.dropboxusercontent.com```にリダイレクトされているようなので、こちらに書き換えても大丈夫。<cite>[ファイルやフォルダのダウンロードを強制する/dropbox.com でレンダリングを実行する - Dropbox](https://www.dropbox.com/help/desktop-web/force-download)</cite> を参考にした。
+公開リンクにブラウザでアクセスすると、通常はファイル/フォルダのダウンロードやコメントの投稿を行うためのWebページが表示される。ここで、URLの末尾にあるパラメータdl=0をraw=1に変更すると、Publicフォルダと同じようにブラウザ上でのレンダリングを実行することができる。実際には```https://dl.dropboxusercontent.com```にリダイレクトされているようなので、こちらに書き換えても大丈夫。[ファイルやフォルダのダウンロードを強制する/dropbox.com でレンダリングを実行する - Dropbox](https://www.dropbox.com/help/desktop-web/force-download) を参考にした。
 
 {% highlight bash %}
 # 通常の公開リンク; DropboxのWebページが表示される
@@ -35,7 +35,7 @@ https://dl.dropboxusercontent.com/s/oxw7w2l72bpsato/dibtp.jpg
 
 ## Travis CIでJekyllブログをビルドする
 
-検索するといろいろ情報がでてくる。GitHubのアクセストークンがTravisのログに残ってしまう方法がヒットするので、慎重に方法を選んだ。<cite>[Jekyll ブログの Travis CI 使って Github Page への配備する方法のメモ](https://cat-in-136.github.io/2015/04/jekyll-travis-ci-github-pages-deployment.html)</cite> が良さそうだった。手順は下記の通り。
+検索するといろいろ情報がでてくる。GitHubのアクセストークンがTravisのログに残ってしまう方法がヒットするので、慎重に方法を選んだ。[Jekyll ブログの Travis CI 使って Github Page への配備する方法のメモ](https://cat-in-136.github.io/2015/04/jekyll-travis-ci-github-pages-deployment.html) が良さそうだった。手順は下記の通り。
 
 1. [travis-ci.org](https://travis-ci.org/)にサインインして+ボタンからsourceのリポジトリを登録する。
 1. [.travis.yml](https://github.com/shoya140/shoya.io/blob/master/.travis.yml)と[Rakefile](https://github.com/shoya140/shoya.io/blob/master/Rakefile)をリポジトリに追加する。

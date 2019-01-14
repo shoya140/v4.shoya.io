@@ -9,13 +9,13 @@ Windows上に開発環境を構築することが時々あるのでその作業�
 
 ## SharpKeysでWindowsキーをコントロールキーにリマップ
 
-<cite>[SharpKeys](http://www.randyrants.com/category/sharpkeys/)</cite>
+[SharpKeys](http://www.randyrants.com/category/sharpkeys/)
 
 MacBook内臓のキーボードやApple Magic Keyboardのcommandキーを押すとWindowsキーが反応する。コピー・ペーストやアプリを閉じる操作をMacと同じキーで行いたいのでキーリマップソフトウェアを使って変更する。いろいろ試してみたところSharpKyesが良さそうな感じ。(キーリマップソフトウェアにはレジストリを書き換えるものとシステムに常駐するものがあって、SharpKeysは前者。)
 
 ## gnupackでcygwin環境を構築する
 
-<cite>[gnupack Users Guide](http://gnupack.osdn.jp/docs/UsersGuide.html)</cite>
+[gnupack Users Guide](http://gnupack.osdn.jp/docs/UsersGuide.html)
 
 gnupackとはインストール不要のcygwin環境。展開して.exeを起動するとそのディレクトリにあるhome/をホームディレクトリとしてLinuxディストリビューション同等の機能が使用できる。VimやEmacsも入っている。以下はおすすめの設定。
 

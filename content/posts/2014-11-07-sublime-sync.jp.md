@@ -6,7 +6,7 @@ tags: ['Engineering']
 eyecatch: /img/blog_sublime_sync.png
 ---
 
-[Sublime Text3導入メモ](/jp/blog/hello-sublime/)で設定ファイルをDropboxで同期する方法を書いたのだけれど、意図しないタイミングで設定が同期されてコンフリクトが頻繁に発生するので、設定をGitで管理することにした。
+[Sublime Text3導入メモ](/jp/posts/hello-sublime/)で設定ファイルをDropboxで同期する方法を書いたのだけれど、意図しないタイミングで設定が同期されてコンフリクトが頻繁に発生するので、設定をGitで管理することにした。
 
 <img src="/img/blog_sublime_sync.png" class="image-on-frame-small">
 
@@ -21,7 +21,7 @@ $ mkdir -p ~/Dropbox/Git && cd ~/Dropbox/Git
 $ git init —bare sublime.git
 {% endhighlight %}
 
-次にSublimeの設定フォルダへ移動してgit initを実行。ignoreするファイルは<cite>[Syncing - Package Control](https://sublime.wbond.net/docs/syncing)</cite>を参考にした。Dropboxのシンボリックリンクにしている場合は元に戻してから行うこと。
+次にSublimeの設定フォルダへ移動してgit initを実行。ignoreするファイルは[Syncing - Package Control](https://sublime.wbond.net/docs/syncing)を参考にした。Dropboxのシンボリックリンクにしている場合は元に戻してから行うこと。
 
 {% highlight bash %}
 $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User

@@ -24,7 +24,7 @@ brew install mozart2
 
 ## 補足
 
-Emacsについてはインストール方法やパッチが様々のようなので、<cite>[Macで本家EmacsとHomebrew IMEパッチ版とEmacs Mac PortとAquamacsを比べてみる。 - たったのセブンクレジット](http://www.sevencredit.com/2014/07/02/580/)を参考にさせていただきインストールオプションを上記に選んだ。
+Emacsについてはインストール方法やパッチが様々のようなので、[Macで本家EmacsとHomebrew IMEパッチ版とEmacs Mac PortとAquamacsを比べてみる。 - たったのセブンクレジット](http://www.sevencredit.com/2014/07/02/580/)を参考にさせていただきインストールオプションを上記に選んだ。
 
 homebrew-versionsに送ったpull requestが無事にmergeされたのでcaskroom/homebrew-caskをtapすることでmozart2.0.0がインストールできるようになった。(本家のhomebrew-caskでインストールできるMozartは安定版の1.4.0)
 

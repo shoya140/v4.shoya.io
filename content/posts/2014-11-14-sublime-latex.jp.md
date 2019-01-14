@@ -27,4 +27,4 @@ Sublime Textにはcommand+bでコードを実行する機能(Build System)があ
 
 ## 補足
 
-LaTeXからPDFを作成するには、複数回のコンパイルが必要になる。標準で提供されている仕組みではBuild Systemに複数のコマンドを登録することができないので、上記のような黒魔術を使用する。Macの場合は"shell"をfalseに、"cmd"にshとその引数として実行したいコマンドを&&で続けていけばうまく動作するらしい。Windowsの場合は書き方がやや異なる。<cite>[Multiple commands in Sublime Build System](http://blog.pcitron.fr/2013/02/08/multiple-command-in-sublime-build-system/)</cite>を参考に設定した。
+LaTeXからPDFを作成するには、複数回のコンパイルが必要になる。標準で提供されている仕組みではBuild Systemに複数のコマンドを登録することができないので、上記のような黒魔術を使用する。Macの場合は"shell"をfalseに、"cmd"にshとその引数として実行したいコマンドを&&で続けていけばうまく動作するらしい。Windowsの場合は書き方がやや異なる。[Multiple commands in Sublime Build System](http://blog.pcitron.fr/2013/02/08/multiple-command-in-sublime-build-system/)を参考に設定した。

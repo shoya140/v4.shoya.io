@@ -10,7 +10,7 @@ keywords: トランスメディアーレ, ベルリン
 
 <img src="/img/blog_transmediale01.jpg" class="image-on-frame-small">
 
-開催期間は1/30から2/2までの4日間。2/1の展示とトーク、2/2の[インターネット闇市](/jp/blog/internet_black_market/)に参加しました。会場はHaus der Kultured der Welt(ドイツ・ベルリン)です。
+開催期間は1/30から2/2までの4日間。2/1の展示とトーク、2/2の[インターネット闇市](/jp/posts/internet_black_market/)に参加しました。会場はHaus der Kultured der Welt(ドイツ・ベルリン)です。
 
 <img src="/img/blog_transmediale02.jpg" class="image-on-frame" />
 

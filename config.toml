@@ -21,3 +21,6 @@ DefaultContentLanguage = "en"
 
 [frontmatter]
 date  = [":filename", ":default"]
+
+[taxonomies]
+tag = "tags"
