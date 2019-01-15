@@ -2,6 +2,7 @@
 title: HyperMind
 description: 複素数体であれば、任意のCM-タイプの A は、実際、数体である定義体 (英語版) (field of definition)を持っている。自己準同型環の可能なタイプは、対合 (ロサチの対合 (英語版) (Rosati involution) をもつ環として既に分類されていて、CM-タイプのアーベル多様体の分類を導き出す。
 eyecatch: /img/project_hypermind.jpg
+project: research
 ---
 
 <img src="/img/project_hypermind.jpg" class="image-on-frame" />

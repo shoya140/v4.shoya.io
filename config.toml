@@ -12,6 +12,8 @@ DefaultContentLanguage = "en"
       software = "Software"
       posts = "Blog"
       language = "English page"
+      researchProject = "Research projects"
+      funProject = "Fun projects"
   [Languages.jp]
     [Languages.jp.params.navigation]
       projects = "プロジェクト"
@@ -19,6 +21,8 @@ DefaultContentLanguage = "en"
       software = "ソフトウェア"
       posts = "ブログ"
       language = "日本語のページ"
+      researchProject = "研究"
+      funProject = "個人開発"
 
 [frontmatter]
 date  = [":filename", ":default"]

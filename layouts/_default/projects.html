@@ -1,14 +1,10 @@
 {{ define "main" }}
-  {{ range .Pages.ByPublishDate }}
-    <div class="card">
-      <a href="{{ .RelPermalink }}"></a>
-      <div class="card-img-container">
-        <img class="card-img" src="{{ .Params.Eyecatch }}" />
-      </div>
-      <div class="card-body">
-        <h2 class="card-title">{{ .Title }}</h2>
-        <p class="card-text">{{ .Description }}</p>
-      </div>
-    </div>
+  <h1>{{ .Site.Params.Navigation.ResearchProject }}</h1>
+  {{ range where .Pages ".Params.project" "research" }}
+    {{- partial "card.html" . -}}
+  {{ end }}
+  <h1>{{ .Site.Params.Navigation.FunProject }}</h1>
+  {{ range where .Pages ".Params.project" "fun" }}
+    {{- partial "card.html" . -}}
   {{ end }}
 {{ end }}
