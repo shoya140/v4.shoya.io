@@ -1,3 +1,4 @@
 ---
 title: "ブログ"
+aliases: ['/blog/']
 ---

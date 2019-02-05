@@ -11,7 +11,7 @@ $(function(){
     rollOut($(this), whiteColor)
   })
   $(".card").click(function () {
-    rollOut($(this))
+    rollOut($(this), whiteColor)
   })
 
   $(".post-list-item").hover(function(){
@@ -20,7 +20,7 @@ $(function(){
     rollOut($(this), whiteColor)
   })
   $(".post-list-item").click(function(){
-    rollOut($(this))
+    rollOut($(this), whiteColor)
   })
 
   $(".page-button").hover(function(){
