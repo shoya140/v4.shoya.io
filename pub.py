@@ -33,6 +33,7 @@ for entry in bdata.entries:
     output += entry['year']
     output = output.replace('{\\ss}', '&szlig;')
     output = output.replace('{\\"O}', '&Ouml;')
+    output = output.replace('Dayan Herurkar, a', 'Dayananda Herurkar')
     output = output.replace('--', '&ndash;')
     output = '<p>' + output + '.</p>'
 
