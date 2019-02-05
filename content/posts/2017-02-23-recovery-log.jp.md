@@ -3,6 +3,7 @@ layout: post
 title: 復旧作業ログ
 categories: ['blog']
 tags: ['note']
+aliases: ['/blog/recovery-log/']
 ---
 
 いろいろなアプリにsubmoduleとして追加していたライブラリを別アプリに切り出したので、リポジトリを巡回してgit submodule deinitしていた。最後のリポジトリでdeinitした瞬間に、そのアプリケーションは今日使ったばかりでsubmodule（しかもignoreされているところ）に実験データが残ったままであったことに気付く。Ctrl-Cするが時既に遅し。即座にネットワークを切断してDropboxの同期を止める。GitLabのデータ障害が脳裏をよぎる。

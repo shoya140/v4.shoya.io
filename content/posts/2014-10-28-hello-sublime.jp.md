@@ -3,6 +3,7 @@ layout: post
 title: Sublime Text3導入メモ
 categories: ['blog']
 tags: ['engineering']
+aliases: ['/blog/hello_sublime/']
 keywords: Sublime Text3
 ---
 

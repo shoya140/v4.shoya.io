@@ -3,9 +3,10 @@ layout: post
 title: Sol-31
 categories: ['blog']
 tags: ['note']
+aliases: ['/blog/life-in-germany2/']
 relations:
-  - 1st_week_in_france
-  - life_in_germany
+  - 1st-week-in-france
+  - life-in-germany
 ---
 
 ドイツで生活を始めて1ヶ月になるのでこちらの暮らしについて振り返ってみる。

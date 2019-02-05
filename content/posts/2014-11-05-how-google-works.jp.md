@@ -3,6 +3,7 @@ layout: post
 title: 「How Google Works」読んだ
 categories: ['blog']
 tags: ['note']
+aliases: ['/blog/how-google-works/']
 eyecatch: http://ecx.images-amazon.com/images/I/41wP3LRm7QL.jpg
 ---
 

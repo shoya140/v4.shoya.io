@@ -3,6 +3,7 @@ layout: post
 title: ペアプログラミングを支える技術
 categories: ['blog']
 tags: ['engineering']
+aliases: ['/blog/pair-programming/']
 ---
 
 [LiT!関西 Advent Calendar 2014](http://www.adventar.org/calendars/607) 1日目の記事ということで、プログラミングを教える/教わるときによくやっているペアプロとそれを支えるMacの便利機能について書きます。

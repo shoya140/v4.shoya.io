@@ -3,6 +3,7 @@ layout: post
 title: 街道の街 ストラスブール
 categories: ['blog']
 tags: ['sightseeing']
+aliases: ['/blog/strasbourg/']
 eyecatch: /img/blog_strasbourg01.jpg
 ---
 

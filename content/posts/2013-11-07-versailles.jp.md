@@ -3,10 +3,11 @@ layout: post
 title: ヴェルサイユ宮殿
 categories: ['blog']
 tags: ['sightseeing']
+aliases: ['/blog/versailles/']
 keywords: ベルサイユ宮殿, 観光
 relations:
   - paris
-  - mont_saint_michel
+  - mont-saint-michel
   - london
   - karlsruhe
   - heidelberg

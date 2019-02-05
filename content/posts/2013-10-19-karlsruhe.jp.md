@@ -3,6 +3,7 @@ layout: post
 title: 司法の都カールスルーエ
 categories: ['blog']
 tags: ['sightseeing']
+aliases: ['/blog/karlsruhe/']
 keywords: カールスルーエ, 観光
 relations:
   - cologne

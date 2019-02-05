@@ -3,6 +3,7 @@ layout: post
 title: Google Glassを修理する
 categories: ['blog']
 tags: ['note']
+aliases: ['/blog/repairing-google-glass/']
 ---
 
 ## 背景

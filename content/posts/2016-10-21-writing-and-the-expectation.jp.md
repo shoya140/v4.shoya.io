@@ -3,6 +3,7 @@ layout: post
 title: 文章と期待値
 categories: ['blog']
 tags: ['note']
+aliases: ['/blog/writing-and-the-expectation/']
 ---
 
 やる気はあるのに手が動かないという状態は期待値の設定がおかしいのかもしれない。

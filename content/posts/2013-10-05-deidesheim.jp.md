@@ -3,6 +3,7 @@ layout: post
 title: ダイデスハイムを観光しました
 categories: ['blog']
 tags: ['sightseeing']
+aliases: ['/blog/deidesheim/']
 keywords: ダイデスハイム, 観光, ニューワイン
 relations:
   - cologne

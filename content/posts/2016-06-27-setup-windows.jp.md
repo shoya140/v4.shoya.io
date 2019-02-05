@@ -3,6 +3,7 @@ layout: post
 title: Windowsの設定(普段Mac使ってる人向け)
 categories: ['blog']
 tags: ['engineering']
+aliases: ['/blog/setup-windows/']
 ---
 
 Windows上に開発環境を構築することが時々あるのでその作業メモ。

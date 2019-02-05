@@ -3,6 +3,7 @@ layout: post
 title: 定点観測
 categories: ['blog']
 tags: ['note']
+aliases: ['/blog/fixed-point-observation/']
 ---
 
 高校時代の恩師から依頼をいただき、年に1度、愛媛県の中高一貫校で講演をしている。ちょうどさきほど今年も行けますという話をしていて、今年でなんと4年連続になる。ということで12月に日本行きます:)

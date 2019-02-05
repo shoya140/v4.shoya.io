@@ -3,6 +3,7 @@ layout: post
 title: 仮想メンター
 categories: ['blog']
 tags: ['note']
+aliases: ['/blog/imaginary-mentor/']
 ---
 
 先週のべこさんのポエムに触発されてAmazon PrimeビデオでSHIROBAKOをまた観ている。SHIROBAKOはアニメ制作会社で働く人たちのアニメ。良いシーンがたくさんあって、特に安原さん・井口さん・小笠原さんのでてくる7・8・16話が好きだ。

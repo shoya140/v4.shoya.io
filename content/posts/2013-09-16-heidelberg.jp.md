@@ -3,11 +3,12 @@ layout: post
 title: ハイデルベルクを観光しました
 categories: ['blog']
 tags: ['sightseeing']
+aliases: ['/blog/heidelberg/']
 keywords: ハイデルベルク, 観光
 relations:
   - deidesheim
   - paris
-  - mont_saint_michel
+  - mont-saint-michel
   - london
   - deidesheim
 ---

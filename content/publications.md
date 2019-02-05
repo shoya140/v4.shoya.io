@@ -2,8 +2,6 @@
 title: "Publications"
 ---
 
-# Publications
-
 ## Journal Paper
 
 {{< pub "amft2015making" >}}

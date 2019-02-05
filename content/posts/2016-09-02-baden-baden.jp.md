@@ -3,6 +3,7 @@ layout: post
 title: バーデン=バーデン
 categories: ['blog']
 tags: ['sightseeing']
+aliases: ['/blog/baden-baden/']
 eyecatch: /img/blog_baden-baden01.jpg
 ---
 

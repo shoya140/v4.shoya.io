@@ -3,6 +3,7 @@ layout: post
 title: フェルクリンゲン製鉄所
 categories: ['blog']
 tags: ['sightseeing']
+aliases: ['/blog/voelklingen/']
 eyecatch: /img/blog_voelklingen10.jpg
 ---
 
