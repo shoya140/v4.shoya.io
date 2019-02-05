@@ -1,9 +1,9 @@
 {{ define "main" }}
-  <h2>{{ .Site.Params.Navigation.ResearchProject }}</h1>
+  <h2>{{ .Site.Params.ResearchProject }}</h1>
   {{ range where .Pages ".Params.project" "research" }}
     {{- partial "card.html" . -}}
   {{ end }}
-  <h2>{{ .Site.Params.Navigation.PrivateProject }}</h1>
+  <h2>{{ .Site.Params.PrivateProject }}</h1>
   {{ range where .Pages ".Params.project" "private" }}
     {{- partial "card.html" . -}}
   {{ end }}

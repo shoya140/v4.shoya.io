@@ -119,7 +119,7 @@ blockquote p {
     height: $nav-height;
 }
 
-.hover-line {
+.nav-line {
     position: relative;
     display: inline-block;
     text-decoration: none;
@@ -135,6 +135,17 @@ blockquote p {
         transform-origin: center top;
         transition: transform .3s;
     }
+}
+
+.nav-active {
+    @extend .nav-line;
+    &::after {
+        transform: scale(1, 1);
+    }
+}
+
+.nav-hover {
+    @extend .nav-line;
     &:hover::after {
         transform: scale(1, 1);
     }

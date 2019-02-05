@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{ .Content }}
   {{ range $tagName, $entries := .Site.Taxonomies.tags }}
-    {{ if in $.RelPermalink $tagName}}
+    {{ if in $.RelPermalink $tagName }}
       #{{ $tagName }}
     {{ else }}
       <a href='{{ "/tags/" | relLangURL }}{{ $tagName | urlize }}/'>#{{ $tagName }}</a>
