@@ -17,9 +17,9 @@
 
   {{ $eyecatch := ""}}
   {{ if isset .Params "eyecatch" }}
-    {{ $eyecatch = (printf "%s%s" .Site.BaseURL .Params.Eyecatch) }}
+    {{ $eyecatch = .Params.Eyecatch | absURL }}
   {{ else }}
-    {{ $eyecatch = (printf "%s%s" .Site.BaseURL .Site.Params.Eyecatch) }}
+    {{ $eyecatch = .Site.Params.Eyecatch | absURL }}
   {{ end }}
 
   {{ $title := (printf "%s - %s" .Title .Site.Title) }}
@@ -35,9 +35,9 @@
   <meta property="og:image" content="{{ $eyecatch }}" />
   <meta property="og:description" content="{{ $description }}" />
   <title>{{ $title }}</title>
-  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}jp/posts/index.xml" />
-  <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" />
+  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href='{{ "jp/posts/index.xml" | relURL }}' />
+  <link rel="shortcut icon" href='{{ "favicon.ico" | relURL }}' />
   {{ $sass := resources.Get "css/main.scss" }}
   {{ $style := $sass | resources.ToCSS }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 </head>
