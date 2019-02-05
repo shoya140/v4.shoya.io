@@ -1,10 +1,16 @@
 ---
 title: HyperMind
-description: Reading a textbook is an important way to obtain new knowledge. However, students often avert their eyes from reading a textbook because it is static and boring. We are currently developing an intelligent textbook which displays descriptions and representations dynamically according to cognitive states of a reader (e.g., attention, understanding, concentration, workload) measured by eye movements.
+description: Although every learner has different preferences in reading, textbooks have traditionally been static. Reading experiences should become more immersive and interesting if textbooks behave differently for each learner. We propose such vivid interactions optimized for the context of learning by combining a digital document and affective state recognition (e.g. interest, mental workload, and self-confidence) using smart sensors.
 eyecatch: /img/project_hypermind.jpg
 project: research
 ---
 
-<img src="/img/project_hypermind.jpg" class="image-on-frame" />
+{{< youtube n0yV9AoZtjk >}}
 
-To be written...
+# HyperMind: The Intelligent Digital Textbook
+
+Although every learner has different preferences in reading, textbooks have traditionally been static. Reading experiences should become more immersive and interesting if textbooks behave differently for each learner. We propose such vivid interactions optimized for the context of learning by combining a digital document and affective state recognition (e.g. interest, mental workload, and self-confidence) using smart sensors.
+
+## Related publications
+
+{{< pub "ishimaru2018augmented" "ishimaru2018hypermind" "ishimaru2017cognitive" "ishimaru2016towards" >}}

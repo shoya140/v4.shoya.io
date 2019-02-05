@@ -1,10 +1,11 @@
-$font: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+$font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
 $base-font-size: 16px;
 $large-font-size: 20px;
 $huge-font-size: 24px;
 $palm-font-size: 14px;
-$base-line-height: 1.8;
+$base-line-height: 1.7;
 $spacing-unit: 30px;
+$nav-height: 56px;
 
 $white-color: #ffffff;
 $gray-color: #edecf3;
@@ -65,7 +66,7 @@ pre {
 body {
     margin: 0;
     padding: 0;
-    font-family: $font;
+    font-family: $font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 400;
@@ -75,8 +76,26 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+blockquote {
+    position: relative;
+    margin: 0;
+    padding: 1.0em;
+    box-sizing: border-box;
+    font-style: italic;
+    font-size: $palm-font-size;
+    background: #f5f5f5;
+    color: #777777;
+    border-left: 4px solid #9dd4ff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.14);
+}
+
+blockquote p {
+    padding: 0;
+    margin: 0;
+}
+
 .content {
-    padding: 30px 0;
+    padding: 30px 0 50px 0;
 
     @include media-query($on-palm) {
         font-size: $palm-font-size;
@@ -97,18 +116,43 @@ body {
 
 .site-header {
     border-bottom: 1px solid $gray-color;
-    min-height: 56px;
+    height: $nav-height;
+}
+
+.hover-line {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    &::after {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: $black-color;
+        transform: scale(0, 1);
+        transform-origin: center top;
+        transition: transform .3s;
+    }
+    &:hover::after {
+        transform: scale(1, 1);
+    }
+}
+
+.logo-container {
+    line-height: $nav-height;
+    display: inline-block;
 }
 
 .logo {
-    line-height: 56px;
     color: $black-color;
-    text-decoration: none;
+    line-height: $base-line-height;
 }
 
-.site-nav {
+.nav-container {
     float: right;
-    line-height: 56px;
+    line-height: $nav-height;
     z-index: 10;
     background-color: $white-color;
 
@@ -118,23 +162,25 @@ body {
 
     .page-link {
         color: $black-color;
-        text-decoration: none;
         line-height: $base-line-height;
-        &:not(:first-child) {
-            margin-left: 14px;
-        }
+        margin-left: 6px;
+        margin-right: 6px;
     }
 
     .language-icon {
         display: block;
         float: right;
         line-height: 0;
-        padding: 10px 0 10px 10px;
+        margin: 10px 0 0 6px;
         text-align: center;
 
         img {
             width: 36px;
             height: 36px;
+        }
+
+        @include media-query($on-palm) {
+            margin: 6px 10px;
         }
     }
 
@@ -279,11 +325,15 @@ body {
 .post-title {
     margin: 0 0 1.5em 0;
     line-height: 1.2;
+    @include media-query($on-palm) {
+        font-size: $base-font-size;
+        padding-left: 0px;
+    }
 }
 
 .post-meta {
     font-size: $palm-font-size;
-    margin-bottom: 0;
+    margin: 2.0em 0 0 0;
     padding-left: 2px;
     @include media-query($on-palm) {
         font-size: $palm-font-size;
@@ -370,15 +420,6 @@ body {
 
 .image-fade{
     visibility: hidden;
-}
-
-.youtube-video{
-    width: 80%;
-    height: 400px;
-    @include media-query($on-palm) {
-        width: 90%;
-        height: 200px;
-    }
 }
 
 .footnotes{

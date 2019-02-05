@@ -1,0 +1,46 @@
+{
+  "baseURL": "https://shoya.io/",
+  "languageCode": "en-us",
+  "title": "shoya.io",
+  "pygmentsstyle": "github",
+  "taxonomies": {
+    "tag": "tags"
+  },
+  "frontmatter": {
+    "date": [
+      ":filename",
+      ":default"
+    ]
+  },
+  "DefaultContentLanguage": "en",
+  "Languages": {
+    "en": {
+      "params": {
+        "navigation": {
+          "projects": "Projects",
+          "publications": "Publications",
+          "software": "Software",
+          "posts": "Blog",
+          "language": "English page",
+          "researchProject": "Research projects",
+          "privateProject": "Private projects",
+          "icon": "icon_language_jp.svg"
+        }
+      }
+    },
+    "jp": {
+      "params": {
+        "navigation": {
+          "projects": "プロジェクト",
+          "publications": "論文",
+          "software": "ソフトウェア",
+          "posts": "ブログ",
+          "language": "日本語のページ",
+          "researchProject": "研究プロジェクト",
+          "privateProject": "個人開発プロジェクト",
+          "icon": "icon_language_en.svg"
+        }
+      }
+    }
+  }
+}

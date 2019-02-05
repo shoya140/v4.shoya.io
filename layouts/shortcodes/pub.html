@@ -1,0 +1,5 @@
+<ol>
+{{ range $key, $value := .Params }}
+  <li>{{ partial (printf "publications/%s.html" $value) }}</li>
+{{ end }}
+</ol>

@@ -61,6 +61,15 @@ $(function(){
 
   // image fade
   $(".image-fade").css('visibility','visible').hide().fadeIn(800)
+
+  $(".mail button").click(function () {
+    const s = "MBIS;eCMBCG;LOwAG;CFe=IG"
+    var r = ""
+    for (i = 0; i < s.length; i++) {
+      r += String.fromCharCode((s.charCodeAt(i) + 5) % 93 + 33)
+    }
+    $(".mail").text(r)
+  })
 })
 
 function rollIn(body, color){
@@ -73,9 +82,4 @@ function rollOut(body, color){
   body.stop().animate({backgroundColor:color, color:blackColor}, 100)
   body.children("a").stop().animate({color:blackColor}, 100)
   body.children("h2").stop().animate({color:blackColor}, 100)
-}
-
-function mail(){
-  var s="FI=;NCIHeBL?@tYG;CFNIqMBIS;eCMBCG;LOwAG;CFe=IGY",r="";
-  for(i=0;i<s.length;i++)r+=String.fromCharCode((s.charCodeAt(i)+5)%93+33);eval(r);
 }

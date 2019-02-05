@@ -1,10 +1,16 @@
 ---
 title: HyperMind
-description: 複素数体であれば、任意のCM-タイプの A は、実際、数体である定義体 (英語版) (field of definition)を持っている。自己準同型環の可能なタイプは、対合 (ロサチの対合 (英語版) (Rosati involution) をもつ環として既に分類されていて、CM-タイプのアーベル多様体の分類を導き出す。
+description: センサを使って学習者の心的状態 (興味・認知負荷・理解に対する確信度) を推定し、学習者に合わせた情報を提示する電子教科書「HyperMind」を開発しています。最適化されたインタラクションを通じて、学習者はより没頭して、興味深く教科書を読み進めることができます。
 eyecatch: /img/project_hypermind.jpg
 project: research
 ---
 
-<img src="/img/project_hypermind.jpg" class="image-on-frame" />
+{{< youtube n0yV9AoZtjk >}}
 
-To be written...
+# HyperMind
+
+センサを使って学習者の心的状態 (興味・認知負荷・理解に対する確信度) を推定し、学習者に合わせた情報を提示する電子教科書「HyperMind」を開発しています。最適化されたインタラクションを通じて、学習者はより没頭して、興味深く教科書を読み進めることができます。
+
+## 関連する対外発表
+
+{{< pub "ishimaru2018augmented" "ishimaru2018hypermind" "ishimaru2017cognitive" "ishimaru2016towards" >}}
