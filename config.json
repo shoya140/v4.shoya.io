@@ -2,6 +2,7 @@
   "baseURL": "https://shoya.io/",
   "languageCode": "en-us",
   "title": "shoya.io",
+  "googleAnalytics": "UA-1918944-8",
   "pygmentsstyle": "github",
   "taxonomies": {
     "tag": "tags"
@@ -11,6 +12,10 @@
       ":filename",
       ":default"
     ]
+  },
+  "params": {
+    "description": "Portfolio of Shoya Ishimaru",
+    "eyecatch": "/img/icon_dot_white.png"
   },
   "DefaultContentLanguage": "en",
   "Languages": {

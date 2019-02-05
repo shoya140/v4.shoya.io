@@ -2,8 +2,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" href="https://plus.google.com/u/0/102413339779614193497/posts" />
+  {{ if isset .Params "keywords" }}
+    <meta name="keywords" content="{{ .Params.Keywords }}" />
+  {{ end }}
+
+  {{ $description := ""}}
+  {{ if isset .Params "description" }}
+    <meta name="description" content="{{ .Params.Description }}" />
+    {{ $description = .Params.Description }}
+  {{ else }}
+    {{ $description = .Site.Params.Description }}
+  {{ end }}
+
+  {{ $eyecatch := ""}}
+  {{ if isset .Params "eyecatch" }}
+    {{ $eyecatch = (printf "%s%s" .Site.BaseURL .Params.Eyecatch) }}
+  {{ else }}
+    {{ $eyecatch = (printf "%s%s" .Site.BaseURL .Site.Params.Eyecatch) }}
+  {{ end }}
+
+  {{ $title := (printf "%s - %s" .Title .Site.Title) }}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@shoya140" />
+  <meta name="twitter:creator" content="@shoya140" />
+  <meta name="twitter:title" content="{{ $title }}" />
+  <meta name="twitter:image" content="{{ $eyecatch }}" />
+  <meta name="twitter:description" content="{{ $description }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{ $title }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:image" content="{{ $eyecatch }}" />
+  <meta property="og:description" content="{{ $description }}" />
+  <title>{{ $title }}</title>
+  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}jp/posts/index.xml" />
+  <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" />
   {{ $sass := resources.Get "css/main.scss" }}
   {{ $style := $sass | resources.ToCSS }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
-  <title>{{ .Title }} - {{ .Site.Title }}</title>
 </head>
