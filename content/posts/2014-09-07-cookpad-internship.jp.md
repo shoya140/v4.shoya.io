@@ -21,7 +21,7 @@ relations:
 
 初日の午前中に「クックパッドのサービス開発」に関する講義を受けて、それからディレクター+エンジニアの2人1組のチームを組み、5日間でテーマに沿ったアプリを開発するという内容でした。完成したアプリは個人でリリースできないので発表資料を載せます。
 
-<script async class="speakerdeck-embed" data-id="42a7685017f40132350b2ae5b5e9153b" data-ratio="1.33333333333333" src="//speakerdeck.com/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="42a7685017f40132350b2ae5b5e9153b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## 課題解決駆動開発
 
