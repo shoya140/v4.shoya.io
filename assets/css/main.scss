@@ -14,7 +14,7 @@ $black-color: #132238;
 $accent-color: #ff4447;
 
 $on-palm: 500px;
-$content-width: 700px;
+$content-width: 740px;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
@@ -104,6 +104,12 @@ blockquote p {
     @include media-query($on-palm) {
         font-size: $palm-font-size;
         text-align: justify;
+    }
+}
+
+.content-jp {
+    p {
+        letter-spacing: 0.3px;
     }
 }
 
