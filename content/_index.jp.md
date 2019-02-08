@@ -1,7 +1,6 @@
 ---
 title: "石丸 翔也"
 aliases:
-  - /jp/aboutme/
   - /aboutme/jp/
 ---
 
@@ -37,8 +36,8 @@ aliases:
 
 ## 獲得資金
 
-* <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K00276/">2017-2019年度 JSPS 科研費 基盤(C) (分担)</a>
-* <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K12728/">2017-2019年度 JSPS 科研費 若手(B) (代表)</a>
+* <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K00276/">2017-2019年度 JSPS 科研費 基盤 \(C\) 分担研究者</a>
+* <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K12728/">2017-2019年度 JSPS 科研費 若手 (B) 代表研究者</a>
 * <a href="https://www.ipa.go.jp/jinzai/mitou/2015/gaiyou_s-4.html">2015年度 IPA 未踏IT人材発掘・育成事業</a>
 
 ## 活動・受賞歴など

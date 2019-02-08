@@ -40,8 +40,8 @@ Shoya is also a software developer [[software](/software/)]. He likes not only p
 
 ## Funds
 
-* <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K00276/">JSPS Grant-in-Aid for Scientific Research \(C\) (Co.), FY2017-2019</a>
-* <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K12728/">JSPS Grant-in-Aid for Young Scientists (B) (PI), FY2017-2019</a>
+* <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K00276/">Co-investigator, JSPS Grant-in-Aid for Scientific Research \(C\), FY2017-2019</a>
+* <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K12728/">Representative, JSPS Grant-in-Aid for Young Scientists (B), FY2017-2019</a>
 * <a href="https://www.ipa.go.jp/jinzai/mitou/2015/gaiyou_s-4.html">IPA Exploratory IT Human Resources Project (MITOU), FY2015</a>
 
 ## Activities
