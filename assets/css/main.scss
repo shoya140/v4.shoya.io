@@ -126,7 +126,12 @@ blockquote p {
 
 .site-header {
     border-bottom: 1px solid $gray-color;
-    height: $nav-height;
+    min-height: $nav-height;
+
+    @include media-query($on-palm) {
+        text-align: center;
+        border-bottom: none;
+    }
 }
 
 .nav-line {
@@ -189,11 +194,7 @@ blockquote p {
     }
 
     .language-icon {
-        display: block;
-        float: right;
         line-height: 0;
-        margin: 10px 0 0 6px;
-        text-align: center;
 
         img {
             width: 36px;
@@ -201,7 +202,9 @@ blockquote p {
         }
 
         @include media-query($on-palm) {
-            margin: 6px 10px;
+            position: absolute;
+            top: 12px;
+            right: 20px;
         }
     }
 
@@ -210,46 +213,9 @@ blockquote p {
     }
 
     @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit*0.4;
-        border: 1px solid $gray-color;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $black-color;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
+        float: none;
+        line-height: $base-line-height;
+        font-size: $palm-font-size;
     }
 }
 
