@@ -1,10 +1,9 @@
 ---
 layout: post
 title: PythonでMicrosoft Translator APIを使ってみる
-categories: ['blog']
 tags: ['engineering']
+keywords: ['python', 'Microsoft Translator API', '自動翻訳']
 aliases: ['/blog/microsoft_translator/']
-keywords: Python, Microsoft Translator API, 自動翻訳
 ---
 
 自動翻訳APIであるMicrosoft Translator APIを導入してみました。

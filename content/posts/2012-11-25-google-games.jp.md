@@ -1,14 +1,9 @@
 ---
 layout: post
 title: GoogleGamesに参加して人生変わった
-categories: ['blog']
 tags: ['note']
+keywords: ['GoogleGames']
 aliases: ['/blog/google_games/']
-keywords: Google Games
-relations:
-  - hatena-intern
-  - paperboy
-  - dfki
 ---
 
 11/24(土)グーグル株式会社主催/株式会社アカリク企画運営のGoogle Gmaes in Kyotoに参加してきました。

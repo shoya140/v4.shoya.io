@@ -1,15 +1,9 @@
 ---
 layout: post
 title: こちらの生活にもずいぶん慣れた
-categories: ['blog']
 tags: ['note']
+keywords: ['ドイツ', '留学']
 aliases: ['/blog/life_in_germany/']
-keywords: ドイツ, 留学
-relations:
-  - dfki
-  - writing
-  - saturday-market
-  - asian-food
 ---
 ドイツで暮らし始めて1週間が経った。
 

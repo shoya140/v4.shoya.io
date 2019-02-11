@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 仮想メンター
-categories: ['blog']
 tags: ['note']
+keywords: ['ポエム']
 aliases: ['/blog/imaginary-mentor/']
 ---
 

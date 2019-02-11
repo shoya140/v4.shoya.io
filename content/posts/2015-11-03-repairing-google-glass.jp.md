@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Google Glassを修理する
-categories: ['blog']
 tags: ['note']
+keywords: ['Google Glass', '修理', 'ミラーフィルム']
 aliases: ['/blog/repairing-google-glass/']
 ---
 

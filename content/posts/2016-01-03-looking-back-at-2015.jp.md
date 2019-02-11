@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 2015年振り返り
-categories: ['blog']
 tags: ['note']
+keywords: ['振り返り', '留学']
 aliases: ['/blog/looking-back-at-2015/']
 ---
 

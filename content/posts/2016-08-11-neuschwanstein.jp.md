@@ -1,8 +1,8 @@
 ---
 layout: post
 title: ノイシュバンシュタイン城
-categories: ['blog']
 tags: ['sightseeing']
+keywords: ['ドイツ', '観光']
 aliases: ['/blog/neuschwanstein/']
 eyecatch: /img/blog_neuschwanstein02.jpg
 ---

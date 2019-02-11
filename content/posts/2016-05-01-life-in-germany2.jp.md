@@ -1,12 +1,9 @@
 ---
 layout: post
 title: Sol-31
-categories: ['blog']
 tags: ['note']
+keywords: ['振り返り', 'ドイツ']
 aliases: ['/blog/life-in-germany2/']
-relations:
-  - 1st-week-in-france
-  - life-in-germany
 ---
 
 ドイツで生活を始めて1ヶ月になるのでこちらの暮らしについて振り返ってみる。

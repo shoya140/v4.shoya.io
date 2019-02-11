@@ -1,8 +1,8 @@
 ---
 layout: post
 title: ドキュメント考2015
-categories: ['blog']
 tags: ['note']
+keywords: ['ドキュメント', 'メモ', 'Evernote', 'Alternote']
 aliases: ['/blog/document_tools/']
 ---
 

@@ -1,10 +1,9 @@
 ---
 layout: post
 title: トランスメディアーレに行ってきました
-categories: ['blog']
 tags: ['note']
+keywords: ['トランスメディアーレ', 'ベルリン']
 aliases: ['/blog/transmediale/']
-keywords: トランスメディアーレ, ベルリン
 ---
 
 メディアアートの祭典、[トランスメディアーレ](http://www.transmediale.de/)に行ってきました。

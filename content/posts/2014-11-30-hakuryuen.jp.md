@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 白龍園観覧
-categories: ['blog']
 tags: ['sightseeing']
+keywords: ['日本', '観光']
 aliases: ['/blog/hakuryuen/']
 ---
 

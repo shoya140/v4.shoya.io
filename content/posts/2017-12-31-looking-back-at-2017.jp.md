@@ -1,14 +1,11 @@
 ---
 layout: post
 title: 2017年振り返り
-categories: ['blog']
 tags: ['note']
+keywords: ['振り返り']
 aliases: ['/blog/looking-back-at-2017/']
 eyecatch: /img/blog_looking_back_at_2017.jpg
 description: "仕事の近況については前回の記事で書いたようにマネジメントに注力する1年でした。研究対外発表はBook Chapterが1報と国際会議・併催ワークショップが4報で、もう少し頑張りたい印象です。その他大きな成果としては、技術見本市CeBITでのデモ展示、母校である松山西中等教育学校での講演、TEDxNagoyaU登壇などがありました。"
-relations:
-  - looking-back-at-2015
-  - looking-back-at-2014
 ---
 
 <img src="/img/blog_looking_back_at_2017.jpg" class="image-on-frame image-fade">

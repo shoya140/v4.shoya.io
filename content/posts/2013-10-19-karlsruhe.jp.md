@@ -1,16 +1,9 @@
 ---
 layout: post
 title: 司法の都カールスルーエ
-categories: ['blog']
 tags: ['sightseeing']
+keywords: ['ドイツ', '観光']
 aliases: ['/blog/karlsruhe/']
-keywords: カールスルーエ, 観光
-relations:
-  - cologne
-  - heidelberg
-  - zurich
-  - deidesheim
-  - london
 ---
 
 今日はカールスルーエを観光しました。

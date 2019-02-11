@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 復旧作業ログ
-categories: ['blog']
 tags: ['note']
+keywords: ['Dropbox', '復旧']
 aliases: ['/blog/recovery-log/']
 ---
 

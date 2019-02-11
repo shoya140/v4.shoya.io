@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 「心の脳科学」読んだ
-categories: ['blog']
 tags: ['note']
+keywords: ['本', '読んだ']
 aliases: ['/blog/brain-science-for-the-mind/']
 ---
 

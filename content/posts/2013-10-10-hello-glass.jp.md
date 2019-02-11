@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Hello, Glass.
-categories: ['blog']
 tags: ['note']
+keywords: ['Google Glass']
 aliases: ['/blog/hello_glass/']
-keywords: Google Glass
 ---
 
 "OK, Glass. Take a picture."

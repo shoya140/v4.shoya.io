@@ -1,16 +1,9 @@
 ---
 layout: post
 title: モン・サン・ミッシェル
-categories: ['blog']
 tags: ['sightseeing']
+keywords: ['フランス', '観光']
 aliases: ['/blog/mont_saint_michel/']
-keywords: モン・サン・ミッシェル, 観光
-relations:
- - paris
- - mont-saint-michel
- - london
- - zurich
- - versailles
 ---
 
 パリからTGVでレンヌ、それからバスでモン・サン・ミッシェルまで移動しました。

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 転んでもただでは起きない性格
-categories: ['blog']
 tags: ['note']
+keywords: ['振り返り', 'ポエム']
 aliases: ['/blog/turning-everything-into-profit/']
 ---
 

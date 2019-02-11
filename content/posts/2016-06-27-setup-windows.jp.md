@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Windowsの設定(普段Mac使ってる人向け)
-categories: ['blog']
 tags: ['engineering']
+keywords: ['Windows', '環境構築']
 aliases: ['/blog/setup-windows/']
 ---
 

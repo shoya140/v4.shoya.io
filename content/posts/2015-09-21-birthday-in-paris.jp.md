@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 誕生日&amp;&amp;留学初日
-categories: ['blog']
 tags: ['note']
+keywords: ['誕生日', '留学']
 aliases: ['/blog/birthday_in_paris/']
 eyecatch: /img/blog_birthday_in_paris.jpg
 ---

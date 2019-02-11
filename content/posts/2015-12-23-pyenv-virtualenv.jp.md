@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 科学技術計算のためのPython開発環境(2015)
-categories: ['blog']
 tags: ['engineering']
+keywords: ['python', 'pyenv', '環境構築']
 aliases: ['/blog/pyenv-virtualenv/']
 ---
 

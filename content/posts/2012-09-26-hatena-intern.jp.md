@@ -1,13 +1,9 @@
 ---
 layout: post
 title: はてなのサマーインターンに参加しました
-categories: ['blog']
 tags: ['note']
+keywords: ['はてな', 'インターン']
 aliases: ['/blog/hatena_intern']
-keywords: はてなインターン2012
-relations:
-  - paperboy
-  - google-games
 ---
 
 

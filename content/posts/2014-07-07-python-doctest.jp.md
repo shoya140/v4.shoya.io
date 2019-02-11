@@ -1,10 +1,9 @@
 ---
 layout: post
 title: doctestを使ってpythonの簡単な単体テストを書く
-categories: ['blog']
 tags: ['engineering']
+keywords: ['python', 'test', 'doctest']
 aliases: ['/blog/python_doctest/']
-keywords: python, test, doctest
 ---
 
 doctestはpythonに標準で搭載されているテストツールで、docstring("""で囲まれたドキュメンテーション文字列)に書かれた対話実行例をテストとして実行します。入力と出力をコメントに記述するだけという非常にシンプルな仕組みなので、ちょっとした処理の確認に役立ちます。

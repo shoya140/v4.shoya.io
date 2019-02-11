@@ -1,10 +1,9 @@
 ---
 layout: post
 title: プロセスが完了しました
-categories: ['blog']
 tags: ['engineering']
+keywords: ['Mac', 'ターミナル', 'プロセスが完了しました', 'ログイン']
 aliases: ['/blog/terminal_login/']
-keywords: Mac, ターミナル, プロセスが完了しました, ログイン
 ---
 
 <img src="/img/blog_terminal01.png" class="image-on-frame-medium">

@@ -1,10 +1,9 @@
 ---
 layout: post
 title: スパムアカウントからの友達申請をブロックした
-categories: ['blog']
 tags: ['note']
+keywords: ['facebook', '友達申請', 'スパム', 'ブロック']
 aliases: ['/blog/facebook_spam/']
-keywords: facebook, 友達申請, スパム, ブロック
 ---
 
 Facebook上でのスパムアカウントからの友達リクエストが激化していて、週に10件以上の申請が来ている。現状の解決策としては

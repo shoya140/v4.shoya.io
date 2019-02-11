@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Dropbox Publicフォルダの終了に伴うブログ改修
-categories: ['blog']
 tags: ['engineering']
+keywords: ['Dropbox', 'ブログ']
 aliases: ['/blog/blog-update/']
 ---
 

@@ -1,16 +1,9 @@
 ---
 layout: post
 title: 産業の中心地フランクフルト
-categories: ['blog']
 tags: ['sightseeing']
+keywords: ['ドイツ', '観光']
 aliases: ['/blog/frankfurt/']
-keywords: sightseeing
-relations:
-  - deidesheim
-  - heidelberg
-  - karlsruhe
-  - london
-  - zurich
 ---
 
 産業の中心地であり国際空港をもつ交通の要衝でもあるフランクフルトを観光しました。

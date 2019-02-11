@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 文章と期待値
-categories: ['blog']
 tags: ['note']
+keywords: ['文章']
 aliases: ['/blog/writing-and-the-expectation/']
 ---
 

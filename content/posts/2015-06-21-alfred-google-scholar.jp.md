@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Alfredを使って論文を最速で検索する
-categories: ['blog']
 tags: ['note']
+keywords: ['Alfred', '論文']
 aliases: ['/blog/alfred_google_scholar/']
 ---
 

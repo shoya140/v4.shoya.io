@@ -1,10 +1,9 @@
 ---
 layout: post
 title: GitHubの学割クーポンを延長する
-categories: ['blog']
 tags: ['note']
+keywords: ['GitHub', '学割', '学生', 'プライベートリポジトリ', 'academic']
 aliases: ['/blog/github_academic/']
-keywords: GitHub, 学割, 学生, プライベートリポジトリ, academic
 ---
 
 GitHubにはプライベートリポジトリが無料で使える学割があります。

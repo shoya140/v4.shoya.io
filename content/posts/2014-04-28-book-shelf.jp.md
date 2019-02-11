@@ -1,10 +1,9 @@
 ---
 layout: post
 title: 心に響いた一節を、いつでも読み返せるように。
-categories: ['blog']
 tags: ['note']
+keywords: ['本', '引用']
 aliases: ['/blog/book_shelf/']
-keywords: 本, 引用
 ---
 
 Web上に自分用の本棚を作った。[self.bookShelf](http://book-mrk1869.tumblr.com)

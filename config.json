@@ -13,6 +13,17 @@
       ":default"
     ]
   },
+  "hasCJKLanguage": true,
+  "summaryLength": 140,
+  "related": {
+    "threshold": 80,
+    "includeNewer": true,
+    "indices": [
+      {"name": "keywords", "weight": 100},
+      {"name": "tags", "weight": 50},
+      {"name": "date", "weight": 40}
+    ]
+  },
   "params": {
     "description": "Portfolio of Shoya Ishimaru",
     "eyecatch": "/img/icon_dot_white.png"
@@ -29,7 +40,8 @@
         ],
         "language": "English page",
         "researchProject": "Research projects",
-        "privateProject": "Private projects"
+        "privateProject": "Private projects",
+        "related": "Related posts"
       }
     },
     "jp": {
@@ -42,7 +54,8 @@
         ],
         "language": "日本語のページ",
         "researchProject": "研究プロジェクト",
-        "privateProject": "個人開発プロジェクト"
+        "privateProject": "個人開発プロジェクト",
+        "related": "関連記事"
       }
     }
   }

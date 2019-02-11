@@ -1,7 +1,6 @@
 ---
 layout: post
 title: コードからベースカラーを指定できるようになりました
-categories: ['blog']
 tags: ['release']
 aliases: ['/blog/paletta_code/']
 keywords: Paletta, HSV, カラーパレット, 顕色系

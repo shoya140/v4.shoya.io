@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Nginxの静的ファイル配信でハマった
-categories: ['blog']
 tags: ['engineering']
+keywords: ['Nginx', 'location', 'root', 'static']
 aliases: ['/blog/nginx_root/']
-keywords: Nginx, location, root, static
 ---
 
 静的ファイルに限った話ではないけれど、Nginxのlocationに応じたrootの設定でつまずいたのでメモ。[概説Tornado](http://www.oreilly.co.jp/books/9784873115764/)の中に「静的リソースはアプリケーションにリクエストをプロキシするのではなくNginxに捌かせるほうがアプリケーションの不要な負担を取り除けて有用」という説明があったので、staticディレクトリへのルーティング設定を書いた。

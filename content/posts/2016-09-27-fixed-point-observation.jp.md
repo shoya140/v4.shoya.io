@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 定点観測
-categories: ['blog']
 tags: ['note']
+keywords: ['ポエム', '愛媛県立松山西中等教育学校']
 aliases: ['/blog/fixed-point-observation/']
 ---
 

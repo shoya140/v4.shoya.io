@@ -1,8 +1,8 @@
 ---
 layout: post
 title: SlackのIncoming WebhooksをHubotで拾う
-categories: ['blog']
 tags: ['engineering']
+keywords: ['Slack', 'Webhook', 'hubot']
 aliases: ['/blog/hubot_listens_webhook/']
 ---
 

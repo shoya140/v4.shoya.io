@@ -1,15 +1,10 @@
 ---
 layout: post
 title: クックパッドのサマーインターンシップに参加しました
-categories: ['blog']
 tags: ['note']
+keywords: ['クックパッド', 'インターン']
 aliases: ['/blog/cookpad_internship/']
-keywords: クックパッド, サマーインターン
 eyecatch: /img/blog_cookpad_internship01.jpg
-relations:
-  - cookpad-design
-  - hatena-intern
-  - paperboy
 ---
 
 課題解決型の5-daysインターンシップに参加して、スマートフォンアプリを開発しました。

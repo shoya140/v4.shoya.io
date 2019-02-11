@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 2014年振り返り
-categories: ['blog']
 tags: ['note']
+keywords: ['振り返り']
 aliases: ['/blog/looking-back-at-2014/']
 ---
 

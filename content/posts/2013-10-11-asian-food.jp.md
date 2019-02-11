@@ -1,14 +1,9 @@
 ---
 layout: post
 title: Asian Food
-categories: ['blog']
 tags: ['note']
+keywords: ['ドイツ', '留学']
 aliases: ['/blog/asian_food/']
-keywords: ドイツ, インスタントラーメン, カイザースラウテルン
-relations:
-  - life-in-germany
-  - blau
-  - dfki
 ---
 
 Asian Foodを取り扱う店があるという話を聞いて、街のスーパーまで買い物に出かけた。

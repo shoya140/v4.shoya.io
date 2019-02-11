@@ -1,15 +1,9 @@
 ---
 layout: post
 title: リクルートホールディングスのインターンシップに参加しました
-categories: ['blog']
 tags: ['note']
+keywords: ['リクルート', 'インターン']
 aliases: ['/blog/recruit_internship/']
-keywords: リクルート, サマーインターン
-eyecatch: /img/blog_recruit_internship01.png
-relations:
-  - cookpad-internship
-  - hatena-intern
-  - paperboy
 ---
 
 [<img src="/img/blog_recruit_internship01.png" class="image-on-frame-medium image-fade">](http://recruit-jinji.jp/winter-internship2015/)

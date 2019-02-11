@@ -1,14 +1,10 @@
 ---
 layout: post
 title: フランスで暮らし始めて1週間
-categories: ['blog']
 tags: ['note']
+keywords: ['フランス', '留学']
 aliases: ['/blog/1st_week_in_france/']
 eyecatch: /img/blog_1st_week_in_france01.jpg
-relations:
-  - birthday-in-paris
-  - life-in-germany
-  - asian-food
 ---
 
 <img src="/img/blog_1st_week_in_france01.jpg" class="image-on-frame image-fade">

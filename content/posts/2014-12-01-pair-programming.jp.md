@@ -1,8 +1,8 @@
 ---
 layout: post
 title: ペアプログラミングを支える技術
-categories: ['blog']
 tags: ['engineering']
+keywords: ['ペアプログラミング', 'Advent Calendar']
 aliases: ['/blog/pair-programming/']
 ---
 

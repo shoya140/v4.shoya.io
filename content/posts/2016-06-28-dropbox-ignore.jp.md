@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Dropboxへアップロードしたくないディレクトリをignoreする
-categories: ['blog']
 tags: ['note']
+keywords: ['Dropbox']
 aliases: ['/blog/dropbox-ignore/']
 ---
 

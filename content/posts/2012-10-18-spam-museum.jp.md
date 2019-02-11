@@ -1,16 +1,9 @@
 ---
 layout: post
 title: メイワクメールをワクワクに変えるSpam Museum
-categories: ['blog']
 tags: ['release']
+keywords: ['SPAM MUSEUM', '作りました']
 aliases: ['/blog/spam_museum']
-keywords: Spam Museum
-relations:
-  - paletta
-  - swiper
-  - quuize
-  - kotodama
-  - racolta
 ---
 
 メイワクメールをワクワクに変える。<br/>

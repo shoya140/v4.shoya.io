@@ -1,10 +1,9 @@
 ---
 layout: post
 title: brew doctorのwarningを解決する
-categories: ['blog']
 tags: ['engineering']
+keywords: ['homebrew', 'brew', 'doctor', 'pyenv']
 aliases: ['/blog/brew_doctor/']
-keywords: homebrew, brew, doctor, pyenv
 ---
 
 brew doctorコマンドで表示されるWarningを順番に解決しました。基本的には指示通りに解決していけばよいのですが、Warning2 pyenvとの干渉が厄介でした。

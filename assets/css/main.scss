@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     font-size: $large-font-size;
     text-align: left;
+
+    @include media-query($on-palm) {
+        font-size: $base-font-size;
+    }
 }
 
 h1 {
@@ -83,7 +87,7 @@ blockquote {
     box-sizing: border-box;
     font-style: italic;
     font-size: $palm-font-size;
-    background: #f5f5f5;
+    background: #f3f5f7;
     color: #777777;
     border-left: 4px solid #9dd4ff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.14);
@@ -334,6 +338,26 @@ blockquote p {
     line-height: 1.2;
     @include media-query($on-palm) {
         font-size: $palm-font-size;
+    }
+}
+
+.post-related {
+    background-color: #f3f5f7;
+    margin-top: $spacing-unit;
+    padding: $spacing-unit*0.5 $spacing-unit*0.8;
+    border-radius: 0.3rem;
+
+    h2 {
+        margin-bottom: 0;
+    }
+    ul {
+        margin-top: 8px;
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    @include media-query($on-palm) {
+        padding: $spacing-unit*0.5 $spacing-unit*0.4;
     }
 }
 

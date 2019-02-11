@@ -1,8 +1,8 @@
 ---
 layout: post
 title: なんで科学者を目指すようになったか
-categories: ['blog']
 tags: ['note']
+keywords: ['ポエム', '振り返り', '科学者']
 aliases: ['/blog/towards-a-scientist/']
 eyecatch: /img/blog_towards_a_scientist_01.jpg
 ---

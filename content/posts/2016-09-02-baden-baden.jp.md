@@ -1,8 +1,8 @@
 ---
 layout: post
 title: バーデン=バーデン
-categories: ['blog']
 tags: ['sightseeing']
+keywords: ['ドイツ', '観光']
 aliases: ['/blog/baden-baden/']
 eyecatch: /img/blog_baden-baden01.jpg
 ---

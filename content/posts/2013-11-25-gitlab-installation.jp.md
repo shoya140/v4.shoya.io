@@ -1,10 +1,9 @@
 ---
 layout: post
 title: GitLab 6.0をインストールする
-categories: ['blog']
 tags: ['engineering']
+keywords: ['GitLab', 'Git', 'インストール', 'セットアップ']
 aliases: ['/blog/gitlab_installation/']
-keywords: GitLab, Git, インストール, セットアップ
 ---
 
 [GitLab](http://gitlab.org/)とはGitHubクローンのひとつで、ソースコードの管理やコードレビュー、複数人でのプロジェクト開発を円滑にするツールです。[GitHub](https://github.com/)との違いは、無料でプライベート(非公開の)リポジトリをいくつでも作ることができる点と、社外・学外のサーバーに機密情報を含むデータを預ける必要がない点にあります。(GitHub Enterpriseとの比較は割愛)

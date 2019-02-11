@@ -1,13 +1,9 @@
 ---
 layout: post
 title: Jekyllにはてなスター導入した
-categories: ['blog']
 tags: ['engineering']
+keywords: ['jekyll', 'はてな']
 aliases: ['/blog/hatena_star/']
-keywords: Jekyll, はてなスター
-relations:
-  - ranking-plugin
-  - to-jekyll
 ---
 
 承認欲求を満たすためにはてなスターを導入した。

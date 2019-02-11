@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Sublime Text3導入メモ
-categories: ['blog']
 tags: ['engineering']
+keywords: ['Sublime Text']
 aliases: ['/blog/hello_sublime/']
-keywords: Sublime Text3
 ---
 
 最近VimからSublime Text3に乗り換えました。この記事は導入方法についてのメモです。

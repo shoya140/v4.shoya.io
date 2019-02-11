@@ -1,14 +1,9 @@
 ---
 layout: post
 title: ピザを焼く
-categories: ['blog']
 tags: ['note']
+keywords: ['ドイツ', '留学']
 aliases: ['/blog/delicious_pizza/']
-keywords: ピザ, ドイツ
-relations:
-  - blau
-  - life-in-germany
-  - DFKI
 ---
 
 オーブンが手に入ったのでスーパーで買ったきたピザを焼く。ドイツで買えるピザは半分ずつにしないと焼けないほど大きく、1枚あたりの値段が安い。お得感がある。

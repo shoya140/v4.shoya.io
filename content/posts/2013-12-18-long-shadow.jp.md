@@ -1,14 +1,10 @@
 ---
 layout: post
 title: 5分で完成！イラレで作るロングシャドウアイコン
-categories: ['blog']
 tags: ['design']
+keywords: ['ロングシャドウ', 'イラレ', 'アイコン', '作成']
 aliases: ['/blog/long_shadow/']
-keywords: ロングシャドウ, イラレ, アイコン, 作成
 eyecatch: /img/blog_long_shadow00.png
-relations:
-- paletta
-- paletta-code
 ---
 
 フラットデザインの台頭と素材サイトの恩恵によって、アプリのデザインにかかる工数はどんどん削減されていく傾向にあります。今回はそれらを組み合わせることで、ノンデザイナーでもさくっと作れるロングシャドウアイコンの作成方法をお伝えします。

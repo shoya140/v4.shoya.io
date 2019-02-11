@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Quick Response
-categories: ['blog']
 tags: ['note']
+keywords: ['メール', '返信', 'Quick Response']
 aliases: ['/blog/quick_response/']
-keywords: メール, 返信, Quick Response
 ---
 
 メールをできるだけ早く返すように心がけている。そう思うようになったきっかけは「[MITメディアラボ  魔法のイノベーション・パワー](http://book-mrk1869.tumblr.com/post/83999920951)」という本のなかのこの一節。簡潔な返事が良い。
