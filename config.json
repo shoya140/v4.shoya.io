@@ -13,6 +13,7 @@
       ":default"
     ]
   },
+  "footnoteReturnLinkContents": "↩",
   "hasCJKLanguage": true,
   "summaryLength": 140,
   "related": {
