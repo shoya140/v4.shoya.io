@@ -100,6 +100,10 @@ blockquote p {
     margin: 0;
 }
 
+twitter-widget {
+    margin: 10px auto;
+}
+
 .content {
     padding: $spacing-unit 0;
 
@@ -292,12 +296,12 @@ blockquote p {
 
 .post-list-item{
     position:relative;
-    padding-top: $spacing-unit*0.3;
-    padding-bottom: $spacing-unit*0.5;
-    padding-left: $spacing-unit*0.3;
-    padding-right: $spacing-unit*0.3;
+    padding-top: 9px;
+    padding-bottom: 15px;
+    padding-left: 9px;
+    padding-right: 9px;
     border-top: 1px solid $gray-color;
-    h2{
+    h2 {
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -305,7 +309,7 @@ blockquote p {
         padding-left: 0;
         padding-right: 0;
     }
-    a{
+    a {
         position: absolute;
         display: block;
         width: 100%;
