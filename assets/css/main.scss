@@ -87,14 +87,12 @@ body {
 blockquote {
     position: relative;
     margin: 0;
-    padding: 1.0em;
+    padding: 0.6em 1.0em;
     box-sizing: border-box;
     font-style: italic;
     font-size: $palm-font-size;
-    background: #f3f5f7;
     color: #777777;
     border-left: 4px solid #9dd4ff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.14);
 }
 
 blockquote p {
