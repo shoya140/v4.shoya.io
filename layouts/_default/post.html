@@ -18,5 +18,13 @@
       {{ end }}
     </ul>
   {{ end }}
+  <ul>
+  {{ with .PrevInSection }}
+    <li>{{ .Site.Params.PreviousPost }}: <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+  {{ with .NextInSection }}
+    <li>{{ .Site.Params.NextPost }}: <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+  </ul>
   </div>
 {{ end }}

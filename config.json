@@ -41,7 +41,9 @@
         "language": "English page",
         "researchProject": "Research projects",
         "privateProject": "Private projects",
-        "related": "Related posts"
+        "related": "Related posts",
+        "previousPost": "Previous",
+        "nextPost": "Next"
       }
     },
     "jp": {
@@ -55,7 +57,9 @@
         "language": "日本語のページ",
         "researchProject": "研究プロジェクト",
         "privateProject": "個人開発プロジェクト",
-        "related": "関連記事"
+        "related": "関連記事",
+        "previousPost": "前の記事",
+        "nextPost": "次の記事"
       }
     }
   }
