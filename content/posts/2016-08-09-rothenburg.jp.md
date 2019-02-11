@@ -17,7 +17,7 @@ eyecatch: /img/blog_rothenburg10.jpg
 
 <img src="/img/blog_rothenburg03.jpg" class="image-on-frame image-fade">
 
-<p class="injection-center">中世犯罪博物館</p>
+### 中世犯罪博物館
 
 <img src="/img/blog_rothenburg04.jpg" class="image-on-frame image-fade">
 
@@ -33,7 +33,7 @@ eyecatch: /img/blog_rothenburg10.jpg
 
 ローテンブルクは旧市街全体を市壁で囲まれている。壁の上を歩くこともできる。
 
-<p class="injection-center">マルクト広場と市庁舎</p>
+### マルクト広場と市庁舎
 
 <img src="/img/blog_rothenburg09.jpg" class="image-on-frame image-fade">
 

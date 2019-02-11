@@ -10,7 +10,7 @@ aliases: ['/blog/mont_saint_michel/']
 
 <img src="/img/blog_msm01.jpg" class="image-on-frame image-fade">
 
-<p class="injection-center">モン・サン・ミッシェル</p>
+### モン・サン・ミッシェル
 
 <img src="/img/blog_msm02.jpg" class="image-on-frame image-fade">
 

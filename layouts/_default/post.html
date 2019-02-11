@@ -11,7 +11,7 @@
   {{ $posts := .Site.RegularPages.Related . | first 5 }}
   {{ $related := .Site.Params.Related }}
   {{ with $posts.ByDate.Reverse }}
-    <h2>{{ $related }}</h2>
+    <h3>{{ $related }}</h3>
     <ul>
       {{ range . }}
         <li>{{ .Date.Format "2006.01.02" }} <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>

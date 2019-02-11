@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 誕生日&amp;&amp;留学初日
+title: 誕生日&&留学初日
 tags: ['note']
 keywords: ['誕生日', '留学']
 aliases: ['/blog/birthday_in_paris/']

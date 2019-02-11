@@ -9,7 +9,7 @@ eyecatch: /img/blog_oberammergau10.jpg
 
 ドイツ南部バイエルン州を観光しました。
 
-<p class="injection-center">オーバーアマガウ</p>
+### オーバーアマガウ
 
 > オーバーアマガウはドイツバイエルン州ガルミッシュ＝パルテンキルヒェン郡にある村で、10年に一度村人総出の受難劇が催される処として有名である。 -- [オーバーアマガウ - Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%82%A2%E3%83%9E%E3%82%AC%E3%82%A6)
 
@@ -29,7 +29,7 @@ eyecatch: /img/blog_oberammergau10.jpg
 
 <img src="/img/blog_oberammergau04.jpg" class="image-on-frame image-fade">
 
-<p class="injection-center">ヴィースの巡礼教会</p>
+### ヴィースの巡礼教会
 
 > ドイツバイエルン州南部、ヴィースにあるキリスト教教会。1745年から1754年にかけてヨハン・バプティストとドミニクス・ツィンマーマンによって建てられた。外観は牧場の中に建つ、非常に質素な教会だが、ロココ様式の内部の装飾はヨーロッパ随一と言われており、特にその天井画は「天から降ってきた宝石」とも讃えられている。ロマンティック街道、ドイツ・アルペン街道の観光スポットの一つとなっている。 -- [ヴィースの巡礼教会 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%B4%E3%82%A3%E3%83%BC%E3%82%B9%E3%81%AE%E5%B7%A1%E7%A4%BC%E6%95%99%E4%BC%9A)
 
@@ -41,7 +41,7 @@ eyecatch: /img/blog_oberammergau10.jpg
 
 <img src="/img/blog_oberammergau07.jpg" class="image-on-frame image-fade">
 
-<p class="injection-center">リンダーホーフ城</p>
+### リンダーホーフ城
 
 > ドイツ、バイエルン州南西のオーバーアマガウ近くに位置する城である。リンダーホーフ宮殿ともよばれる。バイエルン王ルートヴィヒ2世が建設した3つの城のうち、唯一完成した城である。1874年に建築が開始され、1878年に完成した。完成後、彼は長い期間そこで過ごした。建物内部はロココ様式の豪華な装飾があり、庭園内には金色の女神像の噴水がある。 -- [リンダーホーフ城 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%B3%E3%83%80%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%95%E5%9F%8E)
 

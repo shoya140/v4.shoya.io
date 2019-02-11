@@ -8,7 +8,7 @@ aliases: ['/blog/versailles/']
 
 フランス滞在最終日はパリ南西に位置するヴェルサイユ宮殿を観光しました。パリ市内からは急行鉄道RERを使うと1時間弱で到着します。
 
-<p class="injection-center">ヴェルサイユ宮殿</p>
+### ヴェルサイユ宮殿
 
 <img src="/img/blog_versailles02.jpg" class="image-on-frame image-fade">
 
@@ -18,19 +18,19 @@ aliases: ['/blog/versailles/']
 
 <img src="/img/blog_versailles04.jpg" class="image-on-frame image-fade">
 
-<p class="injection-center">鏡の回廊</p>
+### 鏡の回廊
 
 <img src="/img/blog_versailles05.jpg" class="image-on-frame image-fade">
 
-<p class="injection-center">王妃の寝室</p>
+### 王妃の寝室
 
 <img src="/img/blog_versailles06.jpg" class="image-on-frame image-fade">
 
-<p class="injection-center">メルクリウスの間</p>
+### メルクリウスの間
 
 <img src="/img/blog_versailles07.jpg" class="image-on-frame image-fade">
 
-<p class="injection-center">庭園</p>
+### 庭園
 
 <img src="/img/blog_versailles08.jpg" class="image-on-frame image-fade">
 

@@ -8,11 +8,11 @@ aliases: ['/blog/frankfurt/']
 
 産業の中心地であり国際空港をもつ交通の要衝でもあるフランクフルトを観光しました。
 
-<p class="injection-center">旧オペラ座</p>
+###旧オペラ座
 
 <img src="/img/blog_frankfurt01.jpg" class="image-on-frame" />
 
-<p class="injection-center">大聖堂</p>
+###大聖堂
 
 <img src="/img/blog_frankfurt02.jpg" class="image-on-frame-small">
 
@@ -28,19 +28,19 @@ aliases: ['/blog/frankfurt/']
 
 この辺りに美術館や博物館はありませんかと聞くと、おすすめを紹介してくれました。
 
-<p class="injection-center">モダンアート美術館</p>
+###モダンアート美術館
 
 <img src="/img/blog_frankfurt05.jpg" class="image-on-frame" />
 
 月曜は休館日。
 
-<p class="injection-center">シュテーデル美術館</p>
+###シュテーデル美術館
 
 <img src="/img/blog_frankfurt06.jpg" class="image-on-frame" />
 
 月曜は休館日。
 
-<p class="injection-center">ゼンケンベルグ自然博物館</p>
+###ゼンケンベルグ自然博物館
 
 <img src="/img/blog_frankfurt07.jpg" class="image-on-frame" />
 
