@@ -56,7 +56,6 @@ dl, dd, ol, ul {
 
 img {
     max-width: 100%;
-    vertical-align: middle;
 }
 
 a {
@@ -222,6 +221,7 @@ twitter-widget {
     img {
         width: 36px;
         height: 36px;
+        vertical-align: middle;
     }
 
     @include media-query($on-palm) {
