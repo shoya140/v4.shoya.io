@@ -3,7 +3,6 @@ layout: post
 title: はてなのサマーインターンに参加しました
 tags: ['note']
 keywords: ['はてな', 'インターン']
-aliases: ['/blog/hatena_intern']
 ---
 
 

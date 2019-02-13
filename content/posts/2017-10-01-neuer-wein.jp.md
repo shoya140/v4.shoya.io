@@ -3,7 +3,6 @@ layout: post
 title: 今年もNeuer Weinの季節がやってきた
 keywords: ['Neuer Wein', 'ドイツ']
 tags: ['note']
-aliases: ['/blog/neuer-wein/']
 eyecatch: /img/blog_neuer_wein01.jpg
 ---
 

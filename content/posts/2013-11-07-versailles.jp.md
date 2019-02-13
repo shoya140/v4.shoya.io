@@ -3,7 +3,6 @@ layout: post
 title: ヴェルサイユ宮殿
 tags: ['sightseeing']
 keywords: ['フランス', '観光']
-aliases: ['/blog/versailles/']
 ---
 
 フランス滞在最終日はパリ南西に位置するヴェルサイユ宮殿を観光しました。パリ市内からは急行鉄道RERを使うと1時間弱で到着します。

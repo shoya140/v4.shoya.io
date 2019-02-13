@@ -3,7 +3,6 @@ layout: post
 title: 転んでもただでは起きない性格
 tags: ['note']
 keywords: ['振り返り', 'ポエム']
-aliases: ['/blog/turning-everything-into-profit/']
 ---
 
 そろそろ客観的に考えられる頃だと思うので、この2年間について語ろうと思う。

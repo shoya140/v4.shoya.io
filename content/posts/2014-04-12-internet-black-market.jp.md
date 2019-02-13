@@ -3,7 +3,6 @@ layout: post
 title: 石と空気を買いにベルリンまで行った話[インターネット闇市]
 tags: ['note']
 keywords: ['インターネット闇市', 'internet black market', 'トランスメディアーレ', 'ベルリン']
-aliases: ['/blog/internet_black_market/']
 ---
 
 > 自由の国インターネットとは名ばかり、ほらリジェクトだとか、ほら違法化だとか、<br/>

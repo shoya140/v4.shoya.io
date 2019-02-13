@@ -3,7 +3,6 @@ layout: post
 title: 2015年振り返り
 tags: ['note']
 keywords: ['振り返り', '留学']
-aliases: ['/blog/looking-back-at-2015/']
 ---
 
 <img src="/img/blog_looking_back_at_2015_01.jpg" class="image-on-frame-small">

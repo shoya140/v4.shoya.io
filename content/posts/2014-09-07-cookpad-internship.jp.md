@@ -3,7 +3,6 @@ layout: post
 title: クックパッドのサマーインターンシップに参加しました
 tags: ['note']
 keywords: ['クックパッド', 'インターン']
-aliases: ['/blog/cookpad_internship/']
 eyecatch: /img/blog_cookpad_internship01.jpg
 ---
 

@@ -3,7 +3,6 @@ layout: post
 title: ダイデスハイムを観光しました
 tags: ['sightseeing']
 keywords: ['ドイツ', '観光']
-aliases: ['/blog/deidesheim/']
 ---
 
 Neuer Wein(発酵途中のワイン)を求めてダイデスハイムを観光しました。

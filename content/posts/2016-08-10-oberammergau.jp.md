@@ -3,7 +3,6 @@ layout: post
 title: オーバーアマガウ・ヴィースの巡礼教会・リンダーホーフ城
 tags: ['sightseeing']
 keywords: ['ドイツ', '観光']
-aliases: ['/blog/oberammergau/']
 eyecatch: /img/blog_oberammergau10.jpg
 ---
 

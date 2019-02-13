@@ -3,7 +3,6 @@ layout: post
 title: クックパッドのデザイン講演会に参加しました
 tags: ['note']
 keywords: ['クックパッド', 'デザイン', 'UX']
-aliases: ['/blog/cookpad_design/']
 eyecatch: /img/blog_cookpad_design.jpg
 ---
 

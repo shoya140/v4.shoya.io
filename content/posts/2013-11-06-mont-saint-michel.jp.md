@@ -3,7 +3,6 @@ layout: post
 title: モン・サン・ミッシェル
 tags: ['sightseeing']
 keywords: ['フランス', '観光']
-aliases: ['/blog/mont_saint_michel/']
 ---
 
 パリからTGVでレンヌ、それからバスでモン・サン・ミッシェルまで移動しました。

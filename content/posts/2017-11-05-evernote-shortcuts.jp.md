@@ -3,7 +3,6 @@ layout: post
 title: Evernoteに登録すると便利なショートカットキー
 tags: ['note']
 keywords: ['Evernote', 'ショートカットキー']
-aliases: ['/blog/evernote-shortcuts/']
 eyecatch: /img/blog_evernote_shortcuts01.png
 ---
 

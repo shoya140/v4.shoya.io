@@ -3,7 +3,6 @@ layout: post
 title: Jekyllのカテゴリ内で「次の記事」ボタンを設置する
 tags: ['engineering']
 keywords: ['カテゴリ', '次の記事', '前の記事', 'jekyll']
-aliases: ['/blog/category_next/']
 ---
 
 Jekyllではpage.previous, page.next要素に前の記事/次の記事が格納されているので、前の記事/次の記事へ誘導するボタンがすぐに作れる。しかしこの前の記事/次の記事はタグやカテゴリを無視して時系列に引っ張ってくるので、あるカテゴリ内で前へ前へといった誘導ができない。

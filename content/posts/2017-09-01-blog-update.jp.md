@@ -3,7 +3,6 @@ layout: post
 title: Dropbox Publicフォルダの終了に伴うブログ改修
 tags: ['engineering']
 keywords: ['Dropbox', 'ブログ']
-aliases: ['/blog/blog-update/']
 ---
 
 Dropboxには、ファイル/フォルダを選択して公開リンクを作成せずとも指定ディレクトリ以下をまるごと外部に公開できる「Publicフォルダ」という非常に機能があった。しかし、新規ユーザ、Dropbox Basicユーザの順にこの機能が制限され、2017年9月1日をもってDropbox Plusユーザも使用することができなくなってしまった。[Public フォルダ - Dropbox](https://www.dropbox.com/ja/help/files-folders/public-folder)
@@ -39,9 +38,9 @@ https://dl.dropboxusercontent.com/s/oxw7w2l72bpsato/dibtp.jpg
 検索するといろいろ情報がでてくる。GitHubのアクセストークンがTravisのログに残ってしまう方法がヒットするので、慎重に方法を選んだ。[Jekyll ブログの Travis CI 使って Github Page への配備する方法のメモ](https://cat-in-136.github.io/2015/04/jekyll-travis-ci-github-pages-deployment.html) が良さそうだった。手順は下記の通り。
 
 1. [travis-ci.org](https://travis-ci.org/)にサインインして+ボタンからsourceのリポジトリを登録する。
-1. [.travis.yml](https://github.com/shoya140/shoya.io/blob/master/.travis.yml)と[Rakefile](https://github.com/shoya140/shoya.io/blob/master/Rakefile)をリポジトリに追加する。
-1. GitHubの[アクセストークンを発行する](https://github.com/settings/tokens/new)(scopeはpublic_repoにチェック)。
-1. ```$ gem install travis```でtravisをローカルの環境にインストールする
-1. ```$ travis encrypt -r ユーザ名/リポジトリ名 GH_TOKEN=トークン```を実行する。
-1. .travis.ymlの```source:```を5の出力結果に置き換える。
-1. git pushする。
+2. [.travis.yml](https://github.com/shoya140/shoya.io/blob/master/.travis.yml)と[Rakefile](https://github.com/shoya140/shoya.io/blob/master/Rakefile)をリポジトリに追加する。
+3. GitHubの[アクセストークンを発行する](https://github.com/settings/tokens/new)(scopeはpublic_repoにチェック)。
+4. ```$ gem install travis```でtravisをローカルの環境にインストールする
+5. ```$ travis encrypt -r ユーザ名/リポジトリ名 GH_TOKEN=トークン```を実行する。
+6. .travis.ymlの```source:```を5の出力結果に置き換える。
+7. git pushする。

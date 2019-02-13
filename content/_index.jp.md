@@ -1,8 +1,6 @@
 ---
 title: "石丸 翔也"
 description: "2016年大阪府立大学大学院博士前期課程修了。現在はDFKI（ドイツ人工知能研究センター）にて人間の能力を拡張する技術の研究に取り組んでいる。専門は行動認識と認知科学。2014年より慶應義塾大学KMD研究所リサーチャー。2016年より大阪府立大学客員研究員。2016年よりカイザースラウテルン工科大学リサーチアソシエイト。"
-aliases:
-  - /aboutme/jp/
 ---
 
 <img src="/img/icon_portrait.jpg" class="image-trimmed-by-circle image-on-frame" width="150px" alt="石丸 翔也">

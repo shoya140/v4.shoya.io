@@ -3,7 +3,6 @@ layout: post
 title: Karabiner-ElementsとHammerspoonを使ってSpace+hjklでキー移動する
 tags: ['engineering']
 keywords: ['環境構築', 'Karabiner-Elements', 'Hammerspoon']
-aliases: ['/blog/karabiner-hammerspoon-space-hjkl/']
 ---
 
 KarabinerのVi mode extraに入っている「Spaceとhjkl同時押しでカーソル移動する」機能をMacOS Sierraでも使えるようにしたので、設定ファイルを公開する。

@@ -3,7 +3,6 @@ layout: post
 title: Hello, Glass.
 tags: ['note']
 keywords: ['Google Glass']
-aliases: ['/blog/hello_glass/']
 ---
 
 "OK, Glass. Take a picture."

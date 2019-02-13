@@ -3,7 +3,6 @@ layout: post
 title: MongoDBのObjectID型をJSONに変換する[pymongo]
 tags: ['engineering']
 keywords: ['MongoDB', 'python', 'JSON']
-aliases: ['/blog/mongodb_json/']
 ---
 
 MongoDBから条件に合うオブジェクトを取り出して, エンコードされたJSONを返すapiを作成しようとしたところ, つまずいたのでメモ.

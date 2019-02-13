@@ -3,7 +3,6 @@ layout: post
 title: Sol-31
 tags: ['note']
 keywords: ['振り返り', 'ドイツ']
-aliases: ['/blog/life-in-germany2/']
 ---
 
 ドイツで生活を始めて1ヶ月になるのでこちらの暮らしについて振り返ってみる。

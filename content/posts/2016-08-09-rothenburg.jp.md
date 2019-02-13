@@ -3,7 +3,6 @@ layout: post
 title: ローテンブルク・オプ・デア・タウバー
 tags: ['sightseeing']
 keywords: ['ドイツ', '観光']
-aliases: ['/blog/rothenburg/']
 eyecatch: /img/blog_rothenburg10.jpg
 ---
 

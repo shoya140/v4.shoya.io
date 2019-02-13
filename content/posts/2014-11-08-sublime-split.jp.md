@@ -3,7 +3,6 @@ layout: post
 title: Sublime Text3の画面をctrl+sp,vsで分割する[Mac]
 tags: ['engineering']
 keywords: ['Sublime Text', '画面分割']
-aliases: ['/blog/sublime-split/']
 ---
 
 Sublimeの慣れないキーバインドに、「shift+option+command+数字」で画面を上下分割、「option+command+数字」で画面を左右分割にするものがある。Vimを使っていた名残でこれらの機能をsp(split)とvs(vsplit)に割り当てたいと思ったので、キーバインドを変更することにした。

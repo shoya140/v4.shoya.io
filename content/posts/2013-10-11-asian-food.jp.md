@@ -3,7 +3,6 @@ layout: post
 title: Asian Food
 tags: ['note']
 keywords: ['ドイツ', '留学']
-aliases: ['/blog/asian_food/']
 ---
 
 Asian Foodを取り扱う店があるという話を聞いて、街のスーパーまで買い物に出かけた。

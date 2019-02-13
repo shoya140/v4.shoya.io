@@ -3,7 +3,6 @@ layout: post
 title: Jekyllにはてなスター導入した
 tags: ['engineering']
 keywords: ['jekyll', 'はてな']
-aliases: ['/blog/hatena_star/']
 ---
 
 承認欲求を満たすためにはてなスターを導入した。

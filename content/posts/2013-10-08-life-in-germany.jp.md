@@ -3,7 +3,6 @@ layout: post
 title: こちらの生活にもずいぶん慣れた
 tags: ['note']
 keywords: ['ドイツ', '留学']
-aliases: ['/blog/life_in_germany/']
 ---
 ドイツで暮らし始めて1週間が経った。
 

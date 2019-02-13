@@ -3,7 +3,6 @@ layout: post
 title: Alfredを使って論文を最速で検索する
 tags: ['note']
 keywords: ['Alfred', '論文']
-aliases: ['/blog/alfred_google_scholar/']
 ---
 
 Alfredのcustom web searchesにGoogle Scholar ```https://scholar.google.com/scholar?q={query}``` を登録して、いつどこからでも素早く論文を検索できるようにしました。

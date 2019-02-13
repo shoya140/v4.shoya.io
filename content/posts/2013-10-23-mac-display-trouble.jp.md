@@ -3,7 +3,6 @@ layout: post
 title: Mac起動後の画面が真っ暗
 tags: ['engineering']
 keywords: ['Mac', 'ディスプレイ', '認識しない', '真っ暗', '起動']
-aliases: ['/blog/mac_display_trouble/']
 ---
 
 MacBookPro Retina 15inch(2012)でディスプレイ関連のトラブルが度々発生しているので、備忘録として問題と解決策を記します。

@@ -3,7 +3,6 @@ layout: post
 title: 司法の都カールスルーエ
 tags: ['sightseeing']
 keywords: ['ドイツ', '観光']
-aliases: ['/blog/karlsruhe/']
 ---
 
 今日はカールスルーエを観光しました。

@@ -3,7 +3,6 @@ layout: post
 title: ハイデルベルクを観光しました
 tags: ['sightseeing']
 keywords: ['ドイツ', '観光']
-aliases: ['/blog/heidelberg/']
 ---
 
 古城や学生牢で有名なハイデルベルクを観光しました。

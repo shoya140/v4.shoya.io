@@ -3,7 +3,6 @@ layout: post
 title: Jekyllの記事を人気順にソートする
 tags: ['engineering']
 keywords: ['jekyll', 'はてな', 'facebook', 'twitter']
-aliases: ['/blog/ranking_plugin/']
 ---
 
 各記事のはてなブックマーク数・Facebookいいね数・tweet数を取得してスコアの高い順にソートするプラグインを書いた。

@@ -3,7 +3,6 @@ layout: post
 title: ドキュメント考2015
 tags: ['note']
 keywords: ['ドキュメント', 'メモ', 'Evernote', 'Alternote']
-aliases: ['/blog/document_tools/']
 ---
 
 PCでとるメモの保存先について環境や目的の変化に合わせてこれまでいろんなツールを試してきたので、それらを踏まえて現状こんな感じというのを共有します。

@@ -3,7 +3,6 @@ layout: post
 title: 2014年振り返り
 tags: ['note']
 keywords: ['振り返り']
-aliases: ['/blog/looking-back-at-2014/']
 ---
 
 今年ももう終わりに近づいたので、2014年の良かったこと・良くなかったことの振り返りや2015年から意識したいことについて書きました。

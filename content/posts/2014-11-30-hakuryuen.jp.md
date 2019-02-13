@@ -3,7 +3,6 @@ layout: post
 title: 白龍園観覧
 tags: ['sightseeing']
 keywords: ['日本', '観光']
-aliases: ['/blog/hakuryuen/']
 ---
 
 [1日100人限定・君は京都の激レアスポット「白龍園」を見たか - MEMOGRAPHIX](http://memo.sanographix.net/post/103115828845) の写真があまりにも美しくて居てもたってもいられなくなったので京都の白龍園に行ってきた。

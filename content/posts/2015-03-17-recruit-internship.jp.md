@@ -3,7 +3,6 @@ layout: post
 title: リクルートホールディングスのインターンシップに参加しました
 tags: ['note']
 keywords: ['リクルート', 'インターン']
-aliases: ['/blog/recruit_internship/']
 ---
 
 [<img src="/img/blog_recruit_internship01.png" class="image-on-frame-medium image-fade">](http://recruit-jinji.jp/winter-internship2015/)

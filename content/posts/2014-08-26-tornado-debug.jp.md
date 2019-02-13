@@ -3,7 +3,6 @@ layout: post
 title: Tornadoのデバッグモードを有効にする
 tags: ['engineering']
 keywords: ['Tornado', 'debug', 'デバッグ', 'リロード']
-aliases: ['/blog/tornado_debug/']
 ---
 
 Tornadoには多くのWebアプリフレームワーク同様にデバックモードがある。これを有効にすることで、pythonコードの更新をサーバの再起動なしに反映させたり、ファイルのキャッシュを無効にしたり、tracebackをブラウザ上に表示したりといった機能を利用することができる。

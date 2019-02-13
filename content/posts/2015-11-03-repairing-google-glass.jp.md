@@ -3,7 +3,6 @@ layout: post
 title: Google Glassを修理する
 tags: ['note']
 keywords: ['Google Glass', '修理', 'ミラーフィルム']
-aliases: ['/blog/repairing-google-glass/']
 ---
 
 ## 背景
@@ -21,8 +20,8 @@ Google Glassには本体から送られる光を目に届けるためのプリ�
 <div class="babylink-box" style="overflow: hidden; font-size: small; zoom: 1; margin: 15px 0; text-align: left;"><div class="babylink-image" style="float: left; margin: 0px 15px 10px 0px; width: 75px; height: 75px; text-align: center;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B001GQ2WP8/mrk1869-22/" rel="nofollow" target="_blank"><img style="border-top: medium none; border-right: medium none; border-bottom: medium none; border-left: medium none;" src="http://ecx.images-amazon.com/images/I/41o25COrUcL._SL75_.jpg" width="36" height="75" /></a></div><div class="babylink-info" style="overflow: hidden; zoom: 1; line-height: 120%;"><div class="babylink-title" style="margin-bottom: 2px; line-height: 120%;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B001GQ2WP8/mrk1869-22/" rel="nofollow" target="_blank">トライツール TF01 ミラー フィニッシュ</a></div><div class="babylink-manufacturer" style="margin-bottom: 5px;">ハセガワ</div></div><div class="booklink-footer" style="clear: left"></div></div>
 
 1. 表面に残ったフィルムを剥がす。(セロハンテープで押さえると綺麗に剥がれる。)
-1. 金属光沢シートをプリズムの大きさに合わせて切り、ピンセットで乗せる。
-1. 吸着するまで3-4分待つ。今までどおり画面が見えるようになる。
+2. 金属光沢シートをプリズムの大きさに合わせて切り、ピンセットで乗せる。
+3. 吸着するまで3-4分待つ。今までどおり画面が見えるようになる。
 
 <img src="/img/blog_reparing02.jpg" class="image-on-frame-medium">
 

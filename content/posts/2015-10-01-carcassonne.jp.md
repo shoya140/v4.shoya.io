@@ -3,7 +3,6 @@ layout: post
 title: 歴史的城塞都市カルカソンヌ
 tags: ['sightseeing']
 keywords: ['フランス', '観光']
-aliases: ['/blog/carcassonne/']
 eyecatch: /img/blog_carcassonne16.jpg
 ---
 

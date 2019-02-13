@@ -3,7 +3,6 @@ layout: post
 title: Saturday Market
 tags: ['note']
 keywords: ['ドイツ', 'Saturday Market', '留学']
-aliases: ['/blog/saturday_market/']
 ---
 
 土曜の朝は教会近くの広場でSaturday Marketが開催されていて、新鮮な野菜、果物、卵、あと花やチーズやソーセージも買える。

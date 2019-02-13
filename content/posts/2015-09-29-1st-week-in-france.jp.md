@@ -3,7 +3,6 @@ layout: post
 title: フランスで暮らし始めて1週間
 tags: ['note']
 keywords: ['フランス', '留学']
-aliases: ['/blog/1st_week_in_france/']
 eyecatch: /img/blog_1st_week_in_france01.jpg
 ---
 

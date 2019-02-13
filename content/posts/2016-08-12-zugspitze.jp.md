@@ -3,7 +3,6 @@ layout: post
 title: ドイツ最高峰ツークシュピッツェ
 tags: ['sightseeing']
 keywords: ['ドイツ', '観光']
-aliases: ['/blog/zugspitze/']
 eyecatch: /img/blog_zugspitze10.jpg
 ---
 

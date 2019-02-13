@@ -3,7 +3,6 @@ layout: post
 title: メイワクメールをワクワクに変えるSpam Museum
 tags: ['release']
 keywords: ['SPAM MUSEUM', '作りました']
-aliases: ['/blog/spam_museum']
 ---
 
 メイワクメールをワクワクに変える。<br/>

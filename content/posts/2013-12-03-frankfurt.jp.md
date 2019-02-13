@@ -3,7 +3,6 @@ layout: post
 title: 産業の中心地フランクフルト
 tags: ['sightseeing']
 keywords: ['ドイツ', '観光']
-aliases: ['/blog/frankfurt/']
 ---
 
 産業の中心地であり国際空港をもつ交通の要衝でもあるフランクフルトを観光しました。
