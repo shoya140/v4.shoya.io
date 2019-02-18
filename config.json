@@ -43,8 +43,7 @@
         "researchProject": "Research projects",
         "privateProject": "Private projects",
         "related": "Related posts",
-        "previousPost": "Previous",
-        "nextPost": "Next"
+        "previousAndNext": "Previous and next posts"
       }
     },
     "jp": {
@@ -59,8 +58,7 @@
         "researchProject": "研究プロジェクト",
         "privateProject": "個人開発プロジェクト",
         "related": "関連記事",
-        "previousPost": "前の記事",
-        "nextPost": "次の記事"
+        "previousAndNext": "前後の記事"
       }
     }
   }
