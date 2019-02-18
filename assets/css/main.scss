@@ -4,13 +4,12 @@ $large-font-size: 20px;
 $base-font-size: 16px;
 $palm-font-size: 14px;
 $base-line-height: 1.7;
-$spacing-unit: 30px;
 $nav-height: 56px;
 
 $white-color: #ffffff;
 $gray-color: #edecf3;
 $brand-color: #02396c;
-$black-color: #132238;
+$black-color: #505050;
 $accent-color: #ff4447;
 
 $on-palm: 500px;
@@ -62,7 +61,7 @@ a {
     color: $brand-color;
 
     &:hover{
-        color: $black-color;
+        color: darken($brand-color, 15%);
     }
 }
 
@@ -100,8 +99,8 @@ blockquote {
     box-sizing: border-box;
     font-style: italic;
     font-size: $palm-font-size;
-    color: #777777;
-    border-left: 4px solid #9dd4ff;
+    color: lighten($black-color, 20%);
+    border-left: 4px solid lighten($brand-color, 60%);
 }
 
 blockquote p {
@@ -114,13 +113,14 @@ twitter-widget {
 }
 
 .content {
-    padding: $spacing-unit 0;
+    padding: 50px 0;
 
     h2:first-child {
         margin-top: 0;
     }
 
     @include media-query($on-palm) {
+        padding: 30px 0;
         font-size: $palm-font-size;
         text-align: justify;
     }
@@ -128,7 +128,12 @@ twitter-widget {
 
 .content-jp {
     p {
-        letter-spacing: 0.3px;
+        letter-spacing: 0.02em;
+        line-height: 1.8;
+    }
+
+    code {
+        letter-spacing: 0;
     }
 }
 
@@ -379,8 +384,8 @@ twitter-widget {
 
 .post-related {
     background-color: #f3f5f7;
-    margin-top: $spacing-unit;
-    padding: $spacing-unit*0.5 $spacing-unit*0.8;
+    margin-top: 40px;
+    padding: 16px 24px;
     border-radius: 0.3rem;
 
     h3 {
@@ -403,7 +408,7 @@ twitter-widget {
     }
 
     @include media-query($on-palm) {
-        padding: $spacing-unit*0.4;
+        padding: 8px;
     }
 }
 
