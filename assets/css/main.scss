@@ -7,9 +7,9 @@ $base-line-height: 1.7;
 $nav-height: 56px;
 
 $white-color: #ffffff;
-$gray-color: #edecf3;
+$gray-color: #f7f9f9;
+$black-color: #444444;
 $brand-color: #02396c;
-$black-color: #505050;
 $accent-color: #ff4447;
 
 $on-palm: 500px;
@@ -57,17 +57,9 @@ img {
     max-width: 100%;
 }
 
-a {
-    color: $brand-color;
-
-    &:hover{
-        color: darken($brand-color, 15%);
-    }
-}
-
 pre {
     font-size: $palm-font-size;
-    border: 1px solid $gray-color;
+    border: 1px solid darken($gray-color, 4%);
     padding: 8px;
     overflow-x: scroll;
     border-radius: 0.3rem;
@@ -119,6 +111,14 @@ twitter-widget {
         margin-top: 0;
     }
 
+    a {
+        color: $black-color;
+
+        &:hover{
+            color: darken($black-color, 15%);
+        }
+    }
+
     @include media-query($on-palm) {
         padding: 30px 0;
         font-size: $palm-font-size;
@@ -149,7 +149,7 @@ twitter-widget {
 }
 
 .site-header {
-    border-bottom: 1px solid $gray-color;
+    border-bottom: 1px solid darken($gray-color, 4%);
     min-height: $nav-height;
 
     @include media-query($on-palm) {
@@ -241,10 +241,18 @@ twitter-widget {
 }
 
 .site-footer {
-    border-top: 1px solid $gray-color;
+    border-top: 1px solid darken($gray-color, 4%);
     padding: 10px 0 20px 0;
     font-size: $palm-font-size;
     text-align: center;
+
+    a {
+        color: $black-color;
+
+        &:hover{
+            color: darken($black-color, 15%);
+        }
+    }
 }
 
 .card {
@@ -320,7 +328,7 @@ twitter-widget {
     padding-bottom: 15px;
     padding-left: 9px;
     padding-right: 9px;
-    border-top: 1px solid $gray-color;
+    border-top: 1px solid darken($gray-color, 4%);
     -webkit-transition: all .2s;
     transition: all .2s;
 
@@ -383,7 +391,7 @@ twitter-widget {
 }
 
 .post-related {
-    background-color: #f3f5f7;
+    background-color: #f7f9f9;
     margin-top: 40px;
     padding: 16px 24px;
     border-radius: 0.3rem;
