@@ -13,8 +13,6 @@ for entry in bdata.entries:
     authors_data = entry['author'].split(' and ')
     for i, author in enumerate(authors_data):
         name = ' '.join(reversed([n.strip() for n in author.split(',')]))
-        if name == 'Shoya Ishimaru':
-            name = '<u>' + name + '</u>'
         if i == 0:
             output = name
         elif i == len(authors_data) - 1:
@@ -26,7 +24,11 @@ for entry in bdata.entries:
     if 'journal' in entry.keys():
         output += ' ' + entry['journal'] + ', '
     if 'booktitle' in entry.keys():
-        output += 'In ' + entry['booktitle'] + ', '
+        output += 'In ' + entry['booktitle']
+        if 'series' in entry.keys():
+            output += ' (' + entry['series'] + '), '
+        else:
+            output += ', '
     if 'pages' in entry.keys():
         pages = entry['pages']
         if '--' in pages:
