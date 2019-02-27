@@ -46,7 +46,7 @@
         "previousAndNext": "Previous and next posts"
       }
     },
-    "jp": {
+    "ja": {
       "params": {
         "navigation": [
           {"name": "projects", "display": "プロジェクト"},
