@@ -2,7 +2,6 @@
   "baseURL": "https://shoya.io/",
   "languageCode": "en-us",
   "title": "shoya.io",
-  "googleAnalytics": "UA-1918944-8",
   "pygmentsstyle": "github",
   "taxonomies": {
     "tag": "tags"
