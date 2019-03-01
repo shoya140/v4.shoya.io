@@ -17,12 +17,12 @@
   "hasCJKLanguage": true,
   "summaryLength": 140,
   "related": {
-    "threshold": 80,
+    "threshold": 50,
     "includeNewer": true,
     "indices": [
       {"name": "keywords", "weight": 100},
       {"name": "tags", "weight": 50},
-      {"name": "date", "weight": 40}
+      {"name": "date", "weight": 20}
     ]
   },
   "params": {
