@@ -19,13 +19,30 @@
     </ul>
   {{ end }}
     <h3>{{ .Site.Params.PreviousAndNext }}</h3>
-  <ul>
-  {{ with .NextInSection }}
-    <li><span>{{ .Date.Format "06.01.02" }}</span>&nbsp;<span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span></li>
-  {{ end }}
-  {{ with .PrevInSection }}
-    <li><span>{{ .Date.Format "06.01.02" }}</span>&nbsp;<span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span></li>
-  {{ end }}
-  </ul>
+    <ul>
+    {{ with .NextInSection }}
+      <li><span>{{ .Date.Format "06.01.02" }}</span>&nbsp;<span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span></li>
+    {{ end }}
+    {{ with .PrevInSection }}
+      <li><span>{{ .Date.Format "06.01.02" }}</span>&nbsp;<span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span></li>
+    {{ end }}
+    </ul>
+    <div class="social">
+      <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-counter" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png"
+      alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+      <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+      <div class="fb-share-button" data-href="{{ .Permalink }}" data-layout="button_count"></div>
+      <div class="line-it-button" data-lang="en" data-type="share-a" data-ver="2" data-url="{{ .Permalink }}" style="display: none;"></div>
+      <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+    </div>
   </div>
 {{ end }}

@@ -424,6 +424,18 @@ twitter-widget {
     }
 }
 
+.social {
+    display: inline-block;
+}
+
+.fb_iframe_widget > span {
+    vertical-align: baseline !important;
+}
+
+.line-it-button {
+    margin-left: 4px;
+}
+
 .image-on-frame{
     max-width: 100%;
     position: relative;
