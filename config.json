@@ -2,7 +2,8 @@
   "baseURL": "https://shoya.io/",
   "languageCode": "en-us",
   "title": "shoya.io",
-  "pygmentsstyle": "github",
+  "pygmentscodefences": true,
+  "pygmentsstyle": "monokai",
   "taxonomies": {
     "tag": "tags"
   },

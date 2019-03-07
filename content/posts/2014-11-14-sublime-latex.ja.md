@@ -15,7 +15,7 @@ Sublime Textにはcommand+bでコードを実行する機能(Build System)があ
 
 2. 新規ファイルが開かれるので、下記の設定を記入して保存する。ファイル名がメニューバーに表示されるBuild Systemの名前になる。保存場所はデフォルトで ~/Library/Application Support/Sublime Text 3/Packages/User になる。
 
-{{< highlight bash >}}
+```bash
 {
   "shell": false,
   "cmd":[
@@ -23,7 +23,7 @@ Sublime Textにはcommand+bでコードを実行する機能(Build System)があ
   ],
   "selector": "source.tex"
 }
-{{< /highlight >}}
+```
 
 ## 補足
 

@@ -11,8 +11,7 @@ keywords: ['jekyll', 'はてな', 'facebook', 'twitter']
 
 それぞれ数値を取得するためのapiと取り出し方は以下のとおり。
 
-{{< highlight ruby >}}
-
+```ruby
 require 'net/http'
 require 'json'
 
@@ -34,15 +33,12 @@ uri = "http://urls.api.twitter.com/1/urls/count.json?url=#{url}"
 body = Net::HTTP.get_response(URI.parse(uri)).body
 json = JSON.parse(body)
 score = json['count'] ? json['count'] : 0
-
-{{< /highlight >}}
+```
 
 buildの度に取得すると記事を書く際に不便なので、jekyll server に --drafts オプションをつけているときは評価をスキップする。--draftsオプションが付いているかどうかは
 
-{{< highlight ruby >}}
-
+```ruby
 site.config['show_drafts']
-
-{{< /highlight >}}
+```
 
 を確認すれば良い。

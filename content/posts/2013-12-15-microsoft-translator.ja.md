@@ -19,30 +19,30 @@ Windows accountでのサインインを求められるので、持っていな�
 
 Python用のSDKがGitHubで公開されているので[リポジトリ](https://github.com/openlabs/Microsoft-Translator-Python-API)をcloneします。
 
-{{< highlight bash >}}
+```bash
 $ git clone git@github.com:openlabs/Microsoft-Translator-Python-API.git
-{{< /highlight >}}
+```
 
 セットアップスクリプトを実行します.
 
-{{< highlight bash >}}
+```bash
 $ cd Microsoft-Translator-Python-API
 $ sudo python setup.py install
-{{< /highlight >}}
+```
 
 以上で導入は終わりです. 簡単ですね.
 
 ## 3. 実際に使ってみる
 
-{{< highlight python >}}
+```python
 from microsofttranslator import Translator
 translator = Translator('<Your Client ID>', '<Your Client Secret>')
 print translator.translate("Hello", "ja")
-{{< /highlight >}}
+```
 
-{{< highlight bash >}}
+```bash
 こんにちは
-{{< /highlight >}}
+```
 
 ## 所感
 

@@ -23,28 +23,28 @@ gnupackとはインストール不要のcygwin環境。展開して.exeを起動
 
 cygstartというコマンドがMacターミナルのopenに相当するようなので.bashrcに追記。
 
-{{< highlight bash >}}
+```bash
 alias open='cygstart'
-{{< /highlight >}}
+```
 
 **sublコマンドでAtomを起動する**
 
 Atomのインストール先をPathに追加することで可能。.bashrcに下記を追記。
 
-{{< highlight bash >}}
+```bash
 export PATH=$HOME\\AppData\\Local\\atom:$PATH
 # 他のエディタも同様
 # export PATH=C:\\Program\ Files\\Sublime\ Text\ 3:$PATH
-{{< /highlight >}}
+```
 
 **gnupackとMinicondaを一緒に使う**
 
 [Miniconda](http://conda.pydata.org/miniconda.html)とはPythonの主要ライブラリを簡単に管理できるツールであるAnacondaの最小構成版。インストールが済むとシステムかユーザ以下(選択可能)に新しいPythonが入ってWindowsの環境変数にそのPathが追記される。gnupack上のcygwinはこの環境変数を読まないので、Pathを手動で追加する必要がある。下記を.bashrcに追記。Miniconda3のところはインストールしたPythonのバージョンに合わせる。
 
-{{< highlight bash >}}
+```bash
 export PATH=C:\\Users\\YOUR_USER_NAME\\Miniconda3\\:$PATH
 export PATH=C:\\Users\\YOUR_USER_NAME\\Miniconda3\\Scripts\\:$PATH
 export PATH=C:\\Users\\YOUR_USER_NAME\\Miniconda3\\Library\\bin:$PATH
-{{< /highlight >}}
+```
 
 他にも便利な設定が見つかったら追記していく予定。

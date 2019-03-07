@@ -15,7 +15,7 @@ Jekyllではpage.previous, page.next要素に前の記事/次の記事が格納�
 
 これを少し改良して使うことにした。
 
-{{< highlight ruby >}}
+```ruby
 module Jekyll
   class CategoryAwareNextGenerator < Generator
 
@@ -48,7 +48,7 @@ module Jekyll
     end
   end
 end
-{{< /highlight >}}
+```
 
 改良点は2点。
 
@@ -57,11 +57,11 @@ end
 
 _plugins/以下にcategory_next.rbなどと名前をつけて置いておけば
 
-{{< highlight bash >}}
+```ruby
 # 前の記事
 page.CATEGORYNAME_previous
 # 次の記事
 page.CATEGORYNAME_next
-{{< /highlight >}}
+```
 
 が取得できる

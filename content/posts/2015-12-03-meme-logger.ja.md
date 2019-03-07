@@ -23,7 +23,7 @@ eyecatch: /img/blog_memelogger_ios_dev_01.png
 
 **グラフ描画** 直近のデータを配列として保持しておき、UIBezierPathで連結することで描画しています。上限下限や色などはStoryboard上で変えられるようにIBInspectableを設定しました。
 
-{{< highlight swift >}}
+```swift
 @IBDesignable class GraphView: UIView {
     @IBInspectable var maximumValue: Double = 1000.0{
         didSet {
@@ -34,7 +34,7 @@ eyecatch: /img/blog_memelogger_ios_dev_01.png
     .
     .
 }
-{{< /highlight >}}
+```
 
 **データの記録** 開発者がデータの読み書きに使えるDocumentDirectory以下にテキストファイルを作成し、```memeRealTimeModeDataReceived(data: MEMERealTimeData!)```が呼ばれる度にそのデータを追記しています。また、iTunesやiFunBoxを使ってデータを取り出せるように```プロジェクト名-info.plist```にKey:```Application supports iTunes file sharing``` Value:```YES```をセットしました。
 

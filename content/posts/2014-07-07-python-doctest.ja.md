@@ -9,7 +9,7 @@ doctestはpythonに標準で搭載されているテストツールで、docstri
 
 ## 記述例
 
-{{< highlight python >}}
+```python
 import doctest
 
 def average(*numbers):
@@ -22,11 +22,11 @@ def average(*numbers):
 
 if __name__ == '__main__':
     doctest.testmod()
-{{< /highlight >}}
+```
 
 上記のコードを実行すると
 
-{{< highlight bash >}}
+```bash
 $ python hello.py
 **********************************************************************
 File "hello.py", line 6, in __main__.average
@@ -40,11 +40,11 @@ Got:
 1 items had failures:
    1 of   1 in __main__.average
 ***Test Failed*** 1 failures.
-{{< /highlight >}}
+```
 
 失敗しました。除算を用いるので引数を浮動小数点として扱うように修正します。
 
-{{< highlight python >}}
+```python
 import doctest
 
 def average(*numbers):
@@ -58,15 +58,15 @@ def average(*numbers):
 
 if __name__ == '__main__':
     doctest.testmod()
-{{< /highlight >}}
+```
 
-{{< highlight bash >}}
+```bash
 $ python hello.py
-{{< /highlight >}}
+```
 
 実行結果が何も表示されません。すなわちテストが通ったことを意味します。通ったテストのログはオプション-vをつけることで表示することが可能です。
 
-{{< highlight bash >}}
+```bash
 $python hello.py -v
 Trying:
     average(1, 2)
@@ -80,13 +80,13 @@ ok
 1 tests in 2 items.
 1 passed and 0 failed.
 Test passed.
-{{< /highlight >}}
+```
 
 ## python -m doctest -v [ファイル名]
 
 Python2.6以降にはdoctest.testmod()を実行するコマンドラインショートカット(-m doctest)があり、doctest.testmod()をコード内に記述する必要がなくなりました。
 
-{{< highlight python >}}
+```python
 def average(*numbers):
     """
     This method returns the average value of args.
@@ -98,11 +98,11 @@ def average(*numbers):
 
 if __name__ == '__main__':
     pass
-{{< /highlight >}}
+```
 
 main関数を空にしてコマンドラインからテストします。
 
-{{< highlight bash >}}
+```bash
 $ python -m doctest -v hello.py
 Trying:
     average(1, 2)
@@ -116,7 +116,7 @@ ok
 1 tests in 2 items.
 1 passed and 0 failed.
 Test passed.
-{{< /highlight >}}
+```
 
 テストが実行されました。
 
@@ -128,7 +128,7 @@ Test passed.
 
 出力結果をTrue, Falseで判断することで、表記揺れによるテスト失敗を回避することができました。また、この方法では弾く(Falseを想定した)テストも書けるので便利です。
 
-{{< highlight python >}}
+```python
 def average(*numbers):
     """
     This method returns the average value of numbers.
@@ -148,9 +148,9 @@ def average(*numbers):
 
 if __name__ == '__main__':
     pass
-{{< /highlight >}}
+```
 
-{{< highlight bash >}}
+```bash
 $ python -m doctest -v hello.py
 Trying:
     average(0, 2) #failed
@@ -192,4 +192,4 @@ ok
 5 tests in 2 items.
 4 passed and 1 failed.
 ***Test Failed*** 1 failures.
-{{< /highlight >}}
+```

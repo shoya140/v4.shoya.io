@@ -22,12 +22,10 @@ MacBookPro Retina 15inch(2012)でディスプレイ関連のトラブルが度�
 
 **1.ディスプレイに関する設定ファイルを削除**
 
-{{< highlight bash >}}
-
-sudo rm /Library/Preferences/com.apple.windowserver.plist
-rm ~/Library/Preferences/ByHost/com.apple.windowserver.*
-
-{{< /highlight >}}
+```bash
+$ sudo rm /Library/Preferences/com.apple.windowserver.plist
+$ rm ~/Library/Preferences/ByHost/com.apple.windowserver.*
+```
 
 **2.PRAMリセット**
 
@@ -35,12 +33,8 @@ PRAMと呼ばれる不揮発メモリに保存されたシステムの設定(指
 
 [OS X Mountain Lion: コンピュータのPRAMをリセットする](http://support.apple.com/kb/PH11243?viewlocale=ja_JP)
 
-{{< highlight bash >}}
-
-本体の電源を切り、option + command + P + Rボタンを押した状態で電源を入れます。
-2度目の起動音が鳴るまでこれらのキーを押したままにします。
-
-{{< /highlight >}}
+> 本体の電源を切り、option + command + P + Rボタンを押した状態で電源を入れます。
+> 2度目の起動音が鳴るまでこれらのキーを押したままにします。
 
 PRAMリセットがかかり、画面が正常に表示されます。
 
@@ -50,10 +44,6 @@ PRAMリセットで解決しない場合は、照明や電源周りのトラブ�
 
 [Intel-based Macs：SMC (システム管理コントローラ) のリセット](http://support.apple.com/kb/ht3964?viewlocale=ja_JP)
 
-{{< highlight bash >}}
-
-本体の電源を切り、MagSafe電源アダプタをMacに接続します。
-shift + control + option キーを押しながら電源ボタンを押し続けます。
-電源アダプタのLEDの色が変わったらボタンから手を離し、再度電源を入れます。
-
-{{< /highlight >}}
+> 本体の電源を切り、MagSafe電源アダプタをMacに接続します。
+> shift + control + option キーを押しながら電源ボタンを押し続けます。
+> 電源アダプタのLEDの色が変わったらボタンから手を離し、再度電源を入れます。
