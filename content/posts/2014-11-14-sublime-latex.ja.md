@@ -7,7 +7,7 @@ keywords: ['Sublime Text', 'LaTeX', 'Tex']
 
 Sublime Textにはcommand+bでコードを実行する機能(Build System)がある。今回はビルドできるファイルにLaTeXを加えてみた。Sublime TextでLaTeXを扱う方法、調べたらLaTeXToolsとかを入れていろいろ頑張る方法が出てくるのだけれど、既にMacTeXの環境(ターミナルからplatexコマンドなどが使える状態)があるのならもっと簡単に構築できると思う。
 
-<img src="/img/blog_sublime_latex_01.png" class="image-on-frame-small">
+<img src="/img/blog_sublime_latex_01.png" class="image-small" />
 
 ## 手順
 

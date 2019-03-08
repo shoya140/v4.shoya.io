@@ -2,7 +2,8 @@ $font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gothic ProN', M
 $huge-font-size: 24px;
 $large-font-size: 20px;
 $base-font-size: 16px;
-$palm-font-size: 14px;
+$small-font-size: 14px;
+$mini-font-size: 12px;
 $base-line-height: 1.7;
 $nav-height: 56px;
 
@@ -12,7 +13,7 @@ $black-color: #444444;
 $brand-color: #02396c;
 $accent-color: #ff4447;
 
-$on-palm: 500px;
+$on-palm: 530px;
 $content-width: 700px;
 
 @mixin media-query($device) {
@@ -35,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     font-size: $large-font-size;
     text-align: left;
+    hyphens: none;
 
     @include media-query($on-palm) {
         font-size: $base-font-size;
@@ -53,16 +55,16 @@ dl, dd, ol, ul {
     padding-left: 1.5em;
 }
 
-img {
-    max-width: 100%;
-}
-
 pre {
-    font-size: $palm-font-size;
+    font-size: $small-font-size;
     border: 1px solid darken($gray-color, 4%);
     padding: 8px;
     overflow-x: scroll;
     border-radius: 0.3rem;
+
+    @include media-query($on-palm) {
+        font-size: $mini-font-size;
+    }
 }
 
 code {
@@ -105,7 +107,7 @@ blockquote {
     padding: 0.6em 1.0em;
     box-sizing: border-box;
     font-style: italic;
-    font-size: $palm-font-size;
+    font-size: $small-font-size;
     color: lighten($black-color, 20%);
     border-left: 4px solid lighten($brand-color, 60%);
 }
@@ -136,7 +138,7 @@ twitter-widget {
 
     @include media-query($on-palm) {
         padding: 30px 0;
-        font-size: $palm-font-size;
+        font-size: $small-font-size;
         text-align: justify;
     }
 }
@@ -149,6 +151,25 @@ twitter-widget {
 
     code {
         letter-spacing: 0;
+    }
+}
+
+.post {
+    img {
+        max-height: $on-palm;
+        max-width: 100%;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        @include media-query($on-palm) {
+            max-width: calc(100% + 20px);
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+    }
+    img.image-small {
+        max-width: 60%;
+        margin: 0 auto;
     }
 }
 
@@ -224,7 +245,7 @@ twitter-widget {
     @include media-query($on-palm) {
         float: none;
         line-height: $base-line-height;
-        font-size: $palm-font-size;
+        font-size: $small-font-size;
     }
 }
 
@@ -258,7 +279,7 @@ twitter-widget {
 .site-footer {
     border-top: 1px solid darken($gray-color, 4%);
     padding: 10px 0 20px 0;
-    font-size: $palm-font-size;
+    font-size: $small-font-size;
     text-align: center;
 
     a {
@@ -369,8 +390,10 @@ twitter-widget {
     }
 
     @include media-query($on-palm) {
-        padding-left: 0;
-        padding-right: 0;
+        margin-left: -10px;
+        margin-right: -10px;
+        // padding-left: 0;
+        // padding-right: 0;
     }
 }
 
@@ -385,12 +408,12 @@ twitter-widget {
 }
 
 .post-meta {
-    font-size: $palm-font-size;
+    font-size: $small-font-size;
     margin: 0;
     padding-left: 2px;
 
     @include media-query($on-palm) {
-        font-size: $palm-font-size;
+        font-size: $small-font-size;
         padding-left: 0px;
     }
 }
@@ -401,7 +424,7 @@ twitter-widget {
     line-height: 1.2;
 
     @include media-query($on-palm) {
-        font-size: $palm-font-size;
+        font-size: $small-font-size;
     }
 }
 
@@ -447,7 +470,7 @@ twitter-widget {
     margin-left: 4px;
 }
 
-.image-on-frame{
+img.image-portrait{
     max-width: 100%;
     position: relative;
     display: block;
@@ -459,58 +482,14 @@ twitter-widget {
     -moz-box-shadow: 0 0 5px #ebebeb;
     -o-box-shadow: 0 0 5px #ebebeb;
     -ms-box-shadow: 0 0 5px #ebebeb;
-
-    @include media-query($on-palm) {
-        max-width: 96%;
-    }
-}
-
-.image-on-frame-medium{
-    @extend .image-on-frame;
-    max-width: 70%;
-
-    @include media-query($on-palm) {
-        max-width: 85%;
-    }
-}
-
-.image-on-frame-small{
-    @extend .image-on-frame;
-    max-width: 60%;
-
-    @include media-query($on-palm) {
-        max-width: 75%;
-    }
-}
-
-.image-on-frame-mini{
-    @extend .image-on-frame;
-    max-width: 40%;
-}
-
-.image-center{
-    position: relative;
-    display: block;
-    max-width: 90%;
-    padding: 5px;
-    margin: 10px auto;
-}
-
-.image-center-small{
-    @extend .image-center;
-    max-width: 60%;
-}
-
-.image-trimmed-by-circle{
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     background-size: contain;
-}
 
-.image-fade{
-    animation: fadeIn 1s ease 0s 1 normal;
-    -webkit-animation: fadeIn 1s ease 0s 1 normal;
+    @include media-query($on-palm) {
+        max-width: 96%;
+    }
 }
 
 .footnotes{

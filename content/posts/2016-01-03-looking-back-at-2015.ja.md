@@ -5,7 +5,7 @@ tags: ['note']
 keywords: ['振り返り', '留学']
 ---
 
-<img src="/img/blog_looking_back_at_2015_01.jpg" class="image-on-frame-small">
+<img src="/img/blog_looking_back_at_2015_01.jpg" class="image-small" />
 
 新年あけましておめでとうございます。<br/>これまでの人生で最も忙しい日々が続いていて、振り返る間もなく2015年が終わっていた。忘れないうちに2015年のことを書いておこうと思う。
 

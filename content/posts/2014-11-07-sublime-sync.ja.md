@@ -8,7 +8,7 @@ eyecatch: /img/blog_sublime_sync.png
 
 [Sublime Text3導入メモ](/jp/posts/hello-sublime/)で設定ファイルをDropboxで同期する方法を書いたのだけれど、意図しないタイミングで設定が同期されてコンフリクトが頻繁に発生するので、設定をGitで管理することにした。
 
-<img src="/img/blog_sublime_sync.png" class="image-on-frame-small">
+<img src="/img/blog_sublime_sync.png" class="image-small" />
 
 設定ファイルにはアクセスキーなども含まれており、変更履歴を外部に公開するのはよくない。そこで今回はDropbox上にリモートリポジトリを作成する。同期をGitとDropboxの2段階にすることで「**過去の状態に戻しやすくなる**」「**任意のタイミングで同期できる**」というメリットがある。
 

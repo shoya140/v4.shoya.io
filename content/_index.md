@@ -3,7 +3,7 @@ title: "Shoya Ishimaru"
 description: "Shoya Ishimaru is a researcher at the German Research Center for Artificial Intelligence (DFKI) and working toward Ph.D degree in the University of Kaiserslautern. His research interests are (1) inventing new technologies augmenting abilities of human begins and (2) investigating influences of the augmentations to human minds."
 ---
 
-<img src="/img/icon_portrait.jpg" class="image-trimmed-by-circle image-on-frame" width="150px" alt="Shoya Ishimaru">
+<img src="/img/icon_portrait.jpg" class="image-portrait" width="150px" alt="Shoya Ishimaru">
 
 # Shoya Ishimaru
 

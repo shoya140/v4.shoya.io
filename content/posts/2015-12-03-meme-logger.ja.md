@@ -6,7 +6,7 @@ keywords: ['JINS MEME', 'MEMELogger', 'センシング']
 eyecatch: /img/blog_memelogger_ios_dev_01.png
 ---
 
-<img src="/img/blog_memelogger_ios_dev_01.png" class="image-on-frame-small">
+<img src="/img/blog_memelogger_ios_dev_01.png" class="image-small" />
 
 [JINS MEME Advent Calendar 2015](http://qiita.com/advent-calendar/2015/jinsmeme) 3日目の記事です。昨日の記事は@hatoneさんによる [JINE MEME iOSアプリ開発入門 -公式サンプルアプリを動かす-](http://hatone.hateblo.jp/entry/2015/12/01/162235)でした。サンプルアプリが動いたら、次はセンサから得られるデータについてもっと詳しく見てみたいはず！今日はセンサデータをグラフ表示したり保存する方法について紹介します。記事の前半は作ったものの紹介で後半は実装の工夫です。
 
@@ -40,7 +40,7 @@ eyecatch: /img/blog_memelogger_ios_dev_01.png
 
 **まばたきのアニメーション** [PaintCode](http://www.paintcodeapp.com/)を使ってPathの位置を変数で変えられる目の画像を作成しました。PaintCodeから出力されたStyleKitをimportして、目の開閉や虹彩の位置とともにdraw~を呼び出して描画しています。
 
-<img src="/img/blog_memelogger_ios_dev_02.png" class="image-on-frame-medium">
+<img src="/img/blog_memelogger_ios_dev_02.png" />
 
 その他の細かい実装についてはリポジトリをご参照ください。
 

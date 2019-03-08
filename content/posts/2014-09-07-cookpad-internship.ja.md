@@ -42,6 +42,6 @@ eyecatch: /img/blog_cookpad_internship01.jpg
 
 サポートしていただいた社員の方々、参加者のみんな、そしてチームメンバーの辻くん、5日間お世話になりました！ありがとうございました！
 
-<img src="/img/blog_cookpad_internship02.jpg" class="image-on-frame-medium">
+<img src="/img/blog_cookpad_internship02.jpg" />
 
 (おまけ)miyagawaさんに会えてテンション最高潮の[rebuild.fm](http://rebuild.fm/)リスナーインターン

@@ -7,58 +7,58 @@ keywords: ['ドイツ', '観光']
 
 産業の中心地であり国際空港をもつ交通の要衝でもあるフランクフルトを観光しました。
 
-###旧オペラ座
+### 旧オペラ座
 
-<img src="/img/blog_frankfurt01.jpg" class="image-on-frame" />
+<img src="/img/blog_frankfurt01.jpg"/>
 
-###大聖堂
+### 大聖堂
 
-<img src="/img/blog_frankfurt02.jpg" class="image-on-frame-small">
+<img src="/img/blog_frankfurt02.jpg" class="image-small" />
 
 大聖堂の近くの広場ではクリスマスマーケットが開催されていました。
 
-<img src="/img/blog_frankfurt03.jpg" class="image-on-frame" />
+<img src="/img/blog_frankfurt03.jpg"/>
 
 グリューワインがとっても美味しかった。
 
-<img src="/img/blog_frankfurt04.jpg" class="image-on-frame" />
+<img src="/img/blog_frankfurt04.jpg"/>
 
 一緒にワインを飲んでいたおじいさんに、グリューワインの楽しみ方を教えてもらいました。このマグカップはお店に返すことでデポジットを受け取ってもいいし、お土産として持って帰ってもいいとのこと。マグカップのデザインはその年その場所によって異なるので、ドイツ各地のマグカップをコレクションする人もいるようです。
 
 この辺りに美術館や博物館はありませんかと聞くと、おすすめを紹介してくれました。
 
-###モダンアート美術館
+### モダンアート美術館
 
-<img src="/img/blog_frankfurt05.jpg" class="image-on-frame" />
-
-月曜は休館日。
-
-###シュテーデル美術館
-
-<img src="/img/blog_frankfurt06.jpg" class="image-on-frame" />
+<img src="/img/blog_frankfurt05.jpg"/>
 
 月曜は休館日。
 
-###ゼンケンベルグ自然博物館
+### シュテーデル美術館
 
-<img src="/img/blog_frankfurt07.jpg" class="image-on-frame" />
+<img src="/img/blog_frankfurt06.jpg"/>
+
+月曜は休館日。
+
+### ゼンケンベルグ自然博物館
+
+<img src="/img/blog_frankfurt07.jpg"/>
 
 月曜も開いてた！
 
-<img src="/img/blog_frankfurt08.jpg" class="image-on-frame" />
+<img src="/img/blog_frankfurt08.jpg"/>
 
 どうぶつの森の博物館みたい。
 
-<img src="/img/blog_frankfurt09.jpg" class="image-on-frame" />
+<img src="/img/blog_frankfurt09.jpg"/>
 
 曲線が美しすぎる。
 
-<img src="/img/blog_frankfurt10.jpg" class="image-on-frame" />
+<img src="/img/blog_frankfurt10.jpg"/>
 
-<img src="/img/blog_frankfurt11.jpg" class="image-on-frame" />
+<img src="/img/blog_frankfurt11.jpg"/>
 
 膨大な数の化石や剥製が展示されていて、自然科学好きにはたまらないと思う。アメリカバイソンの大きさに一番衝撃を受けた。別館では地球の誕生に関する特別展示が開催されていて、これもまた面白かった。
 
-<img src="/img/blog_frankfurt12.jpg" class="image-on-frame" />
+<img src="/img/blog_frankfurt12.jpg"/>
 
 地下鉄があり移動しやすく、一日で観光できる良い所でした。

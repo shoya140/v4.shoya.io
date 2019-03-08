@@ -6,7 +6,7 @@ keywords: ['誕生日', '留学']
 eyecatch: /img/blog_birthday_in_paris.jpg
 ---
 
-<img src="/img/blog_birthday_in_paris.jpg" class="image-on-frame-small image-fade">
+<img src="/img/blog_birthday_in_paris.jpg" />
 
 今日で24歳になると同時にフランスでの留学生活が始まった。ここ最近の生活を振り返って、今年は「やるべきことをする」を目標に頑張ることにする。具体的には3つのやるべきことができればと思っている。
 

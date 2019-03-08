@@ -9,7 +9,7 @@ Windows Phoneのエミュレータが起動できなくなる問題を発見し�
 
 ## エラー内容
 
-<img src="/img/blog_bootcamp_hyperv01.png" class="image-on-frame-medium">
+<img src="/img/blog_bootcamp_hyperv01.png" />
 
 ハイパーバイザーが実行されていないため、Windows Phone Emulatorを起動できません。ハードウェア対応仮想化が有効になっていないことが原因の可能性があります。コンピュータのBIOSを調べ、ハードウェア対応仮想化及びハードウェア対応保護機能が有効になっていることを確認してください。
 
@@ -17,7 +17,7 @@ BootcampでインストールしたWindows8.1において コントロールパ�
 
 ## 解決策
 
-<img src="/img/blog_bootcamp_hyperv02.png" class="image-on-frame-medium">
+<img src="/img/blog_bootcamp_hyperv02.png" />
 
 **Optionキーを押しながら電源を入れてWindowsを起動するのではなく、まずOSXを起動し、システム環境設定 > 起動ディスク でWindowsをデフォルトに設定してから再起動ボタンを押して起動する。**
 
@@ -25,4 +25,4 @@ BootcampでインストールしたWindows8.1において コントロールパ�
 
 手順通りにWindowsを起動すると、Hyper-Vが実行されてEmulatorの起動を確認できた。
 
-<img src="/img/blog_bootcamp_hyperv03.png" class="image-on-frame" />
+<img src="/img/blog_bootcamp_hyperv03.png"/>
