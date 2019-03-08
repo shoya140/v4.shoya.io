@@ -8,21 +8,21 @@ keywords: ['ドイツ', '観光']
 今日はカールスルーエを観光しました。
 というより、工科大にパンクロックが好きな学生がいて、都会でしかできない買い物に付き合ったったいう感じでした。
 
-<img src="/img/blog_IMG_1272.jpg" />
+![ ](/img/blog_IMG_1272.jpg)
 
-<img src="/img/blog_IMG_1274.jpg" />
+![ ](/img/blog_IMG_1274.jpg)
 
-<img src="/img/blog_IMG_1233.jpg" />
+![ ](/img/blog_IMG_1233.jpg)
 
-<img src="/img/blog_IMG_1275.jpg" />
+![ ](/img/blog_IMG_1275.jpg)
 
-<img src="/img/blog_IMG_1276.jpg" />
+![ ](/img/blog_IMG_1276.jpg)
 
-<img src="/img/blog_IMG_1277.jpg" />
+![ ](/img/blog_IMG_1277.jpg)
 
-<img src="/img/blog_IMG_1258.jpg" />
+![ ](/img/blog_IMG_1258.jpg)
 
-<img src="/img/blog_IMG_1224.jpg" />
+![ ](/img/blog_IMG_1224.jpg)
 
 ちなみに電車の中での話題
 

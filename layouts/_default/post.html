@@ -1,5 +1,4 @@
 {{ define "main" }}
-  <div class="post">
     <p class="post-meta">
     {{ .Date.Format "January 2, 2006" }}
     {{ range .Params.Tags}}
@@ -7,7 +6,10 @@
     {{ end }}
     </p>
     <h1 class="post-title">{{ .Title }}</h1>
-    {{ .Content }}
+    {{ $reAltIn := "<p><img src=\"([^\"]+)\" alt=\"([^\"]+)\" /></p>" }}
+    {{ $reAltOut := "<figure><img src=\"$1\" alt=\"$2\"><figcaption>$2</figcaption></figure>" }}
+    {{ $altContent := .Content | replaceRE $reAltIn $reAltOut | safeHTML }}
+    {{ $altContent }}
     <div class="post-related">
     {{ $posts := .Site.RegularPages.Related . | first 5 }}
     {{ $related := .Site.Params.Related }}
@@ -43,5 +45,4 @@
         <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
       </div>
     </div>
-  </div>
 {{ end }}

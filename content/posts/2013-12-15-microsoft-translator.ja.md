@@ -13,7 +13,7 @@ keywords: ['python', 'Microsoft Translator API', '自動翻訳']
 
 Windows accountでのサインインを求められるので、持っていない場合は"新規登録"ボタンをクリックしてアカウントを作成します。
 
-<img src="/img/blog_microsoft_translator01.png"/>
+![ ](/img/blog_microsoft_translator01.png)
 
 ## 2. ライブラリのインストール
 

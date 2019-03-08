@@ -8,7 +8,7 @@ eyecatch: /img/blog_cookpad_design.jpg
 
 京都のCAMPHOR-HOUSEにて、クックパッドのデザイン責任者・池田さんによる講演会が開催されました。「クックパッドのサービス開発とデザイン」というタイトルで、「決してインターネットに詳しいわけではない方にまでに幅広く支持されているデザインの裏側には、どういった工夫やこだわりがあるか」というお話をしていただきました。
 
-<img src="/img/blog_cookpad_design.jpg" />
+![ ](/img/blog_cookpad_design.jpg)
 
 ## デザインの原則
 

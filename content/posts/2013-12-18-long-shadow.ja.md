@@ -8,7 +8,7 @@ eyecatch: /img/blog_long_shadow00.png
 
 フラットデザインの台頭と素材サイトの恩恵によって、アプリのデザインにかかる工数はどんどん削減されていく傾向にあります。今回はそれらを組み合わせることで、ノンデザイナーでもさくっと作れるロングシャドウアイコンの作成方法をお伝えします。
 
-<img src="/img/blog_long_shadow00.png" class="image-small" />
+![ ](/img/blog_long_shadow00.png)
 
 ## 用意するもの
 
@@ -21,36 +21,36 @@ eyecatch: /img/blog_long_shadow00.png
 
 まずは薄い色で塗られた正方形を作成し、その上に単色アイコンを置きます。
 
-<img src="/img/blog_long_shadow01.png"/>
+![ ](/img/blog_long_shadow01.png)
 
 それらを別の場所にコピーして、さらにアイコンのコピーを枠外にも配置します。
 
-<img src="/img/blog_long_shadow02.png"/>
+![ ](/img/blog_long_shadow02.png)
 
 画面左に見える「ツール」から「ブレンドツール」を見つけてダブルクリックします。<br/>
 今回はステップ数を大きな数にして、オブジェクトの間をブレンドで埋め尽くします。OKを押すとマウスカーソルが変わるので、ふたつのアイコンを順番にクリックします。
 
-<img src="/img/blog_long_shadow03.png"/>
+![ ](/img/blog_long_shadow03.png)
 
 ふたつのアイコンが繋がったら、その状態で「オブジェクト > 分割・拡張」を選択します。
 
-<img src="/img/blog_long_shadow04.png"/>
+![ ](/img/blog_long_shadow04.png)
 
 無数のアイコンが作成されるので、「パスファインダー > 合体」でひとつにします。
 
-<img src="/img/blog_long_shadow05.png"/>
+![ ](/img/blog_long_shadow05.png)
 
 パスファインダーで作られた長いアイコンと正方形を選択して「オブジェクト > クリッピングマスク > 作成」をクリックします。
 
-<img src="/img/blog_long_shadow06.png"/>
+![ ](/img/blog_long_shadow06.png)
 
 ロングシャドウができました。
 
-<img src="/img/blog_long_shadow07.png"/>
+![ ](/img/blog_long_shadow07.png)
 
 影をアイコンの下に配置して、「暗くて濃い色」とグラデーションを適用します。角度135度・終端の不透明率20%くらいに設定するといい感じに仕上がります。
 
-<img src="/img/blog_long_shadow08.png"/>
+![ ](/img/blog_long_shadow08.png)
 
 以上、5分で作る簡単ロングシャドウアイコンでした。
 

@@ -15,4 +15,4 @@ keywords: ['振り返り', 'ドイツ']
 
 まだちょっと寒くてときどき雪が降る。
 
-<img src="/img/blog_life_in_germany03.jpg" />
+![ ](/img/blog_life_in_germany03.jpg)

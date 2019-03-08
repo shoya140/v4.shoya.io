@@ -154,22 +154,21 @@ twitter-widget {
     }
 }
 
-.post {
-    img {
-        max-height: $on-palm;
-        max-width: 100%;
-        position: relative;
-        display: block;
-        margin: 0 auto;
-        @include media-query($on-palm) {
-            max-width: calc(100% + 20px);
-            margin-left: -10px;
-            margin-right: -10px;
-        }
-    }
-    img.image-small {
-        max-width: 60%;
-        margin: 0 auto;
+img {
+    max-height: $on-palm;
+    max-width: 100%;
+    display: inline-block;
+}
+
+figure {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+
+    @include media-query($on-palm) {
+        max-width: calc(100% + 20px);
+        margin-left: -10px;
+        margin-right: -10px;
     }
 }
 
@@ -482,6 +481,7 @@ img.image-portrait{
     -moz-box-shadow: 0 0 5px #ebebeb;
     -o-box-shadow: 0 0 5px #ebebeb;
     -ms-box-shadow: 0 0 5px #ebebeb;
+
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;

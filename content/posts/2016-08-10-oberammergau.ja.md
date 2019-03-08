@@ -14,19 +14,19 @@ eyecatch: /img/blog_oberammergau10.jpg
 
 ペストが流行したとき1632年、オーバーアマガウの被害が奇跡的に少なかったことから、信仰あつい村の人々は神に感謝を込めて1634年以来380年以上も受難劇を演じ続けてきたとのこと。
 
-<img src="/img/blog_oberammergau01.jpg" />
+![ ](/img/blog_oberammergau01.jpg)
 
 衣装製作から出演まですべてアマチュアの村人たちでおこなう。
 
-<img src="/img/blog_oberammergau02.jpg" />
+![ ](/img/blog_oberammergau02.jpg)
 
 オーバーアマガウはフレスコ画(壁に直接描かれた絵)で有名な村でもある。村の家やレストランなどいたるところに描かれた絵を見ながら散策するのも楽しい。
 
-<img src="/img/blog_oberammergau03.jpg" />
+![ ](/img/blog_oberammergau03.jpg)
 
 村の中心から離れたところに童話を題材にしたフレスコ画がある。写真は赤ずきんちゃん。
 
-<img src="/img/blog_oberammergau04.jpg" />
+![ ](/img/blog_oberammergau04.jpg)
 
 ### ヴィースの巡礼教会
 
@@ -34,11 +34,11 @@ eyecatch: /img/blog_oberammergau10.jpg
 
 内部の装飾が豪華。今までで訪れた教会のなかで最も印象的かもしれない。
 
-<img src="/img/blog_oberammergau05.jpg" />
+![ ](/img/blog_oberammergau05.jpg)
 
-<img src="/img/blog_oberammergau06.jpg" />
+![ ](/img/blog_oberammergau06.jpg)
 
-<img src="/img/blog_oberammergau07.jpg" />
+![ ](/img/blog_oberammergau07.jpg)
 
 ### リンダーホーフ城
 
@@ -46,8 +46,8 @@ eyecatch: /img/blog_oberammergau10.jpg
 
 こちらも内装がとても豪華で感動した。キッチンで調理された料理がテーブルごと上の階のダイニングにあがる魔法の食卓など面白い仕掛けもあった。
 
-<img src="/img/blog_oberammergau08.jpg" />
+![ ](/img/blog_oberammergau08.jpg)
 
-<img src="/img/blog_oberammergau09.jpg" />
+![ ](/img/blog_oberammergau09.jpg)
 
-<img src="/img/blog_oberammergau10.jpg" />
+![ ](/img/blog_oberammergau10.jpg)

@@ -6,7 +6,7 @@ keywords: ['Evernote', 'ショートカットキー']
 eyecatch: /img/blog_evernote_shortcuts01.png
 ---
 
-<img src="/img/blog_evernote_shortcuts01.png" class="image-center">
+![ ](/img/blog_evernote_shortcuts01.png)
 
 Macのアプリケーションにはユーザ独自のショートカットキーを登録することができる。システム環境設定>キーボード>ショートカットを開いて、アプリケーションメニュー(画面左上にあるメニュー)の名前とキー入力の組み合わせを入力すると登録が完了だ。特にEvernoteにおいて普段よく使っているショートカットキーがいくつかあるので紹介する。
 

@@ -10,7 +10,7 @@ relations:
 
 [Paletta - HSV Color palette for every Programmer](http://paletta.mrk1869.com)
 
-<img src="/img/blog_paletta_code.png"/>
+![ ](/img/blog_paletta_code.png)
 
 ## 新機能
 
