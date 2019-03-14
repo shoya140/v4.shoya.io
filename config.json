@@ -13,6 +13,7 @@
       ":default"
     ]
   },
+  "enableGitInfo": true,
   "footnoteReturnLinkContents": "↩",
   "hasCJKLanguage": true,
   "summaryLength": 140,
