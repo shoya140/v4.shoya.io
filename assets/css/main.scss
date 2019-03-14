@@ -3,7 +3,7 @@ $huge-font-size: 24px;
 $large-font-size: 20px;
 $base-font-size: 16px;
 $small-font-size: 14px;
-$mini-font-size: 12px;
+$mini-font-size: 13px;
 $base-line-height: 1.7;
 $nav-height: 56px;
 
@@ -412,7 +412,7 @@ figure {
     padding-left: 2px;
 
     @include media-query($on-palm) {
-        font-size: $small-font-size;
+        font-size: $mini-font-size;
         padding-left: 0px;
     }
 }
@@ -434,8 +434,8 @@ figure {
     border-radius: 0.3rem;
 
     h3 {
+        margin-top: 10px;
         margin-bottom: 0;
-        margin-top: 0;
     }
 
     ul {
@@ -453,12 +453,13 @@ figure {
     }
 
     @include media-query($on-palm) {
-        padding: 8px;
+        padding: 12px 8px;
     }
 }
 
 .social {
     display: inline-block;
+    margin-top: 4px;
 }
 
 .fb_iframe_widget > span {

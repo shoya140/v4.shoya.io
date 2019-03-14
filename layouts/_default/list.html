@@ -1,5 +1,6 @@
 {{ define "main" }}
   {{ .Content }}
+  <span class="post-meta">
   {{ range $tagName, $entries := .Site.Taxonomies.tags }}
     {{ if in $.RelPermalink $tagName}}
       #{{ $tagName }}
@@ -7,6 +8,7 @@
       <a href='{{ "/tags/" | relLangURL }}{{ $tagName | urlize }}/'>#{{ $tagName }}</a>
     {{ end }}
   {{ end }}
+  </span>
   {{ range .Pages.ByPublishDate }}
   <div class="post-list-item">
     <a href="{{ .RelPermalink }}"></a>
