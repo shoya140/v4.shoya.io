@@ -5,7 +5,7 @@ tags: ['note']
 keywords: ['リクルート', 'インターン']
 ---
 
-[![ ](/img/blog_recruit_internship01.png)](http://recruit-jinji.jp/winter-internship2015/)
+![ ](/img/blog_recruit_internship01.png)
 
 2月中旬から16日間[RecruitHoldings Winter Internship2015](http://recruit-jinji.jp/winter-internship2015/)・Data Analystコースに参加しました。
 

@@ -8,7 +8,7 @@ keywords: ['SPAM MUSEUM', '作りました']
 メイワクメールをワクワクに変える。<br/>
 迷惑メール共有サイト「Spam Museum」スパムミュージアムを本日リリースしました。
 
-[![ ](/img/blog_spammuseum_ss.png)](http://meiwaku.me)
+![ ](/img/blog_spammuseum_ss.png)
 
 日常的に届く迷惑メール。<br/>
 世の中で送受信されるメールの約95％が迷惑メールだとも言われています。<br/>
