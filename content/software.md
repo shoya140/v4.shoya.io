@@ -4,6 +4,7 @@ title: Software
 
 ## iPhone
 
+* [MetaMotion Logger](https://itunes.apple.com/us/app/metamotion-logger/id1462047310)<br/>Meta Motionのセンサデータを可視化・記録するアプリ
 * [MEMELogger](https://itunes.apple.com/us/app/memelogger/id1073074817)<br/>J!NS MEME ESのセンサデータを可視化・記録するアプリ
 * [Swiper](https://itunes.apple.com/jp/app/swiper-zhi-gan-cao-zuodetodo/id631354108)<br/>直感的に操作できるシンプルなToDo/タスク管理アプリ
 
