@@ -21,7 +21,9 @@
         {{ end }}
       </ul>
     {{ end }}
-      <h3>{{ .Site.Params.PreviousAndNext }}</h3>
+      {{ if gt (len (where .Site.RegularPages "Section" "==" "posts")) 2 }}
+        <h3>{{ .Site.Params.PreviousAndNext }}</h3>
+      {{ end }}
       <ul>
       {{ with .NextInSection }}
         <li>{{ .Date.Format "06.01.02" }}&nbsp;<a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
