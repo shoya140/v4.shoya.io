@@ -40,7 +40,8 @@ for entry in bdata.entries:
 
     if os.path.exists('./static/preprint/' + key + '.pdf'):
         output += ' <a href="/preprint/' + key + '.pdf" target="_blank">PDF</a>'
-    output += ' <a href="/bibtex/' + key + '.bib" target="_blank">BibTeX</a>'
+    if 'to appear' not in output:
+        output += ' <a href="/bibtex/' + key + '.bib" target="_blank">BibTeX</a>'
 
     output = output.replace('{\\ss}', '&szlig;')
     output = output.replace('{\\"O}', '&Ouml;')

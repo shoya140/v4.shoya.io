@@ -16,11 +16,11 @@ title: "Publications"
 
 ## Extended Abstracts (Posters, Demos, and Workshop Papers)
 
-{{< pub "ishimaru2018hypermind" "jacob2018interest" "herurkar2018combining" "ohbayashi2018investigating" "santhosh2018estimating" "grossmann2018iql" "jacob2018gaze" "brishtel2018assessing" "ishimaru2017cognitive" "ishimaru2017towards" "kise2017quantified" "ishimaru2017arfled" "ishimaru2016cognitive" "ishimaru2016towards" "ishimaru2016wordometer" "ishimaru2016reading" "ishimaru2015quantifying" "kunze2015eye" "kunze2015smart" "tanaka2015nekoze" "ishimaru2015smart" "ishimaru2014brain" "ishimaru2014smarter" "ishimaru2014logging" "ishimaru2013eyetracking" "kunze2013reading">}}
+{{< pub "maruichi2019self" "ishimaru2019electrooculography" "ishimaru2018hypermind" "jacob2018interest" "herurkar2018combining" "ohbayashi2018investigating" "santhosh2018estimating" "grossmann2018iql" "jacob2018gaze" "brishtel2018assessing" "ishimaru2017cognitive" "ishimaru2017towards" "kise2017quantified" "ishimaru2017arfled" "ishimaru2016cognitive" "ishimaru2016towards" "ishimaru2016wordometer" "ishimaru2016reading" "ishimaru2015quantifying" "kunze2015eye" "kunze2015smart" "tanaka2015nekoze" "ishimaru2015smart" "ishimaru2014brain" "ishimaru2014smarter" "ishimaru2014logging" "ishimaru2013eyetracking" "kunze2013reading">}}
 
 ## Domestic Conference Papers
 
-1. 渡邉 洸, 石丸 翔也 and 荒川 豊. <b>インタラクティブなデジタル教科書の作成用ツールHyperMind Builderの開発および評価</b>, インタラクション2019, 2019, to appear.
+1. 渡邉 洸, 石丸 翔也 and 荒川 豊. <b>インタラクティブなデジタル教科書の作成用ツールHyperMind Builderの開発および評価</b>, インタラクション2019, pp. 778-783, 2019.
 
 1. Jochen Kuhn, Shoya Ishimaru, Syed Saqib Bukhari, Carina Heisel, Nicolas Großmann and Andreas Dengel. <b>"HyperMind, das antizipierende Schulbuch – Ein Beitrag zur Unterrichtsentwicklung"</b>. The World Education Leadership Symposium 2017, 2017.
 
