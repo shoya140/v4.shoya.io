@@ -4,6 +4,7 @@ title: Grammarlyのチェックを受けるためだけのエディタ
 tags: ["release"]
 keywords: ["Grammarly", "エディタ", "テキストエリア"]
 description: "手元の文章をGrammarlyのスペル・文法チェックに素早くかけるために、専用のWebページを作ってブックマークしておくと便利なことに気がついた。"
+eyecatch: /img/blog_grammarly.png
 ---
 
 ![ ](/img/blog_grammarly.png)
