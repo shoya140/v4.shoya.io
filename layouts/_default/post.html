@@ -1,6 +1,6 @@
 {{ define "main" }}
     <span class="post-meta">
-    {{ .Date.Format "2006.01.02" }} (Updated on <a href="https://github.com/shoya140/shoya.io/commits/master/content/{{ .File.Path }}">{{ .Lastmod.Format "2006.01.02" }}</a>)
+    {{ .Date.Format "2006.01.02" }} (<a href="https://github.com/shoya140/shoya.io/commits/master/content/{{ .File.Path }}">Updated on {{ .Lastmod.Format "2006.01.02" }}</a>)
     </span>
     <h1 class="post-title">{{ .Title }}</h1>
     {{ $reAltIn := "<p><img src=\"([^\"]+)\" alt=\"([^\"]+)\" /></p>" }}
@@ -8,9 +8,6 @@
     {{ $altContent := .Content | replaceRE $reAltIn $reAltOut | safeHTML }}
     {{ $altContent }}
     <div class="post-related">
-    {{ range .Params.Tags}}
-      <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}/'>#{{ . }}</a>
-    {{ end }}
     {{ $posts := .Site.RegularPages.Related . | first 5 }}
     {{ $related := .Site.Params.Related }}
     {{ with $posts.ByDate.Reverse }}

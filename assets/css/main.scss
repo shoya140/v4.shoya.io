@@ -1,18 +1,15 @@
 $font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-$huge-font-size: 24px;
-$large-font-size: 20px;
-$base-font-size: 16px;
-$small-font-size: 14px;
-$mini-font-size: 13px;
+$large-font-size: 1.3rem;
+$base-font-size: 1.0rem;
+$small-font-size: 0.85rem;
 $base-line-height: 1.7;
-$nav-height: 56px;
 
 $white-color: #ffffff;
 $gray-color: #f7f9f9;
 $black-color: #444444;
-$brand-color: #02396c;
-$accent-color: #ff4447;
+$brand-color: #2561a2;
 
+$nav-height: 56px;
 $on-palm: 530px;
 $content-width: 700px;
 
@@ -32,7 +29,7 @@ $content-width: 700px;
     100% {opacity: 1}
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
     font-weight: 600;
     font-size: $large-font-size;
     text-align: left;
@@ -43,12 +40,11 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-h1 {
-    font-size: $huge-font-size;
-}
-
-h3 {
+h3, h4, h5, h6 {
     font-size: $base-font-size;
+    font-weight: 600;
+    text-align: left;
+    hyphens: none;
 }
 
 dl, dd, ol, ul {
@@ -61,10 +57,6 @@ pre {
     padding: 8px;
     overflow-x: scroll;
     border-radius: 0.3rem;
-
-    @include media-query($on-palm) {
-        font-size: $mini-font-size;
-    }
 }
 
 code {
@@ -109,12 +101,29 @@ blockquote {
     font-style: italic;
     font-size: $small-font-size;
     color: lighten($black-color, 20%);
-    border-left: 4px solid lighten($brand-color, 60%);
+    border-left: 4px solid lighten($brand-color, 30%);
+
+    @include media-query($on-palm) {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
 }
 
 blockquote p {
     padding: 0;
     margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td:nth-child(1) {
+    width: 80px;
+    @include media-query($on-palm) {
+        width: 70px;
+    }
 }
 
 twitter-widget {
@@ -129,10 +138,11 @@ twitter-widget {
     }
 
     a {
-        color: $black-color;
+        color: #3c7cb4;
+        text-decoration: none;
 
         &:hover{
-            color: darken($black-color, 15%);
+            text-decoration: underline;
         }
     }
 
@@ -282,10 +292,11 @@ figure {
     text-align: center;
 
     a {
-        color: $black-color;
+        color: #3c7cb4;
+        text-decoration: none;
 
         &:hover{
-            color: darken($black-color, 15%);
+            text-decoration: underline;
         }
     }
 }
@@ -412,7 +423,6 @@ figure {
     padding-left: 2px;
 
     @include media-query($on-palm) {
-        font-size: $mini-font-size;
         padding-left: 0px;
     }
 }
@@ -461,6 +471,7 @@ figure {
 .social {
     display: inline-block;
     margin-top: 4px;
+    margin-bottom: 8px;
 }
 
 .fb_iframe_widget > span {
