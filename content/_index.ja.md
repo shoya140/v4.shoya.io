@@ -9,14 +9,14 @@ description: "カイザースラウテルン工科大学で工学博士号を取
 
 2015年度IPA未踏スーパークリエータ。2016年に大阪府立大学大学院工学研究科にて博士前期課程 (修士) を修了したのち渡欧。2019年にカイザースラウテルン工科大学で工学博士号を取得。現在はドイツ人工知能研究センター (DFKI) シニアリサーチャー。情報工学と認知科学を専門とし、テクノロジーによる知的能力拡張の研究に取り組んでいる。[[Google Scholar](https://scholar.google.com/citations?user=052bgSAAAAAJ)\]
 
-## 職歴
+<h2 class="profile">職歴</h2>
 
 |||
 |:---:|:---|
 |<tt>2019-現在</tt>|<a href="https://www.dfki.de/web/">ドイツ人工知能研究センター (DFKI)</a> シニアリサーチャー|
 |<tt>2016-2019</tt>|<a href="https://www.dfki.de/web/">ドイツ人工知能研究センター (DFKI)</a> リサーチャー|
 
-## 非常勤・アルバイト・インターンシップ歴
+<h2 class="profile">非常勤・アルバイト・インターンシップ</h2>
 
 |||
 |:---:|:---|
@@ -31,7 +31,7 @@ description: "カイザースラウテルン工科大学で工学博士号を取
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|<a href="https://pepabo.com/"/>株式会社Paperboy＆co.</a> アプリエンジニア アルバイト|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|<a href="https://markovlabo.net/?p=1214">株式会社はてな</a> サマーインターンシップ|
 
-## 学歴
+<h2 class="profile">学歴</h2>
 
 |||
 |:---:|:---|
@@ -41,7 +41,7 @@ description: "カイザースラウテルン工科大学で工学博士号を取
 |<tt>2010-2014</tt>|<a href="http://www.osakafu-u.ac.jp/">大阪府立大学</a> 工学部 知能情報工学科|
 ||└<a href="https://www.uni-kl.de">カイザースラウテルン工科大学</a> 留学 (6ヶ月)|
 
-## 獲得資金
+<h2 class="profile">獲得資金</h2>
 
 |||
 |:---:|:---|
@@ -49,7 +49,7 @@ description: "カイザースラウテルン工科大学で工学博士号を取
 |<tt>2017-2019</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K12728/">JSPS 科研費 若手 (B) 代表研究者</a>|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</tt>|<a href="https://www.ipa.go.jp/jinzai/mitou/2015/gaiyou_s-4.html">IPA 未踏IT人材発掘・育成事業</a>|
 
-## 活動・受賞歴など
+<h2 class="profile">活動・受賞歴など</h2>
 
 |||
 |:---:|:---|
@@ -80,7 +80,7 @@ description: "カイザースラウテルン工科大学で工学博士号を取
 |<tt>2012.06</tt>|<a href="https://www.cyberagent.co.jp/list/mockplan.html">株式会社サイバーエージェントモックプランコンテスト</a> 決勝|
 |<tt>2012.01</tt>|<a href="http://tech-tokyo.com/?p=679">学生のためのアプリ開発コンテストTech-Tokyo</a> 個人戦優勝|
 
-## 連絡先
+<h2 class="profile">連絡先</h2>
 
 |||
 |:---:|:---|

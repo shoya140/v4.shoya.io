@@ -11,14 +11,14 @@ Shoya Ishimaru is a Senior Researcher at the German Research Center for Artifici
 
 He is also a software developer [[software](/software/)]. He likes not only programming but designing beautiful software. As an internship/part-time engineer, he worked for many IT companies including paperboy&co., Hatena, and Recruit. In 2016, he received a title of MITOU Super Creator by Ministry of Economy, Trade, and Industry in Japan by developing a system for visualizing the mental state. He gave a number of invited talks at universities, high schools, and TEDx. His mission in life is to invent amazing applications and to satisfy people all over the world.
 
-## Work Experience
+<h2 class="profile">Work Experience</h2>
 
 |||
 |:---:|:---|
 |<tt>2019-*&nbsp;&nbsp;&nbsp;</tt>|Senior Researcher, <a href="http://www.dfki.de/web">German Research Center for Artificial Intelligence (DFKI)</a>|
 |<tt>2016-2019</tt>|Researcher, <a href="http://www.dfki.de/web">German Research Center for Artificial Intelligence (DFKI)</a>|
 
-## Part-Time Job and Internship
+<h2 class="profile">Part-Time Job and Internship</h2>
 
 |||
 |:---:|:---|
@@ -33,7 +33,7 @@ He is also a software developer [[software](/software/)]. He likes not only prog
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|Part-time software engineer, <a href="http://www.paperboy.co.jp/">Paperboy&co. Inc</a>|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|Engineering internship, <a href="http://www.hatena.ne.jp/">Hatena Co.</a>|
 
-## Education
+<h2 class="profile">Education</h2>
 
 |||
 |:---:|:---|
@@ -43,7 +43,7 @@ He is also a software developer [[software](/software/)]. He likes not only prog
 |<tt>2010-2014</tt>|Bachelor of Engineering, <a href="https://www.osakafu-u.ac.jp/en/">Osaka Prefecture University</a>|
 ||└Visited <a href="https://www.uni-kl.de/en/home/">University of Kaiserslautern</a> for 6 months|
 
-## Funds
+<h2 class="profile">Funds</h2>
 
 |||
 |:---:|:---|
@@ -51,7 +51,7 @@ He is also a software developer [[software](/software/)]. He likes not only prog
 |<tt>2017-2019</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K12728/">Representative, JSPS Grant-in-Aid for Young Scientists (B), FY2017-2019</a>|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</tt>     |<a href="https://www.ipa.go.jp/jinzai/mitou/2015/gaiyou_s-4.html">IPA Exploratory IT Human Resources Project (MITOU), FY2015</a>|
 
-## Activities
+<h2 class="profile">Activities</h2>
 
 |||
 |:---:|:---|
@@ -81,7 +81,7 @@ He is also a software developer [[software](/software/)]. He likes not only prog
 |<tt>2012.06</tt>|Final stage of <a href="https://www.cyberagent.co.jp/list/mockplan.html">Mock App Planning Contest, CyberAgent Inc</a>|
 |<tt>2012.01</tt>|Champion at <a href="http://tech-tokyo.com/?p=679">Tech-Tokyo, Application Development Contest for Students</a>|
 
-## Contact
+<h2 class="profile">Contact</h2>
 
 |||
 |:---:|:---|

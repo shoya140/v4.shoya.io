@@ -46,7 +46,7 @@ h1 {
 h2 {
     font-size: $large-font-size;
     @include media-query($on-palm) {
-        font-size: calc(1.05 * #{base-font-size});
+        font-size: $base-font-size;
     }
 }
 
@@ -74,7 +74,7 @@ code {
     pre {
         @include media-query($on-palm) {
             margin-left: calc(-1 * #{$wrapper-padding});
-            margin-right: clac(-1 * #{$wrapper-padding});
+            margin-right: calc(-1 * #{$wrapper-padding});
             padding-left: $wrapper-padding;
             padding-right: $wrapper-padding;
             border: none;
@@ -97,7 +97,12 @@ body {
     hyphens: auto;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
-	-ms-hyphens: auto;
+    -ms-hyphens: auto;
+
+    @include media-query($on-palm) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
 
 blockquote {
@@ -124,16 +129,41 @@ blockquote p {
 table {
     width: 100%;
     border-collapse: collapse;
+
+    @include media-query($on-palm) {
+        width: calc(100% + 2 * #{$wrapper-padding});
+        margin-left: calc(-1 * #{$wrapper-padding});
+        margin-right: calc(-1 * #{$wrapper-padding});
+    }
 }
 
-tr:nth-child(even) {
-	background: $gray-color;
+tr:nth-child(odd) {
+    @include media-query($on-palm) {
+        background: $gray-color;
+    }
+}
+
+td {
+    @include media-query($on-palm) {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
 }
 
 td:nth-child(1) {
     width: 80px;
     @include media-query($on-palm) {
         width: 90px;
+    }
+}
+
+td:nth-child(2) {
+    padding-right: #{$wrapper-padding};
+}
+
+.profile {
+    @include media-query($on-palm) {
+        text-align: center;
     }
 }
 
