@@ -9,9 +9,10 @@ $gray-color: #f7f9f9;
 $black-color: #444444;
 $brand-color: #2561a2;
 
-$nav-height: 56px;
-$on-palm: 530px;
 $content-width: 700px;
+$on-palm: 530px;
+$nav-height: 56px;
+$wrapper-padding: 15px;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
@@ -29,22 +30,28 @@ $content-width: 700px;
     100% {opacity: 1}
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
-    font-size: $large-font-size;
     text-align: left;
     hyphens: none;
+}
 
+h1 {
+    font-size: calc(1.2 * #{$large-font-size});
     @include media-query($on-palm) {
-        font-size: $base-font-size;
+        font-size: calc(1.1 * #{$base-font-size});
+    }
+}
+
+h2 {
+    font-size: $large-font-size;
+    @include media-query($on-palm) {
+        font-size: calc(1.05 * #{base-font-size});
     }
 }
 
 h3, h4, h5, h6 {
     font-size: $base-font-size;
-    font-weight: 600;
-    text-align: left;
-    hyphens: none;
 }
 
 dl, dd, ol, ul {
@@ -66,10 +73,10 @@ code {
 .highlight {
     pre {
         @include media-query($on-palm) {
-            margin-left: -10px;
-            margin-right: -10px;
-            padding-left: 10px;
-            padding-right: 10px;
+            margin-left: calc(-1 * #{$wrapper-padding});
+            margin-right: clac(-1 * #{$wrapper-padding});
+            padding-left: $wrapper-padding;
+            padding-right: $wrapper-padding;
             border: none;
             border-radius: 0;
         }
@@ -104,8 +111,8 @@ blockquote {
     border-left: 4px solid lighten($brand-color, 30%);
 
     @include media-query($on-palm) {
-        margin-left: -10px;
-        margin-right: -10px;
+        margin-left: calc(-1 * #{$wrapper-padding});
+        margin-right: calc(-1 * #{$wrapper-padding});
     }
 }
 
@@ -119,10 +126,14 @@ table {
     border-collapse: collapse;
 }
 
+tr:nth-child(even) {
+	background: $gray-color;
+}
+
 td:nth-child(1) {
     width: 80px;
     @include media-query($on-palm) {
-        width: 70px;
+        width: 90px;
     }
 }
 
@@ -148,7 +159,7 @@ twitter-widget {
 
     @include media-query($on-palm) {
         padding: 30px 0;
-        font-size: $small-font-size;
+        font-size: calc(0.90 * #{$base-font-size});
         text-align: justify;
     }
 }
@@ -176,9 +187,9 @@ figure {
     margin-right: 0;
 
     @include media-query($on-palm) {
-        max-width: calc(100% + 20px);
-        margin-left: -10px;
-        margin-right: -10px;
+        max-width: calc(100% + 2 * #{$wrapper-padding});
+        margin-left: calc(-1 * #{$wrapper-padding});
+        margin-right: calc(-1 * #{$wrapper-padding});
     }
 }
 
@@ -189,7 +200,7 @@ figure {
     margin-left: auto;
 
     @include media-query($on-palm) {
-        padding: 0 10px;
+        padding: 0 $wrapper-padding;
     }
 }
 
@@ -400,10 +411,8 @@ figure {
     }
 
     @include media-query($on-palm) {
-        margin-left: -10px;
-        margin-right: -10px;
-        // padding-left: 0;
-        // padding-right: 0;
+        margin-left: calc(-1 * #{$wrapper-padding});
+        margin-right: calc(-1 * #{$wrapper-padding});
     }
 }
 
@@ -412,7 +421,6 @@ figure {
     line-height: 1.2;
 
     @include media-query($on-palm) {
-        font-size: $base-font-size;
         padding-left: 0px;
     }
 }
@@ -433,7 +441,7 @@ figure {
     line-height: 1.2;
 
     @include media-query($on-palm) {
-        font-size: $small-font-size;
+        font-size: calc(0.98 * #{$small-font-size});
     }
 }
 
@@ -462,9 +470,9 @@ figure {
     }
 
     @include media-query($on-palm) {
-        padding: 12px 10px;
-        margin-left: -10px;
-        margin-right: -10px;
+        padding: 12px $wrapper-padding;
+        margin-left: calc(-1 * #{$wrapper-padding});
+        margin-right: calc(-1 * #{$wrapper-padding});
     }
 }
 
