@@ -9,6 +9,13 @@
           {{ $link := (printf "/%s/" .name) }}
           <a class='page-link {{ if in $.RelPermalink $link }}nav-active{{ else }}nav-hover{{ end }}' href='{{ $link | relLangURL }}'>{{ .display }}</a>
         {{ end }}
+        {{ if .IsTranslated }}
+          {{ range .Translations }}
+            <a class="language-icon nav-hover" href="{{ .RelPermalink }}"><img src="/img/icon_language.svg" /></a>
+          {{ end }}
+        {{ else }}
+          <a class="language-icon disabled-icon" href="#"><img src="/img/icon_language.svg" /></a>
+        {{ end }}
       </div>
     </nav>
   </div>
