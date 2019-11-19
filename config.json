@@ -41,7 +41,6 @@
           {"name": "software", "display": "Software"},
           {"name": "posts", "display": "Blog"}
         ],
-        "languageCode": "en",
         "language": "English page",
         "researchProject": "Research projects",
         "privateProject": "Private projects",
@@ -57,7 +56,6 @@
           {"name": "software", "display": "ソフトウェア"},
           {"name": "posts", "display": "ブログ"}
         ],
-        "languageCode": "ja",
         "language": "日本語のページ",
         "researchProject": "研究プロジェクト",
         "privateProject": "個人開発プロジェクト",
