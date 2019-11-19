@@ -1,11 +1,12 @@
 ---
 title: "Shoya Ishimaru"
-description: "Shoya Ishimaru is a Senior Researcher at the German Research Center for Artificial Intelligence (DFKI). His research interests are to invent new technologies augmenting abilities of human begins and investigating influences of the augmentations to human minds."
+keywords: ["Shoya Ishimaru", "石丸 翔也", "石丸翔也", "shoya140", "DFKI", "Kaiserslautern", "Portfolio", "ポートフォリオ"]
+description: "Shoya Ishimaru (石丸 翔也) is a Senior Researcher at the German Research Center for Artificial Intelligence (DFKI). His research interests are to invent new technologies augmenting abilities of human begins and investigating influences of the augmentations to human minds."
 ---
 
 <img src="/img/icon_portrait.jpg" class="image-portrait" width="150px" alt="Shoya Ishimaru">
 
-# Shoya Ishimaru
+# Shoya Ishimaru (石丸 翔也)
 
 Shoya Ishimaru is a Senior Researcher at the German Research Center for Artificial Intelligence (DFKI). His research interests are to invent new technologies augmenting abilities of human begins and investigating influences of the augmentations to human minds [[publications](/publications/), [Google Scholar](https://scholar.google.com/citations?user=052bgSAAAAAJ)\]. After receiving B.E. and M.E. degree in Electrical Engineering and Information Science from Osaka Prefecture University in 2014 and 2016, he defended his Ph.D in Engineering at the University of Kaiserslautern in 2019 (Dr.-Ing. with summa cum laude).
 
