@@ -11,7 +11,7 @@
         {{ end }}
         {{ if .IsTranslated }}
           {{ range .Translations }}
-            <a class="language-icon nav-hover" href="{{ .RelPermalink }}"><img src="/img/icon_language.svg" /></a>
+            <a class="language-icon nav-hover" href="{{ .RelPermalink }}" rel="alternate" hreflang="{{ .Site.Params.LanguageCode }}"><img src="/img/icon_language.svg" /></a>
           {{ end }}
         {{ else }}
           <a class="language-icon disabled-icon" href="#"><img src="/img/icon_language.svg" /></a>

@@ -4,7 +4,7 @@
       © 2012 - 2019 <a href='{{ .Site.BaseURL | relLangURL }}'>Shoya Ishimaru</a>
       {{ if .IsTranslated }}
         {{ range .Translations }}
-          | <a href="{{ .RelPermalink }}">{{ .Site.Params.Language }}</a>
+          | <a href="{{ .RelPermalink }}" rel="alternate" hreflang="{{ .Site.Params.LanguageCode }}">{{ .Site.Params.Language }}</a>
         {{ end }}
       {{ end }}
     </p>
