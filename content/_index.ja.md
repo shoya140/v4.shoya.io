@@ -13,33 +13,33 @@ description: "カイザースラウテルン工科大学で工学博士号を取
 
 |||
 |:---:|:---|
-|<tt>2019-現在</tt>|<a href="https://www.dfki.de/web/">ドイツ人工知能研究センター (DFKI)</a> シニアリサーチャー|
-|<tt>2016-2019</tt>|<a href="https://www.dfki.de/web/">ドイツ人工知能研究センター (DFKI)</a> リサーチャー|
+|<tt>2019-現在</tt>|<a href="https://www.dfki.de/web/">ドイツ人工知能研究センター (DFKI)</a> <span class="no-wrap">シニアリサーチャー</span>|
+|<tt>2016-2019</tt>|<a href="https://www.dfki.de/web/">ドイツ人工知能研究センター (DFKI)</a> <span class="no-wrap">リサーチャー</span>|
 
 <h2 class="profile">非常勤・アルバイト・インターンシップ</h2>
 
 |||
 |:---:|:---|
-|<tt>2016-現在</tt>|<a href="http://www.osakafu-u.ac.jp/">大阪府立大学</a> 客員研究員|
-|<tt>2014-現在</tt>|<a href="http://www.kmd.keio.ac.jp/jp/">慶應義塾大学KMD研究所</a> 研究員|
-|<tt>2016-2019</tt>|<a href="https://www.uni-kl.de">カイザースラウテルン工科大学</a> リサーチアソシエイト|
+|<tt>2016-現在</tt>|<a href="http://www.osakafu-u.ac.jp/">大阪府立大学</a> <span class="no-wrap">客員研究員</span>|
+|<tt>2014-現在</tt>|<a href="http://www.kmd.keio.ac.jp/jp/">慶應義塾大学KMD研究所</a> <span class="no-wrap">研究員</span>|
+|<tt>2016-2019</tt>|<a href="https://www.uni-kl.de">カイザースラウテルン工科大学</a> <span class="no-wrap">リサーチアソシエイト</span>|
 |<tt>2013-2015</tt>|<a href="https://life-is-tech.com/">株式会社ライフイズテック</a> メンター|
-|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</tt>|<a href="https://www.recruit.jp/">株式会社リクルートホールディングス</a> インターンシップ|
-|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014</tt>|<a href="https://www.livesense.co.jp/">株式会社リブセンス</a> エンジニア インターンシップ|
-|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014</tt>|<a href="https://info.cookpad.com/">クックパッド株式会社</a> サマーインターンシップ|
-|<tt>2012-2013</tt>|<a href="https://campus-inc.org/">株式会社Campus</a> エンジニア|
-|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|<a href="https://pepabo.com/"/>株式会社Paperboy＆co.</a> アプリエンジニア アルバイト|
-|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|<a href="https://markovlabo.net/?p=1214">株式会社はてな</a> サマーインターンシップ|
+|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</tt>|<a href="https://www.recruit.jp/">株式会社リクルートホールディングス</a> <span class="no-wrap">インターンシップ</span>|
+|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014</tt>|<a href="https://www.livesense.co.jp/">株式会社リブセンス</a> <span class="no-wrap">エンジニア インターンシップ</span>|
+|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014</tt>|<a href="https://info.cookpad.com/">クックパッド株式会社</a> <span class="no-wrap">サマーインターンシップ</span>|
+|<tt>2012-2013</tt>|<a href="https://campus-inc.org/">株式会社Campus</a> <span class="no-wrap">エンジニア</span>|
+|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|<a href="https://pepabo.com/"/>株式会社Paperboy＆co.</a> <span class="no-wrap">アプリエンジニア アルバイト</span>|
+|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|<a href="https://markovlabo.net/?p=1214">株式会社はてな</a> <span class="no-wrap">サマーインターンシップ</span>|
 
 <h2 class="profile">学歴</h2>
 
 |||
 |:---:|:---|
-|<tt>2016-2019</tt>|<a href="https://www.uni-kl.de">カイザースラウテルン工科大学</a> 博士課程 (Ph.D.)|
-|<tt>2014-2016</tt>|<a href="http://www.eng.osakafu-u.ac.jp/">大阪府立大学大学院</a> 工学研究科 博士前期課程 (修士)|
-||└<a href="http://www.univ-larochelle.fr/?lang=en">ラ・ロシェル大学</a> 留学 (1ヶ月)|
-|<tt>2010-2014</tt>|<a href="http://www.osakafu-u.ac.jp/">大阪府立大学</a> 工学部 知能情報工学科|
-||└<a href="https://www.uni-kl.de">カイザースラウテルン工科大学</a> 留学 (6ヶ月)|
+|<tt>2016-2019</tt>|<a href="https://www.uni-kl.de">カイザースラウテルン工科大学</a> <span class="no-wrap">博士課程 (Ph.D.)</span>|
+|<tt>2014-2016</tt>|<a href="http://www.eng.osakafu-u.ac.jp/">大阪府立大学大学院</a> 工学研究科 <span class="no-wrap">博士前期課程 (修士)</span>|
+||└<a href="http://www.univ-larochelle.fr/?lang=en">ラ・ロシェル大学</a> <span class="no-wrap">留学 (1ヶ月)</span>|
+|<tt>2010-2014</tt>|<a href="http://www.osakafu-u.ac.jp/">大阪府立大学</a> 工学部 <span class="no-wrap">知能情報工学科</span>|
+||└<a href="https://www.uni-kl.de">カイザースラウテルン工科大学</a> <span class="no-wrap">留学 (6ヶ月)</span>|
 
 <h2 class="profile">獲得資金</h2>
 

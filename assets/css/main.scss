@@ -94,7 +94,6 @@ body {
     background-color: $white-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
-    word-wrap : break-word;
     hyphens: auto;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
@@ -153,13 +152,14 @@ td {
 
 td:nth-child(1) {
     width: 80px;
-    @include media-query($on-palm) {
-        width: 90px;
-    }
 }
 
 td:nth-child(2) {
     padding-right: #{$wrapper-padding};
+}
+
+.no-wrap {
+    display: inline-block;
 }
 
 .profile {
@@ -190,8 +190,7 @@ twitter-widget {
 
     @include media-query($on-palm) {
         padding: 30px 0;
-        font-size: calc(0.90 * #{$base-font-size});
-        text-align: justify;
+        font-size: $small-font-size;
     }
 }
 
