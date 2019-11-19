@@ -53,10 +53,10 @@ description: "カイザースラウテルン工科大学で工学博士号を取
 
 |||
 |:---:|:---|
-|<tt>2019.10</tt>|<a href="http://ligp.gingerapp.co.jp/">ラーニングイノベーショングランプリ</a> 優秀賞|
-|<tt>2019.09</tt>|UbiComp/ISWC 2019併催チュートリアル<a href="http://eyewear.pro/eyewild2019/">EyeWild 2019</a>を運営|
+|<tt>2019.10</tt>|<a href="http://ligp.gingerapp.co.jp/">ラーニングイノベーショングランプリ</a> 優秀ラーニングイノベーション賞|
+|<tt>2019.09</tt>|UbiComp/ISWC 2019併催チュートリアル<a href="http://eyewear.pro/eyewild2019/">EyeWild 2019</a>運営|
 |<tt>2019.05</tt>|博士号公聴会にてsumma cum laude (最優秀) の称号を授与される|
-|<tt>2019.03</tt>|PerCom 2019併催ワークショップ<a href="https://perpersuasion.ubi-lab.com/?fbclid=IwAR1QiuoopBcAkAVmGFygEcY4mYqrO-KjhzXZF664nhMdBb1uK1o5tFp7E4I">PerPersuasion 2019</a>を運営|
+|<tt>2019.03</tt>|PerCom 2019併催ワークショップ<a href="https://perpersuasion.ubi-lab.com/?fbclid=IwAR1QiuoopBcAkAVmGFygEcY4mYqrO-KjhzXZF664nhMdBb1uK1o5tFp7E4I">PerPersuasion 2019</a>運営|
 |<tt>2018.11</tt>|<a href="https://matsuyamanishi-s.esnet.ed.jp/blogs/blog_entries/view/8/0abe0f7786c77d65af9a660b128dde44?frame_id=8&fbclid=IwAR226cJyDDiti4NmXCCdzy836fhK8j3PGQ533VezuaQxm9ZOCibGMKG0zIo">愛媛県立松山西中等教育学校創立記念講演</a>|
 |<tt>2018.10</tt>|<a href="http://ubicomp.org/ubicomp2018/">UbiComp/ISWC 2018</a> Poster Track Honorable Mention|
 |<tt>2017.07</tt>|<a href="http://tedxnagoyau.com">TEDxNagoyaU</a> 登壇|
@@ -69,7 +69,7 @@ description: "カイザースラウテルン工科大学で工学博士号を取
 |<tt>2015.07</tt>|<a href="https://mashupawards.doorkeeper.jp/events/25862">Mashup Awards主催 JINS MEME HACKATHON</a> 優勝|
 |<tt>2015.06</tt>|<a href="https://www.ipa.go.jp/jinzai/mitou/2015/koubokekka_index.html">2015年度 未踏IT人材発掘・育成事業</a> 採択|
 |<tt>2015.04</tt>|<a href="http://www.microsoft.com/ja-jp/education/imagine-cup.aspx">Imagine Cup 2015</a> イノベーション部門 日本予選大会Best3|
-|<tt>2015.03</tt>|<a href="http://recruit-jinji.jp/adf_fes2015/">APPLICATION DEVELOPER FESTIVAL</a> を運営|
+|<tt>2015.03</tt>|<a href="http://recruit-jinji.jp/adf_fes2015/">APPLICATION DEVELOPER FESTIVAL</a> 運営|
 |<tt>2014.10</tt>|<a href="http://imabarihigashi-s.esnet.ed.jp/08communication/261006-challengehighschool-kouen/261006-challengehighschool-koien.html">えひめ学力向上チャレンジハイスクール事業 同世代のトップランナーによる講演会</a>|
 |<tt>2014.06</tt>|<a href ="https://sites.google.com/site/miru2014okayama/wakate">MIRU2014 若手プログラム</a> Best Presentation Award, Audience Award|
 |<tt>2013.05</tt>|<a href="http://jp.startup-dating.com/2013/05/super-hackathon-2013-in-osak">スーパーハッカソン2013</a> 3位・審査委員賞|
