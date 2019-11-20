@@ -44,6 +44,7 @@
         "language": "English page",
         "researchProject": "Research projects",
         "privateProject": "Private projects",
+        "updatedOn": "Updated on",
         "related": "Related posts",
         "previousAndNext": "Previous and next posts"
       }
@@ -59,6 +60,7 @@
         "language": "日本語のページ",
         "researchProject": "研究プロジェクト",
         "privateProject": "個人開発プロジェクト",
+        "UpdatedOn": "最終更新日:",
         "related": "関連記事",
         "previousAndNext": "前後の記事"
       }
