@@ -458,11 +458,17 @@ figure {
 .post-meta {
     font-size: $small-font-size;
     margin: 0;
-    padding-left: 2px;
+    padding-left: 1px;
+}
 
-    @include media-query($on-palm) {
-        padding-left: 0px;
-    }
+.post-tags {
+    font-size: $small-font-size;
+    margin-bottom: 10px;
+    text-align: center;;
+}
+
+.post-tag {
+    margin-right: 8px;
 }
 
 .post-link {
@@ -471,7 +477,7 @@ figure {
     line-height: 1.2;
 
     @include media-query($on-palm) {
-        font-size: calc(0.98 * #{$small-font-size});
+        font-size: $small-font-size
     }
 }
 
