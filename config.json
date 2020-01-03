@@ -30,6 +30,11 @@
   "params": {
     "eyecatch": "/img/icon_dot_small.png"
   },
+  "outputFormats" : {
+    "RSS": {
+      "baseName": "feed"
+    }
+  },
   "DefaultContentLanguage": "en",
   "Languages": {
     "en": {
