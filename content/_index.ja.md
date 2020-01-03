@@ -1,5 +1,5 @@
 ---
-title: "石丸 翔也"
+title: "石丸翔也のポートフォリオ"
 keywords: ["Shoya Ishimaru", "石丸 翔也", "石丸翔也", "shoya140", "DFKI", "Kaiserslautern", "Portfolio", "ポートフォリオ"]
 description: "石丸翔也は工学博士・ソフトウェア開発者。ドイツ人工知能研究センター (DFKI) シニアリサーチャー。情報工学と認知科学を専門とし、テクノロジーによる知的能力拡張の研究に取り組んでいる。"
 ---

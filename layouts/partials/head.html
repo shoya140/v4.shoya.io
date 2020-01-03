@@ -3,16 +3,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="author" href="https://plus.google.com/u/0/102413339779614193497/posts" />
+
+  {{ $title := (printf "%s - %s" .Title (replace .Site.Title "." "\\.")) }}
+
   {{ if isset .Params "keywords" }}
     <meta name="keywords" content='{{ delimit .Keywords ", " }}' />
   {{ end }}
 
   {{ $description := ""}}
-  {{ if isset .Params "description" }}
-    {{ $description = .Description }}
-    <meta name="description" content="{{ $description }}" />
-  {{ else }}
+  {{ if eq .Description "" }}
     {{ $description = .Summary }}
+  {{ else }}
+    {{ $description = .Description }}
   {{ end }}
 
   {{ $eyecatch := ""}}
@@ -22,7 +24,7 @@
     {{ $eyecatch = .Site.Params.Eyecatch | absURL }}
   {{ end }}
 
-  {{ $title := (printf "%s - %s" .Title (replace .Site.Title "." "\\.")) }}
+  <meta name="description" content="{{ $description }}" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@shoya140" />
   <meta name="twitter:creator" content="@shoya140" />
