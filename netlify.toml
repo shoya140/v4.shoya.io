@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "LD_LIBRARY_PATH=$HOME/stdc++6/usr/lib/x86_64-linux-gnu ./hugo --minify --gc"
+command = "hugo --gc --minify"
 
 [[redirects]]
   from = "/*"
