@@ -180,7 +180,7 @@ twitter-widget {
     }
 
     a {
-        color: #3c7cb4;
+        color: $brand-color;
         text-decoration: none;
 
         &:hover{
@@ -333,7 +333,7 @@ figure {
     text-align: center;
 
     a {
-        color: #3c7cb4;
+        color: $brand-color;
         text-decoration: none;
 
         &:hover{
