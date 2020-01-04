@@ -66,7 +66,7 @@ He is also a software developer [[software](/software/)]. He likes not only prog
 |<tt>2017.03</tt>|Demonstrated at <a href="https://www.dfki.de/web/presse/pressemitteilung/2017/HyperMind"> CeBIT in Hannover</a>|
 |<tt>2016.06</tt>|Certificated as <a href="http://www.meti.go.jp/english/press/2016/0602_01.html">Super Creator by METI and IPA Japan</a>|
 |<tt>2015.11</tt>|Participated semifinal stage of <a href="http://mashupaward.jp/">MashupAwards11</a>|
-|<tt>2015.11</tt>|Received <a href="http://shoya.io/jp/posts/honor2/">President's Honor in Osaka Prefecture University</a>|
+|<tt>2015.11</tt>|Received <a href="http://shoya.io/ja/posts/honor2/">President's Honor in Osaka Prefecture University</a>|
 |<tt>2015.09</tt>|Best Presentation Award at <a href="http://www.osakafu-u.ac.jp/">Poster Presentation in Osaka Prefecture University</a>:|
 |<tt>2015.08</tt>|Champion at <a href="http://recruit-jinji.jp/workshop2015/">2Weeks US Workshop 2015 by Recruit Holdings Co.</a>|
 |<tt>2015.07</tt>|Champion at <a href="https://mashupawards.doorkeeper.jp/events/25862">JINS MEME HACKATHON Powered by Mashup Awards</a>|
@@ -76,7 +76,7 @@ He is also a software developer [[software](/software/)]. He likes not only prog
 |<tt>2014.06</tt>|Best Presentation Award, Audience Award at <a href="https://sites.google.com/site/miru2014okayama/wakate">MIRU2014 Young Researchers' Program</a>|
 |<tt>2013.05</tt>|3rd place at <a href="http://jp.startup-dating.com/2013/05/super-hackathon-2013-in-osak">Super Hackathon 2013 in Osaka</a>|
 |<tt>2012.12</tt>|Champion at <a href="http://bussorenre.com/?p=45">Kyoto Hackathon</a></a>|
-|<tt>2012.11</tt>|Received <a href="http://shoya.io/jp/posts/honor/">President's Honor in Osaka Prefecture University</a>|
+|<tt>2012.11</tt>|Received <a href="http://shoya.io/ja/posts/honor/">President's Honor in Osaka Prefecture University</a>|
 |<tt>2012.11</tt>|Semifinal stage of <a href="http://ma8.mashupaward.jp/">MashupAwards8</a>|
 |<tt>2012.08</tt>|Champion at <a href="http://internship.blog.klab.jp/2012/08/10/ptlab1-day1/">Prototyping Lab, KLab Inc</a>|
 |<tt>2012.06</tt>|Final stage of <a href="https://www.cyberagent.co.jp/list/mockplan.html">Mock App Planning Contest, CyberAgent Inc</a>|

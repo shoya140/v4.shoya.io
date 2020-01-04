@@ -76,7 +76,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |<tt>2017.03</tt>|世界最大規模の技術展示会<a href="https://www.dfki.de/web/presse/pressemitteilung/2017/HyperMind">CeBIT</a>にて展示</a>|
 |<tt>2016.06</tt>|<a href="https://www.ipa.go.jp/about/press/20160602.html">2015年度IPA未踏スーパークリエータ</a>に認定される|
 |<tt>2015.11</tt>|<a href="http://mashupaward.jp/">MashupAwards11</a> 準決勝|
-|<tt>2015.11</tt>|<a href="http://shoya.io/jp/posts/honor2/">平成27年度大阪府立大学学長顕彰</a> 受賞|
+|<tt>2015.11</tt>|<a href="http://shoya.io/ja/posts/honor2/">平成27年度大阪府立大学学長顕彰</a> 受賞|
 |<tt>2015.09</tt>|<a href="http://www.osakafu-u.ac.jp/">大阪府立大学 知能情報工学分野/情報数理科学専攻 ポスター発表会</a> 優秀発表賞|
 |<tt>2015.08</tt>|<a href="http://recruit-jinji.jp/workshop2015/">株式会社リクルートホールディングス 2Weeks US Workshop 2015</a> 優勝|
 |<tt>2015.07</tt>|<a href="https://mashupawards.doorkeeper.jp/events/25862">Mashup Awards主催 JINS MEME HACKATHON</a> 優勝|
@@ -87,7 +87,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |<tt>2014.06</tt>|<a href ="https://sites.google.com/site/miru2014okayama/wakate">MIRU2014 若手プログラム</a> Best Presentation Award, Audience Award|
 |<tt>2013.05</tt>|<a href="http://jp.startup-dating.com/2013/05/super-hackathon-2013-in-osak">スーパーハッカソン2013</a> 3位・審査委員賞|
 |<tt>2012.12</tt>|<a href="http://bussorenre.com/?p=45">KyotoHackathon</a> 優勝|
-|<tt>2012.11</tt>|<a href="http://shoya.io/jp/posts/honor/">平成24年度大阪府立大学学長顕彰</a> 受賞|
+|<tt>2012.11</tt>|<a href="http://shoya.io/ja/posts/honor/">平成24年度大阪府立大学学長顕彰</a> 受賞|
 |<tt>2012.11</tt>|<a href="http://ma8.mashupaward.jp/">MashupAwards8</a> 準決勝|
 |<tt>2012.08</tt>|<a href="http://internship.blog.klab.jp/2012/08/10/ptlab1-day1/">KLab株式会社第1回プロトタイピングラボ</a> 優勝|
 |<tt>2012.06</tt>|<a href="https://www.cyberagent.co.jp/list/mockplan.html">株式会社サイバーエージェントモックプランコンテスト</a> 決勝|

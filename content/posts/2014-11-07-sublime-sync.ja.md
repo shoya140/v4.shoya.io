@@ -6,7 +6,7 @@ keywords: ['Sublime Text', 'Dropbox', 'git', '同期']
 eyecatch: /img/blog_sublime_sync.png
 ---
 
-[Sublime Text3導入メモ](/jp/posts/hello-sublime/)で設定ファイルをDropboxで同期する方法を書いたのだけれど、意図しないタイミングで設定が同期されてコンフリクトが頻繁に発生するので、設定をGitで管理することにした。
+[Sublime Text3導入メモ](/ja/posts/hello-sublime/)で設定ファイルをDropboxで同期する方法を書いたのだけれど、意図しないタイミングで設定が同期されてコンフリクトが頻繁に発生するので、設定をGitで管理することにした。
 
 ![ ](/img/blog_sublime_sync.png)
 

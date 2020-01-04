@@ -6,7 +6,7 @@ keywords: ['ドイツ', '観光']
 eyecatch: /img/blog_neuschwanstein02.jpg
 ---
 
-[前回](/jp/posts/oberammergau/)に続きバイエルン州の観光の様子です。道路を挟んで左に見えるのがノイシュバンシュタイン城、右がホーエンシュバンガウ城です。
+[前回](/ja/posts/oberammergau/)に続きバイエルン州の観光の様子です。道路を挟んで左に見えるのがノイシュバンシュタイン城、右がホーエンシュバンガウ城です。
 
 ![ ](/img/blog_neuschwanstein01.jpg)
 
