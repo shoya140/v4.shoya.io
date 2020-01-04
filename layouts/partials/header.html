@@ -7,7 +7,11 @@
       <div class="trigger">
         {{ range .Site.Params.Navigation }}
           {{ $link := (printf "/%s/" .name) }}
-          <a class='page-link {{ if in $.RelPermalink $link }}nav-active{{ else }}nav-hover{{ end }}' href='{{ $link | relLangURL }}'>{{ .display }}</a>
+          {{ if eq $link "/posts/"}}
+            <a class='page-link {{ if or (in $.RelPermalink $link) (in $.RelPermalink "/tags/") }}nav-active{{ else }}nav-hover{{ end }}' href='{{ $link | relLangURL }}'>{{ .display }}</a>
+          {{ else }}
+            <a class='page-link {{ if in $.RelPermalink $link }}nav-active{{ else }}nav-hover{{ end }}' href='{{ $link | relLangURL }}'>{{ .display }}</a>
+          {{ end }}
         {{ end }}
         {{ if .IsTranslated }}
           {{ range .Translations }}

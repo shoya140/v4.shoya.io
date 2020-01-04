@@ -423,6 +423,10 @@ figure {
     -webkit-transition: all .2s;
     transition: all .2s;
 
+    &:last-child {
+        border-bottom: 1px solid darken($gray-color, 4%);
+    }
+
     &:hover {
         color: $white-color;
         background-color: $brand-color;

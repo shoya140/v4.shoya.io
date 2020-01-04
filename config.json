@@ -50,7 +50,8 @@
         "privateProject": "Private projects",
         "updatedOn": "Updated on",
         "related": "Related posts",
-        "previousAndNext": "Previous and next posts"
+        "previousAndNext": "Previous and next posts",
+        "andMore": "... and more posts in English"
       }
     },
     "ja": {
@@ -66,7 +67,8 @@
         "privateProject": "個人開発プロジェクト",
         "UpdatedOn": "最終更新日:",
         "related": "関連記事",
-        "previousAndNext": "前後の記事"
+        "previousAndNext": "前後の記事",
+        "andMore": "日本語の最新の記事"
       }
     }
   }
