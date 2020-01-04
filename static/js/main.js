@@ -9,6 +9,15 @@ Array.from(document.querySelectorAll('.mail button'), function (e) {
   })
 })
 
+Array.from(document.querySelectorAll('#more'), function (e) {
+  e.addEventListener('click', function () {
+    Array.from(document.querySelectorAll('.invisible'), function (e) {
+      e.classList.remove('invisible')
+    })
+    e.classList.add('invisible')
+  })
+})
+
 const query = 'a[href^="http"]:not([href*="' + location.hostname + '"])'
 Array.from(document.querySelectorAll(query), function(e) {
   e.setAttribute('target', '_blank')
