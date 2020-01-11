@@ -11,7 +11,8 @@ The versions of a smartphone supporting stable connection to JINS MEME ES_R are 
 
 For instance, the data stream stops after 20 seconds on the latest version of Android. However, I identified in which files does Android define the intervals, and modifying the parameters manually worked well for the connection. This blog post explains how to build a custom Android which supports such a fast and stable BLE connection.
 
-> **TL;DR**: [my prebuilt image for Nexus 5X (557 MB)](https://www.dropbox.com/s/4o84zqopoeo5n5m/nexus5x-android-81.zip?dl=1) is also available. If you have Nexus 5X, extract the zip file and install it by following the procedures from Step 6. **Warning**: Flashing an operating system of your phone deletes all data and voids a warranty. It can leave the device in an irrecoverable state. Please proceed it at your own risk.
+> **TL;DR**: my prebuilt images of [Android 8.1 for Nexus 5X (557 MB)](https://www.dropbox.com/s/4o84zqopoeo5n5m/nexus5x-android-81.zip?dl=1) and [Android 10 for Pixel 3a (837 MB)](https://www.dropbox.com/s/mvuw2ip176zvg6z/pixel3a-android10.zip?dl=0) are also available. If you have these devices, install them by following the procedures from Step 6.<br>
+> **Warning**: Flashing an operating system of your phone deletes all data and voids a warranty. It can leave the device in an irrecoverable state. Please proceed it at your own risk.
 
 ![ ](/img/blog_android_build.png)
 
