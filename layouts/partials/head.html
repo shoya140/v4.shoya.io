@@ -39,6 +39,7 @@
   <title>{{ $title }}</title>
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="shortcut icon" href='{{ "favicon.ico" | absURL }}' />
+  <link rel="search" type="application/opensearchdescription+xml" title="shoya.io" href='{{ "opensearch.xml" | absURL }}'>
   {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
