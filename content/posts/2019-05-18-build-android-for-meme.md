@@ -30,7 +30,7 @@ $ sudo apt-get install -y openjdk-8-jdk python git-core gnupg flex bison gperf b
 
 ## 2. Fetch source codes of Android OS
 
-After installing required packages, download source codes from Android Open Source Project and checkout codes to a specific version. **Repo** (git wrapper) is required for the procedures.
+After installing required packages, download source codes from Android Open Source Project and checkout codes to a specific version. **Repo** (git wrapper) is required for the procedures. The tag name "android-8.1.0_r52" can be changed to the version which you want to install. [A list of tags supporting each device is available here](https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds). An argument "-j8" depends on the number of CPUs. You can check the number by "$ nproc". It should be "-j4" if there are four cores.
 
 ``` bash
 $ mkdir ~/bin
@@ -40,38 +40,35 @@ $ source ~/.bashrc
 $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 $ chmod u+x ~/bin/repo
 
-$ mkdir ~/android
-$ cd ~/android
+$ mkdir ~/android-src
+$ cd ~/android-src
 
 $ repo init -u https://android.googlesource.com/platform/manifest -b android-8.1.0_r52
 $ repo sync -j8
 # This process took 30 minutes on t2.2xlarge.
 ```
 
-The tag name "android-8.1.0_r52" can be changed to the version which you want to install. A list of tags supporting each device is available [here](https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds). An argument "-j8" depends on the number of CPUs. You can check the number by "$ nproc". It should be "-j4" if there are four cores.
-
 ## 3. Edit codes related to BLE connection interval
 
-The acceptable connection interval is defined in two files. Modify them by your favorite editor.
+The acceptable connection interval is defined in two files. Modify them with your favorite editor.
 
 ``` bash
-$ vim packages/apps/Bluetooth/res/values/config.xml
+$ vim ~/android-src/packages/apps/Bluetooth/res/values/config.xml
 - <integer name="gatt_high_priority_min_interval">9</integer>
 + <integer name="gatt_high_priority_min_interval">6</integer>
 
-$ vim system/bt/stack/include/btm_ble_api_types.h
+$ vim ~/android-src/system/bt/stack/include/btm_ble_api_types.h
 - #define BTM_BLE_CONN_INT_MIN_LIMIT 0x0009
 + #define BTM_BLE_CONN_INT_MIN_LIMIT 0x0006
 ```
 
-## 4. (Optional) download proprietary binaries
+## 4. Copy proprietary binaries
 
-Some hardware specific proprietary codes are not open sourced. I tested building Android OS without them and found that a phone works. But involving them improves the performance. Find correct binaries from
-[this link](https://developers.google.com/android/drivers) and put them to the root directory of the project as "vendors".
+Some hardware specific proprietary codes are not open sourced. I tested building Android OS without them and found that a phone works. But involving them improves the performance. [Find correct binaries from this link](https://developers.google.com/android/drivers) and put them to the root directory of the project as "vendor".
 
 ``` bash
-$ mkdir ~/vendor-binaries
-$ cd ~/vendor-binaries
+$ mkdir ~/android-vendor-binaries
+$ cd ~/android-vendor-binaries
 
 $ wget https://dl.google.com/dl/android/aosp/lge-bullhead-opm7.181205.001-bb4176a6.tgz
 $ tar -xzvf lge-bullhead-opm7.181205.001-bb4176a6.tgz
@@ -81,49 +78,55 @@ $ wget https://dl.google.com/dl/android/aosp/qcom-bullhead-opm7.181205.001-89810
 $ tar -xzvf qcom-bullhead-opm7.181205.001-89810045.tgz
 $ ./extract-qcom-bullhead.sh
 
-$ cp -r vendors ~/android/
+$ cp -r vendor ~/android-src/
 ```
 
 ## 5. Build
 
 ``` bash
+$ cd ~/android-src
 $ make clobber
 $ source build/envsetup.sh
-$ lunch aosp_bullhead-userdebug
+$ lunch
+# Select the name of your target device (Nexus 5X: aosp_bullhead-userdebug).
+# https://developers.google.com/android/images
 
 $ make -j8
 # This process took 4 hours on t2.2xlarge.
-# => OS images will be exported to out/target/product/bullhead/
 ```
+
+OS images will be exported to ~/android-src/out/target/product/TARGET_DEVICE/. Copy them to a directory easy to be found.
 
 ``` bash
-$ mkdir ~/dist
-$ cp ~/android/out/target/product/bullhead/\*.img ~/dist/
+$ mkdir ~/android-dist
+$ cp ~/android-src/out/target/product/bullhead/*.img ~/android-dist/
 ```
-
-"$ lunch" without an argument returns a list of supported targets.
 
 ## 6. Unlock oem lock and flash Android OS
 
-Install [Android Platform-Tools](https://developer.android.com/studio/releases/platform-tools.html)
+Overwrite OS images by using [Android Platform-Tools](https://developer.android.com/studio/releases/platform-tools.html).
 
 ``` bash
 $ adb reboot bootloader
 $ fastboot flashing unlock
 
-$ fastboot flash boot boot.img
-$ fastboot flash system system.img
-$ fastboot flash userdata userdata.img
-$ fastboot flash vendor vendor.img  # if vendor.img exists.
+$ cd ~/android-dist
+$ env ANDROID_PRODUCT_OUT=`pwd` bash -c `fastboot flashall -w`
+
+# ...or flash images manually.
+# $ fastboot flash boot boot.img
+# $ fastboot flash system system.img
+# $ fastboot flash userdata userdata.img
+# $ fastboot flash vendor vendor.img
 ```
 
 ## 7. Test BLE connection
 
-Install [Official DataLogger](https://github.com/jins-meme/ES_R-DataLogger-for-Android) or [MEMELogger](https://play.google.com/store/apps/details?id=io.shoya.memelogger_android_academic) (my unofficial data logging application) for testing the stable BLE connection. Installing from an [apk image](https://www.dropbox.com/s/a8fj360oq82u7js/memelogger-academic-v0.4.0.apk?dl=1) may be the easiest way because the open source Android OS doesn't include Google Play App. Here are sample commands to download and install MEMELogger on a terminal.
+Install [Official DataLogger](https://github.com/jins-meme/ES_R-DataLogger-for-Android) or [MEMELogger](https://play.google.com/store/apps/details?id=io.shoya.memelogger_android_academic) (my unofficial data logging application) for testing the stable BLE connection. Installing from an [apk image](https://www.dropbox.com/s/3ng48knt6nanxm3/memelogger-academic-v0.5.0.apk?dl=1) may be the easiest way because the open source Android OS doesn't include Google Play App. Here are sample commands to download and install MEMELogger on a terminal.
 
 ``` bash
-$ wget https://www.dropbox.com/s/a8fj360oq82u7js/memelogger-academic-v0.4.0.apk
-$ adb install memelogger-academic-v0.4.0.apk
+$ wget https://www.dropbox.com/s/3ng48knt6nanxm3/memelogger-academic-v0.5.0.apk
+$ adb install memelogger-academic-v0.5.0.apk
 ```
 
 If everything works well, data will be streamed for more than 20 seconds.
