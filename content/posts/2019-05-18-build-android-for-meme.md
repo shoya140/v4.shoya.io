@@ -112,7 +112,7 @@ $ adb reboot bootloader
 $ fastboot flashing unlock
 
 $ cd ~/android-dist
-$ env ANDROID_PRODUCT_OUT=`pwd` bash -c `fastboot flashall -w`
+$ export ANDROID_PRODUCT_OUT=`pwd`; fastboot flashall -w
 
 # ...or flash images manually.
 # $ fastboot flash boot boot.img
@@ -123,11 +123,11 @@ $ env ANDROID_PRODUCT_OUT=`pwd` bash -c `fastboot flashall -w`
 
 ## 7. Test BLE connection
 
-Install [Official DataLogger](https://github.com/jins-meme/ES_R-DataLogger-for-Android) or [MEMELogger](https://play.google.com/store/apps/details?id=io.shoya.memelogger_android_academic) (my unofficial data logging application) for testing the stable BLE connection. Installing from an [apk image](https://www.dropbox.com/s/3ng48knt6nanxm3/memelogger-academic-v0.5.0.apk?dl=1) may be the easiest way because the open source Android OS doesn't include Google Play App. Here are sample commands to download and install MEMELogger on a terminal.
+Install [Official DataLogger](https://github.com/jins-meme/ES_R-DataLogger-for-Android) or [MEMELogger](https://play.google.com/store/apps/details?id=io.shoya.memelogger_android_academic) (my unofficial data logging application) for testing the stable BLE connection. Installing from an [apk image](https://www.dropbox.com/s/msaanrd8hjmcw3a/memelogger-academic-v0.6.0.apk?dl=1) may be the easiest way because the open source Android OS doesn't include Google Play App. Here are sample commands to download and install MEMELogger on a terminal.
 
 ``` bash
-$ wget https://www.dropbox.com/s/3ng48knt6nanxm3/memelogger-academic-v0.5.0.apk
-$ adb install memelogger-academic-v0.5.0.apk
+$ wget https://www.dropbox.com/s/msaanrd8hjmcw3a/memelogger-academic-v0.6.0.apk
+$ adb install memelogger-academic-v0.6.0.apk
 ```
 
 If everything works well, data will be streamed for more than 20 seconds.
