@@ -20,15 +20,15 @@
     {{ end }}
       {{ if gt (len (where .Site.RegularPages "Section" "==" "posts")) 2 }}
         <h3>{{ .Site.Params.PreviousAndNext }}</h3>
+        <ul>
+        {{ with .NextInSection }}
+          <li>{{ .Date.Format "06.01.02" }}&nbsp;<a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+        {{ with .PrevInSection }}
+          <li>{{ .Date.Format "06.01.02" }}&nbsp;<a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+        </ul>
       {{ end }}
-      <ul>
-      {{ with .NextInSection }}
-        <li>{{ .Date.Format "06.01.02" }}&nbsp;<a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-      {{ end }}
-      {{ with .PrevInSection }}
-        <li>{{ .Date.Format "06.01.02" }}&nbsp;<a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-      {{ end }}
-      </ul>
       <div class="social">
         <a href="/feed.xml"><img src="/img/rss.png" width=20px /></a>
 
