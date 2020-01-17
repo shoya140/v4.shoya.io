@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo version; hugo --gc --minify"
+command = "hugo --gc --minify"
 
 [[redirects]]
   from = "/*"
@@ -8,4 +8,4 @@ command = "hugo version; hugo --gc --minify"
   status = 404
 
 [context.production.environment]
-  HUGO_VERSION = "0.54.0"
+  HUGO_VERSION = "0.62.2"

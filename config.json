@@ -1,4 +1,11 @@
 {
+  "markup": {
+    "goldmark": {
+      "renderer": {
+        "unsafe": true
+      }
+    }
+  },
   "baseURL": "https://shoya.io/",
   "languageCode": "en-us",
   "title": "shoya.io",
