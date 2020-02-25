@@ -46,7 +46,7 @@ for entry in bdata.entries:
     output = output.replace('{\\ss}', '&szlig;')
     output = output.replace('{\\"O}', '&Ouml;')
     output = output.replace('--', '&ndash;')
-    output = '<p>' + output + '</p>'
+    output = '<p id="' + key + '">' + output + '</p>'
 
     with open('./layouts/partials/publications/' + key + '.html', "w") as f:
         f.write(output)
