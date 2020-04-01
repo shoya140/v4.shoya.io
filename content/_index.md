@@ -19,10 +19,11 @@ He is also a software developer [[software](/software/)]. He likes not only prog
 |<tt>2019-*&nbsp;&nbsp;&nbsp;</tt>|Senior Researcher, <a href="http://www.dfki.de/web">German Research Center for Artificial Intelligence (DFKI)</a>|
 |<tt>2016-2019</tt>|Researcher, <a href="http://www.dfki.de/web">German Research Center for Artificial Intelligence (DFKI)</a>|
 
-<h2 class="profile">Part-Time Job and Internship</h2>
+<h2 class="profile">Part-Time Job, Internship, and Service</h2>
 
 |||
 |:---:|:---|
+|<tt>2020-*&nbsp;&nbsp;&nbsp;</tt>|Mentor (PM), <a href="https://jr.mitou.org/">Mitou Junior</a>|
 |<tt>2016-*&nbsp;&nbsp;&nbsp;</tt>|Visiting researcher, <span class="no-wrap"><a href="http://www.osakafu-u.ac.jp/english/">Osaka Prefecture University</a></span>|
 |<tt>2014-*&nbsp;&nbsp;&nbsp;</tt>|Researcher, <span class="no-wrap"><a href="http://www.kmd.keio.ac.jp/">Keio Media Design Research Institute</a></span>|
 |<tt>2016-2019</tt>|Research associate, <span class="no-wrap"><a href="https://www.uni-kl.de">University of Kaiserslautern</a></span>|
@@ -48,7 +49,8 @@ He is also a software developer [[software](/software/)]. He likes not only prog
 
 |||
 |:---:|:---|
-|<tt>2017-2019</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K00276/">Co-investigator, JSPS Grant-in-Aid for Scientific Research \(C\)|
+|<tt>2020-2022</tt>|<a href="">Co-investigator, JSPS Grant-in-Aid for Scientific Research \(B\)</a>|
+|<tt>2017-2019</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K00276/">Co-investigator, JSPS Grant-in-Aid for Scientific Research \(C\)</a>|
 |<tt>2017-2019</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K12728/">Representative, JSPS Grant-in-Aid for Young Scientists (B)</a>|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</tt>     |<a href="https://www.ipa.go.jp/jinzai/mitou/2015/gaiyou_s-4.html">IPA Exploratory IT Human Resources Project (MITOU)</a>|
 
@@ -56,6 +58,7 @@ He is also a software developer [[software](/software/)]. He likes not only prog
 
 |||
 |:---:|:---|
+|<tt>2020.03</tt>|Program Co-Chair at <a href="https://augmented-humans.org/">Augmented Humans 2020</a>|
 |<tt>2019.10</tt>|2nd Place at <a href="http://ligp.gingerapp.co.jp/">Learning Innovation Grand Prix</a>|
 |<tt>2019.09</tt>|Organized <a href="http://eyewear.pro/eyewild2019/">EyeWild 2019 Tutorial</a> in conjunction with UbiComp/ISWC 2019|
 |<tt>2019.05</tt>|Received summa cum laude at the Ph.D. defense|
@@ -73,7 +76,8 @@ He is also a software developer [[software](/software/)]. He likes not only prog
 |<tt>2015.06</tt>|Project accepted as <a href="https://www.ipa.go.jp/jinzai/mitou/2015/koubokekka_index.html">IPA MITOU Program</a>|
 |<tt>2015.04</tt>|Best 3 at Japan preliminary round at <a href="https://www.imaginecup.com/">Imagine Cup 2015 Innovation Path</a>|
 |<tt>2015.03</tt>|Organized <a href="http://recruit-jinji.jp/adf_fes2015/">APPLICATION DEVELOPER FESTIVAL</a>|
-|<tt>2014.06</tt>|Best Presentation Award, Audience Award at <a href="https://sites.google.com/site/miru2014okayama/wakate">MIRU2014 Young Researchers' Program</a>|
+|<tt>2014.06</tt>|Best Presentation Award at <a href="https://sites.google.com/site/miru2014okayama/wakate">MIRU2014 Young Researchers' Program</a>|
+|<tt>2014.06</tt>|Audience Award at <a href="https://sites.google.com/site/miru2014okayama/wakate">MIRU2014 Young Researchers' Program</a>|
 |<tt>2013.05</tt>|3rd place at <a href="http://jp.startup-dating.com/2013/05/super-hackathon-2013-in-osak">Super Hackathon 2013 in Osaka</a>|
 |<tt>2012.12</tt>|Champion at <a href="http://bussorenre.com/?p=45">Kyoto Hackathon</a></a>|
 |<tt>2012.11</tt>|Received <a href="http://shoya.io/ja/posts/honor/">President's Honor in Osaka Prefecture University</a>|
