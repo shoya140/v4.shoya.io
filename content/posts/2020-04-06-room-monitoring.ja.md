@@ -14,4 +14,4 @@ description: "やる気がでないのは、自分のせいじゃない (タニ�
 
 比較のために3つ並べてみた。普段は別々の場所に置いて使っている。
 
-![](/img/blog_room_monitoring.jpg)
+![ ](/img/blog_room_monitoring.jpg)
