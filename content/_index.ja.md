@@ -29,7 +29,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |<tt>2019-現在</tt>|<a href="https://www.dfki.de/web/">ドイツ人工知能研究センター (DFKI)</a> <span class="no-wrap">シニアリサーチャー</span>|
 |<tt>2016-2019</tt>|<a href="https://www.dfki.de/web/">ドイツ人工知能研究センター (DFKI)</a> <span class="no-wrap">リサーチャー</span>|
 
-<h2 class="profile">非常勤・インターンシップ・奉仕活動</h2>
+<h2 class="profile">非常勤・インターン・ボランティア</h2>
 
 |||
 |:---:|:---|
@@ -59,7 +59,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 
 |||
 |:---:|:---|
-|<tt>2020-2022</tt>|JSPS 科研費 基盤 \(B\) 分担研究者</a>|
+|<tt>2020-2022</tt>|<a href="">JSPS 科研費 基盤 \(B\) 分担研究者</a>|
 |<tt>2017-2019</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K00276/">JSPS 科研費 基盤 \(C\) 分担研究者</a>|
 |<tt>2017-2019</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K12728/">JSPS 科研費 若手 (B) 代表研究者</a>|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</tt>|<a href="https://www.ipa.go.jp/jinzai/mitou/2015/gaiyou_s-4.html">IPA 未踏IT人材発掘・育成事業</a>|
