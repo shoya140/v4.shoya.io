@@ -4,7 +4,7 @@ title: "石丸翔也の論文"
 
 ## 論文誌
 
-{{< pub "amft2015making" >}}
+{{< pub "brishtel2020mind" "amft2015making" >}}
 
 ## 書籍 (分担著)
 

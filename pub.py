@@ -45,6 +45,7 @@ for entry in bdata.entries:
 
     output = output.replace('{\\ss}', '&szlig;')
     output = output.replace('{\\"O}', '&Ouml;')
+    output = output.replace('{\\&}', '&amp;')
     output = output.replace('--', '&ndash;')
     output = '<p id="' + key + '">' + output + '</p>'
 

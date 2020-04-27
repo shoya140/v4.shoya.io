@@ -4,7 +4,7 @@ title: "Shoya Ishimaru's Publications"
 
 ## Journal Paper
 
-{{< pub "amft2015making" >}}
+{{< pub "brishtel2020mind" "amft2015making" >}}
 
 ## Book Chapter
 
