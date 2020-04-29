@@ -1,6 +1,6 @@
 ---
 title: HyperMind
-description: Although every learner has different preferences in reading, textbooks have traditionally been static. Reading experiences should become more immersive and interesting if textbooks behave differently for each learner. We propose such vivid interactions optimized for the context of learning by combining a digital document and affective state recognition (e.g. interest, mental workload, and self-confidence) using smart sensors.
+description: Although every learner has different preferences in reading, textbooks have traditionally been static. Reading experiences should become more immersive and interesting if textbooks behave differently for each learner. We propose vivid interactions optimized for the context of learning by combining a digital document and affective state recognition (e.g. interest, mental workload, and self-confidence) using smart sensors.
 eyecatch: /img/project_hypermind.jpg
 project: research
 ---
