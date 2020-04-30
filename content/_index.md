@@ -45,7 +45,7 @@ He is also a software developer [[software](/software/)]. He likes not only prog
 |<tt>2010-2014</tt>|B.E., <a href="https://www.osakafu-u.ac.jp/en/">Osaka Prefecture University</a>|
 ||└Visited <a href="https://www.uni-kl.de/en/home/">University of Kaiserslautern</a> for 6 months|
 
-<h2 class="profile">Funds</h2>
+<h2 class="profile">Grants</h2>
 
 |||
 |:---:|:---|

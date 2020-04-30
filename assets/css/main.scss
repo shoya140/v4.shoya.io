@@ -2,7 +2,9 @@ $font-family: 'Source Sans Pro', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif
 $large-font-size: 1.3rem;
 $base-font-size: 1.0rem;
 $small-font-size: 0.85rem;
-$base-line-height: 1.7;
+$large-line-height: 1.7;
+$base-line-height: 1.5;
+$small-line-height: 1.2;
 
 $white-color: #ffffff;
 $gray-color: #f7f9f9;
@@ -196,6 +198,12 @@ twitter-widget {
     }
 }
 
+.lang-ja {
+    p, li {
+        line-height: $large-line-height;
+    }
+}
+
 img {
     max-height: $on-palm;
     max-width: 100%;
@@ -385,12 +393,11 @@ figure {
 
 .card-title {
     margin: 0;
-    line-height: 1.2;
+    line-height: $small-line-height;
 }
 
 .card-text {
     margin: 0.5em 0;
-    line-height: 1.6;
     text-align: justify;
 }
 
@@ -437,7 +444,7 @@ figure {
 
 .post-title {
     margin: 0 0 1.5em 0;
-    line-height: 1.2;
+    line-height: $small-line-height;
 
     @include media-query($on-palm) {
         padding-left: 0px;
@@ -464,7 +471,7 @@ figure {
 .post-link {
     font-size: $base-font-size;
     display: block;
-    line-height: 1.2;
+    line-height: $small-line-height;
 
     @include media-query($on-palm) {
         font-size: $small-font-size
@@ -493,6 +500,7 @@ figure {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+        line-height: $large-line-height;
     }
 
     @include media-query($on-palm) {
