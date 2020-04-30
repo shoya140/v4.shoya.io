@@ -12,11 +12,7 @@ title: "石丸翔也の論文"
 
 ## 国際会議の予稿
 
-{{< pub "hoffmann2016stres" "rigaud2016semi" "kunze2015quantifying" "ishimaru2014blink" "kunze2013eeg" >}}
-
-## 国際会議の予稿 (ポスター, デモ, ワークショップ)
-
-{{< pub "ishimaru2020gaze" "santhosh2020generating" "maruichi2019self" "ishimaru2019electrooculography" "ishimaru2018hypermind" "jacob2018interest" "herurkar2018combining" "ohbayashi2018investigating" "santhosh2018estimating" "grossmann2018iql" "jacob2018gaze" "brishtel2018assessing" "ishimaru2017cognitive" "ishimaru2017towards" "kise2017quantified" "ishimaru2017arfled" "ishimaru2016cognitive" "ishimaru2016towards" "ishimaru2016wordometer" "ishimaru2016reading" "ishimaru2015quantifying" "kunze2015eye" "kunze2015smart" "tanaka2015nekoze" "ishimaru2015smart" "ishimaru2014brain" "ishimaru2014smarter" "ishimaru2014logging" "ishimaru2013eyetracking" "kunze2013reading">}}
+{{< pub "ishimaru2020gaze" "santhosh2020generating" "maruichi2019self" "ishimaru2019electrooculography" "ishimaru2018hypermind" "jacob2018interest" "herurkar2018combining" "ohbayashi2018investigating" "santhosh2018estimating" "grossmann2018iql" "jacob2018gaze" "brishtel2018assessing" "ishimaru2017cognitive" "ishimaru2017towards" "kise2017quantified" "ishimaru2017arfled" "hoffmann2016stres" "ishimaru2016cognitive" "ishimaru2016towards" "ishimaru2016wordometer" "ishimaru2016reading" "rigaud2016semi" "ishimaru2015quantifying" "kunze2015eye" "kunze2015quantifying" "kunze2015smart" "tanaka2015nekoze" "ishimaru2015smart" "ishimaru2014brain" "ishimaru2014smarter" "ishimaru2014logging" "ishimaru2014blink" "ishimaru2013eyetracking" "kunze2013reading" "kunze2013eeg">}}
 
 ## 国内会議の予稿
 

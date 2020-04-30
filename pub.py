@@ -23,6 +23,9 @@ for entry in bdata.entries:
 
     if 'journal' in entry.keys():
         output += ' ' + entry['journal'] + ', '
+        if 'volume' in entry.keys() and 'number' in entry.keys():
+            output += entry['volume'] + ' (' + entry['number'] + '), '
+
     if 'booktitle' in entry.keys():
         output += 'In ' + entry['booktitle']
         if 'series' in entry.keys():
@@ -38,15 +41,16 @@ for entry in bdata.entries:
         output += prefix + entry['pages'] + ', '
     output += entry['year'] + '.'
 
-    if os.path.exists('./static/preprint/' + key + '.pdf'):
-        output += ' <a href="/preprint/' + key + '.pdf" target="_blank">PDF</a>'
     if 'to appear' not in output:
         output += ' <a href="/bibtex/' + key + '.bib" target="_blank">BibTeX</a>'
+    if os.path.exists('./static/preprint/' + key + '.pdf'):
+        output += ' <a href="/preprint/' + key + '.pdf" target="_blank">PDF</a>'
 
     output = output.replace('{\\ss}', '&szlig;')
     output = output.replace('{\\"O}', '&Ouml;')
     output = output.replace('{\\&}', '&amp;')
     output = output.replace('--', '&ndash;')
+    output = output.replace('Shoya Ishimaru', '<u>Shoya Ishimaru</u>')
     output = '<p id="' + key + '">' + output + '</p>'
 
     with open('./layouts/partials/publications/' + key + '.html', "w") as f:
