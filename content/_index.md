@@ -1,14 +1,14 @@
 ---
 title: "Shoya Ishimaru's Portfolio"
-keywords: ["Shoya Ishimaru", "石丸 翔也", "石丸翔也", "shoya140", "DFKI", "Kaiserslautern", "Portfolio", "ポートフォリオ"]
-description: "Shoya Ishimaru is a Senior Researcher at the German Research Center for Artificial Intelligence (DFKI). His research interests are to invent new technologies augmenting abilities of human begins and investigating influences of the augmentations to human minds."
+keywords: ["Shoya Ishimaru", "Ishimaru Shoya", "石丸 翔也", "石丸翔也", "Shoya", "Ishimaru", "shoya140", "DFKI", "Kaiserslautern", "Portfolio", "ポートフォリオ"]
+description: "Dr.-Ing. Shoya Ishimaru is a Senior Researcher at the German Research Center for Artificial Intelligence (DFKI). His research interests are to invent new technologies augmenting abilities of human begins and investigating influences of the augmentations to human minds."
 ---
 
 <img src="/img/icon_portrait.jpg" class="image-portrait" width="150px" alt="Shoya Ishimaru">
 
 # Shoya Ishimaru
 
-Shoya Ishimaru is a Senior Researcher at the German Research Center for Artificial Intelligence (DFKI). His research interests are to invent new technologies augmenting abilities of human begins and investigating influences of the augmentations to human minds [[publications](/publications/), [Google Scholar](https://scholar.google.com/citations?user=052bgSAAAAAJ)\]. After receiving B.E. and M.E. degree in Electrical Engineering and Information Science from Osaka Prefecture University in 2014 and 2016, he defended his Ph.D in Engineering at the University of Kaiserslautern in 2019 (Dr.-Ing. with summa cum laude).
+Dr.-Ing. Shoya Ishimaru is a Senior Researcher at the German Research Center for Artificial Intelligence (DFKI). His research interests are to invent new technologies augmenting abilities of human begins and investigating influences of the augmentations to human minds [[publications](/publications/), [Google Scholar](https://scholar.google.com/citations?user=052bgSAAAAAJ)\]. After receiving Bachelor and Master degrees in Engineering from Osaka Prefecture University in 2014 and 2016, he defended his PhD in Engineering at the University of Kaiserslautern in 2019 (Doktor der Ingenieurwissenschaften mit auszeichnung <i>summa cum laude</i>).
 
 He is also a software developer [[software](/software/)]. He likes not only programming but designing beautiful software. As an internship/part-time engineer, he worked for many IT companies including paperboy&co., Hatena, and Recruit. In 2016, he received a title of MITOU Super Creator by Ministry of Economy, Trade, and Industry in Japan by developing a system for visualizing the mental state. He gave a number of invited talks at universities, high schools, and TEDx. His mission in life is to invent amazing applications and to satisfy people all over the world.
 
@@ -39,10 +39,10 @@ He is also a software developer [[software](/software/)]. He likes not only prog
 
 |||
 |:---:|:---|
-|<tt>2016-2019</tt>|Ph.D. in Computer Science, <a href="https://www.uni-kl.de/en/home/">University of Kaiserslautern</a>|
-|<tt>2014-2016</tt>|M.E., <a href="http://www.eng.osakafu-u.ac.jp/english/">Graduate School of Engineering, Osaka Prefecture University</a>|
+|<tt>2016-2019</tt>|PhD in Engineering, <a href="https://www.uni-kl.de/en/home/">University of Kaiserslautern</a>|
+|<tt>2014-2016</tt>|Master of Engineering, <a href="http://www.eng.osakafu-u.ac.jp/english/">Graduate School of Engineering, Osaka Prefecture University</a>|
 ||└Visited <a href="http://www.univ-larochelle.fr/?lang=en">University of La Rochelle</a> for 1 month|
-|<tt>2010-2014</tt>|B.E., <a href="https://www.osakafu-u.ac.jp/en/">Osaka Prefecture University</a>|
+|<tt>2010-2014</tt>|Bachelor of Engineering, <a href="https://www.osakafu-u.ac.jp/en/">Osaka Prefecture University</a>|
 ||└Visited <a href="https://www.uni-kl.de/en/home/">University of Kaiserslautern</a> for 6 months|
 
 <h2 class="profile">Grants</h2>
@@ -61,7 +61,7 @@ He is also a software developer [[software](/software/)]. He likes not only prog
 |<tt>2020.03</tt>|Program Co-Chair at <a href="https://augmented-humans.org/">Augmented Humans 2020</a>|
 |<tt>2019.10</tt>|2nd Place at <a href="http://ligp.gingerapp.co.jp/">Learning Innovation Grand Prix</a>|
 |<tt>2019.09</tt>|Organized <a href="http://eyewear.pro/eyewild2019/">EyeWild 2019 Tutorial</a> in conjunction with UbiComp/ISWC 2019|
-|<tt>2019.05</tt>|Received summa cum laude at the Ph.D. defense|
+|<tt>2019.05</tt>|Received an award <i>summa cum laude</i> (with highest praise) at the PhD defense|
 |<tt>2019.03</tt>|Organized <a href="https://perpersuasion.ubi-lab.com/?fbclid=IwAR1QiuoopBcAkAVmGFygEcY4mYqrO-KjhzXZF664nhMdBb1uK1o5tFp7E4I">PerPersuasion 2019 Workshop</a> in conjunction with PerCom 2019|
 |<tt>2018.11</tt>|Gave a talk at Annual Memorial Lecture in Matsuyama-Nishi Secondary School</a>|
 |<tt>2018.10</tt>|Poster Track Honorable Mention at <a href="http://ubicomp.org/ubicomp2018/">UbiComp/ISWC 2018</a>|

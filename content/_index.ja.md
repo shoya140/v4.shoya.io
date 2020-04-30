@@ -1,6 +1,6 @@
 ---
 title: "石丸翔也のポートフォリオ"
-keywords: ["Shoya Ishimaru", "石丸 翔也", "石丸翔也", "shoya140", "DFKI", "Kaiserslautern", "Portfolio", "ポートフォリオ"]
+keywords: ["Shoya Ishimaru", "Ishimaru Shoya", "石丸 翔也", "石丸翔也", "Shoya", "Ishimaru", "shoya140", "DFKI", "Kaiserslautern", "Portfolio", "ポートフォリオ"]
 description: "石丸翔也は工学博士・ソフトウェア開発者。ドイツ人工知能研究センター (DFKI) シニアリサーチャー。情報工学と認知科学を専門とし、テクノロジーによる知的能力拡張の研究に取り組んでいる。"
 ---
 
@@ -8,7 +8,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 
 # 石丸 翔也
 
-2015年度IPA未踏スーパークリエータ。2016年に大阪府立大学大学院工学研究科にて博士前期課程 (修士) を修了したのち渡欧。2019年にカイザースラウテルン工科大学で工学博士号を取得。現在はドイツ人工知能研究センター (DFKI) シニアリサーチャー。情報工学と認知科学を専門とし、テクノロジーによる知的能力拡張の研究に取り組んでいる。<a href="javascript:void(0)" id="more">[詳しく]</a>
+2015年度IPA未踏スーパークリエータ。2016年に大阪府立大学大学院工学研究科の博士前期課程を修了したのち渡欧。2019年にカイザースラウテルン工科大学で工学博士号 (Doktor der Ingenieurwissenschaften) を取得。現在はドイツ人工知能研究センター (DFKI) シニアリサーチャー。情報工学と認知科学を専門とし、テクノロジーによる知的能力拡張の研究に取り組んでいる。<a href="javascript:void(0)" id="more">[詳しく]</a>
 
 <h2 class="profile invisible">自己紹介</h2>
 
@@ -18,7 +18,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 
 <p class="invisible">大学の後半は個人開発・アルバイト・インターンに明け暮れる毎日でした。また、3年生秋〜大学院では黄瀬浩一先生の研究室に所属し、Kai Kunze先生のもとでEyewear Computingの研究に取り組みました。研究に没頭するあまりバーンアウトを起こして苦しんだ時期もありましたが、その苦しみから心の状態をセンサで計測して可視化する「心温計」のアイデアが生まれ、未踏スーパークリエータに認定されました。</p>
 
-<p class="invisible">大学院の修了とともに日本を離れ、現在に至るまでドイツ人工知能研究センター (DFKI) に勤務しています。DFKIではセンサと機械学習を活用した教育支援システムの研究に取り組んでいて、Andreas Dengel先生・Jochen Kuhn先生とリビングラボ Immersive Quantified Learning Lab (iQL-Lab) を設立しました。2019年にはカイザースラウテルン工科大学でPh.D.をsumma cum laudeの称号付きで取得しました。2020年からは未踏ジュニアのメンターを務めています。</p>
+<p class="invisible">大学院の修了とともに日本を離れ、現在に至るまでドイツ人工知能研究センター (DFKI) に勤務しています。DFKIではセンサと機械学習を活用した教育支援システムの研究に取り組んでいて、Andreas Dengel先生・Jochen Kuhn先生とリビングラボ Immersive Quantified Learning Lab (iQL-Lab) を設立しました。2019年にはカイザースラウテルン工科大学でPhDをsumma cum laudeの称号付きで取得しました。2020年からは未踏ジュニアのメンターを務めています。</p>
 
 <p class="invisible">人が人工知能を賢くし人工知能が人工知能を賢くするさらにその先の、人工知能が人を賢くする未来を想像して、人の知的能力を拡張する技術の研究開発や、拡張感が人の心にもらたす変化の調査を行っています。自身の活動の根源には「面白くて人の役に立つものを作り続けたい」という気持ちがあり、研究にこだわらず、その時々の興味と需要に応じて活動場所を振り子のように行ったり来たりしたいと思っています。</p>
 
@@ -49,7 +49,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 
 |||
 |:---:|:---|
-|<tt>2016-2019</tt>|<a href="https://www.uni-kl.de">カイザースラウテルン工科大学</a> <span class="no-wrap">博士課程 (Ph.D.)</span>|
+|<tt>2016-2019</tt>|<a href="https://www.uni-kl.de">カイザースラウテルン工科大学</a> <span class="no-wrap">博士課程 (PhD)</span>|
 |<tt>2014-2016</tt>|<a href="http://www.eng.osakafu-u.ac.jp/">大阪府立大学大学院</a> 工学研究科 <span class="no-wrap">博士前期課程 (修士)</span>|
 ||└<a href="http://www.univ-larochelle.fr/?lang=en">ラ・ロシェル大学</a> <span class="no-wrap">留学 (1ヶ月)</span>|
 |<tt>2010-2014</tt>|<a href="http://www.osakafu-u.ac.jp/">大阪府立大学</a> 工学部 <span class="no-wrap">知能情報工学科</span>|
@@ -71,7 +71,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |<tt>2020.03</tt>|<a href="https://augmented-humans.org/">Augmented Humans 2020</a> 運営 (Program Co-Chair)|
 |<tt>2019.10</tt>|<a href="http://ligp.gingerapp.co.jp/">ラーニングイノベーショングランプリ</a> 優秀ラーニングイノベーション賞|
 |<tt>2019.09</tt>|UbiComp/ISWC 2019併催チュートリアル<a href="http://eyewear.pro/eyewild2019/">EyeWild 2019</a> 運営|
-|<tt>2019.05</tt>|博士号公聴会にてsumma cum laude (最優秀) の称号を授与される|
+|<tt>2019.05</tt>|博士号公聴会にて<i>summa cum laude</i> (最優秀) の称号を授与される|
 |<tt>2019.03</tt>|PerCom 2019併催ワークショップ<a href="https://perpersuasion.ubi-lab.com/?fbclid=IwAR1QiuoopBcAkAVmGFygEcY4mYqrO-KjhzXZF664nhMdBb1uK1o5tFp7E4I">PerPersuasion 2019</a> 運営|
 |<tt>2018.11</tt>|<a href="https://matsuyamanishi-s.esnet.ed.jp/blogs/blog_entries/view/8/0abe0f7786c77d65af9a660b128dde44?frame_id=8&fbclid=IwAR226cJyDDiti4NmXCCdzy836fhK8j3PGQ533VezuaQxm9ZOCibGMKG0zIo">愛媛県立松山西中等教育学校創立記念講演</a>|
 |<tt>2018.10</tt>|<a href="http://ubicomp.org/ubicomp2018/">UbiComp/ISWC 2018</a> Poster Track Honorable Mention|
