@@ -13,13 +13,19 @@
             <a class='page-link {{ if in $.RelPermalink $link }}nav-active{{ else }}nav-hover{{ end }}' href='{{ $link | relLangURL }}'>{{ .display }}</a>
           {{ end }}
         {{ end }}
-        {{ if .IsTranslated }}
-          {{ range .Translations }}
-            <a class="language-icon nav-hover" href="{{ .RelPermalink | absURL }}"><img src="/img/icon_language.svg" /></a>
-          {{ end }}
-        {{ else }}
-          <a class="language-icon disabled-icon" href="#"><img src="/img/icon_language.svg" /></a>
+      </div>
+      {{ if .IsTranslated }}
+        {{ range .Translations }}
+          <div id="language-switch" onclick="setTimeout(() => window.location.href={{ .RelPermalink | absURL }}, 300)">
         {{ end }}
+      {{ else }}
+        <div id="language-switch" class="disabled">
+      {{ end }}
+        <div class="button" id="button-10">
+          <input type="checkbox" class="checkbox" {{ if eq .Site.Language.Lang "ja" }}checked{{end}}>
+          <div class="knobs"><span>EN</span></div>
+          <div class="layer"></div>
+        </div>
       </div>
     </nav>
   </div>
