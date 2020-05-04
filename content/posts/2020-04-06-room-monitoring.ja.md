@@ -4,6 +4,7 @@ title: "室内監視のすすめ"
 tags: ["note"]
 keywords: ["生産性", "計測"]
 description: "やる気がでないのは、自分のせいじゃない (タニタ 温湿度計TT-559) - exyk という記事を読んで以来、室内の環境を計測するのがマイブームになっている。"
+eyecatch: /img/blog_room_monitoring.jpg
 ---
 
 [やる気がでないのは、自分のせいじゃない (タニタ 温湿度計TT-559) - exyk](https://exyk.hatenadiary.com/entry/2019/11/07/230504) という記事を読んで以来、室内の環境を計測するのがマイブームになっている。最初に購入したのは記事でも紹介されている[TT-559](https://www.tanita.co.jp/product/g/_TTT559GY/)。室温と湿度から乾燥・快適・不快の3つに判定してくれて分かりやすい。

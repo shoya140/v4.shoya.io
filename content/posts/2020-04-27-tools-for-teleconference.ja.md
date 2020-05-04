@@ -4,7 +4,10 @@ title: "Web会議で使っているツールの紹介"
 tags: ["note"]
 keywords: ["紹介", "デバイス", "ソフトウェア", "ハードウェア", "マイク", "Web会議", "リモートワーク"]
 description: "ZoomなどでWeb会議を行うときに使っていて便利だなと思うものを紹介する。"
+eyecatch: /img/blog_tools-for-teleconference.jpg
 ---
+
+![ ](/img/blog_tools-for-teleconference.jpg)
 
 ZoomなどでWeb会議を行うときに使っていて便利だなと思うものを紹介する。
 
