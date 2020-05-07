@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="author" href="https://plus.google.com/u/0/102413339779614193497/posts" />
 
-  {{ $title := (printf "%s - %s" .Title (replace .Site.Title "." "\\.")) }}
+  {{ $title := (printf "%s - %s" .Title .Site.Title ) }}
 
   {{ if isset .Params "keywords" }}
     <meta name="keywords" content='{{ delimit .Keywords ", " }}' />
