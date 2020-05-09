@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tornadoのデバッグモードを有効にする
-tags: ['engineering']
+tags: ['development']
 keywords: ['Tornado', 'debug', 'デバッグ', 'リロード']
 ---
 

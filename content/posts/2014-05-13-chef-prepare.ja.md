@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chefのknife solo prepareで404
-tags: ['engineering']
+tags: ['development']
 keywords: ['chef', 'vagrant', 'prepare', '404', 'error']
 ---
 

@@ -1,10 +1,14 @@
 {{ define "main" }}
   {{ .Content }}
-  {{ range $tagName, $entries := .Site.Taxonomies.tags }}
-    {{ if in $.RelPermalink $tagName }}
-      #{{ $tagName }}
-    {{ else }}
-      <a href='{{ "/tags/" | relLangURL }}{{ $tagName | urlize }}/'>#{{ $tagName }}</a>
+  <p class="post-tags">
+    {{ range $tagName, $entries := .Site.Taxonomies.tags }}
+      <img src="/img/twemoji/{{ $tagName }}.svg" width="10px">
+      {{ if in $.RelPermalink $tagName}}
+        <span class="post-tag no-wrap">{{ $tagName }} ({{ $entries.Count }})</span>
+      {{ else }}
+        <a href='{{ "/tags/" | relLangURL }}{{ $tagName | urlize }}/' class="post-tag no-wrap">{{ $tagName }}
+        ({{ $entries.Count }})</a>
+      {{ end }}
     {{ end }}
-  {{ end }}
+  </p>
 {{ end }}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ペアプログラミングを支える技術
-tags: ['engineering']
+tags: ['development']
 keywords: ['ペアプログラミング', 'Advent Calendar']
 ---
 

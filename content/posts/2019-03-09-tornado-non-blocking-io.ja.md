@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tornadoでマルチスレッド・マルチプロセス・非同期I/O
-tags: ["engineering"]
+tags: ["development"]
 keywords: ["Python", "Tornado", "ノンブロッキング", "マルチスレッド", "マルチプロセス", "非同期"]
 description: "機械学習を組み込んだWebアプリを開発するにあたり、重い処理を行っている間もリクエストを受けられるノンブロッキングなアプリケーションを構築する方法について調査した。"
 ---

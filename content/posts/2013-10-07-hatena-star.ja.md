@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyllにはてなスター導入した
-tags: ['engineering']
+tags: ['development']
 keywords: ['jekyll', 'はてな']
 ---
 

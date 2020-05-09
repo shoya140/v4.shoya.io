@@ -1,7 +1,7 @@
 ---
 layout: post
 title: brew doctorのwarningを解決する
-tags: ['engineering']
+tags: ['development']
 keywords: ['homebrew', 'brew', 'doctor', 'pyenv']
 ---
 

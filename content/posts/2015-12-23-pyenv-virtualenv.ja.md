@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 科学技術計算のためのPython開発環境(2015)
-tags: ['engineering']
+tags: ['development']
 keywords: ['python', 'pyenv', '環境構築']
 ---
 

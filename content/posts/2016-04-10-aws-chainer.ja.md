@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AWSのGPUインスタンスでchainerとjupyter notebookを使う
-tags: ['engineering']
+tags: ['development']
 keywords: ['AWS', 'chainer']
 ---
 

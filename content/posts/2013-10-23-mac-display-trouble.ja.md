@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mac起動後の画面が真っ暗
-tags: ['engineering']
+tags: ['development']
 keywords: ['Mac', 'ディスプレイ', '認識しない', '真っ暗', '起動']
 ---
 

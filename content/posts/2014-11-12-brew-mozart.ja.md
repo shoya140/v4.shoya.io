@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HomebrewでOz開発環境を整える[Mozart2][Emacs]
-tags: ['engineering']
+tags: ['development']
 keywords: ['brew', '環境構築', 'Oz', 'Mozart', 'Emacs']
 eyecatch: http://ecx.images-amazon.com/images/I/51iXhiKTamL.jpg
 ---

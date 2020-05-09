@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Karabiner-ElementsとHammerspoonを使ってSpace+hjklでキー移動する
-tags: ['engineering']
+tags: ['development']
 keywords: ['環境構築', 'Karabiner-Elements', 'Hammerspoon']
 ---
 

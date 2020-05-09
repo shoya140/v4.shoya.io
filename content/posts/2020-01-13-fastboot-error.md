@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unsupported reboot option reboot-fastboot"
-tags: ["engineering"]
+tags: ["development"]
 keywords: ["Android"]
 description: ""
 ---

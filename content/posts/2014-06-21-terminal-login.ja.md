@@ -1,7 +1,7 @@
 ---
 layout: post
 title: プロセスが完了しました
-tags: ['engineering']
+tags: ['development']
 keywords: ['Mac', 'ターミナル', 'プロセスが完了しました', 'ログイン']
 ---
 

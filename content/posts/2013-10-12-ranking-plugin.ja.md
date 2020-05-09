@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyllの記事を人気順にソートする
-tags: ['engineering']
+tags: ['development']
 keywords: ['jekyll', 'はてな', 'facebook', 'twitter']
 ---
 

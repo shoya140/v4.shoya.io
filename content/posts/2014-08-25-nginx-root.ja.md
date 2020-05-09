@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nginxの静的ファイル配信でハマった
-tags: ['engineering']
+tags: ['development']
 keywords: ['Nginx', 'location', 'root', 'static']
 ---
 

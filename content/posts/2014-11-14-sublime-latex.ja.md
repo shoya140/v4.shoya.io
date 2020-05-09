@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sublime Text3でLaTeXをコンパイルする[Mac]
-tags: ['engineering']
+tags: ['development']
 keywords: ['Sublime Text', 'LaTeX', 'Tex']
 ---
 

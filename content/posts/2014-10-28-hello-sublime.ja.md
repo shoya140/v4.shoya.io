@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sublime Text3導入メモ
-tags: ['engineering']
+tags: ['development']
 keywords: ['Sublime Text']
 ---
 

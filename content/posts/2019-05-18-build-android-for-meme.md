@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to connect JINS MEME ES_R to Android 6 or higher without USB BLE dongle"
-tags: ["engineering"]
+tags: ["development"]
 keywords: ["JINS_MEME", "Academic", "Android"]
 description: ""
 eyecatch: /img/blog_android_build.png

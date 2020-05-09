@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Windowsの設定(普段Mac使ってる人向け)
-tags: ['engineering']
+tags: ['development']
 keywords: ['Windows', '環境構築']
 ---
 

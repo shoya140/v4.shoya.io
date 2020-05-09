@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PythonでMicrosoft Translator APIを使ってみる
-tags: ['engineering']
+tags: ['development']
 keywords: ['python', 'Microsoft Translator API', '自動翻訳']
 ---
 

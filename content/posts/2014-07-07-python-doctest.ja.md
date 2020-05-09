@@ -1,7 +1,7 @@
 ---
 layout: post
 title: doctestを使ってpythonの簡単な単体テストを書く
-tags: ['engineering']
+tags: ['development']
 keywords: ['python', 'test', 'doctest']
 ---
 
