@@ -480,7 +480,7 @@ figure {
     text-align: justify;
 }
 
-.post-list-item{
+.list-container {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -491,15 +491,9 @@ figure {
     transition: all .2s;
 
     &:hover {
-        // color: $white-color;
         background-color: $gray-color;
         -webkit-transition: all .1s;
         transition: all .1s;
-    }
-
-    h2 {
-        margin-top: 0;
-        margin-bottom: 0;
     }
 
     a {
@@ -534,21 +528,40 @@ figure {
 
 .list-body {
     margin-left: 10px;
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: $small-line-height;
+        font-size: $base-font-size;
+    }
+
+    p {
+        margin: 0 0 2px 0;
+        padding-left: 1px;
+        font-size: $small-font-size;
+        line-height: $small-line-height;
+    }
 }
 
 .post-title {
-    margin: 0 0 1.5em 0;
-    line-height: $small-line-height;
+    margin-bottom: 1.5em;
+
+    h1 {
+        margin: 0;
+        line-height: $small-line-height;
+    }
+
+    p {
+        margin: 0 0 2px 0;
+        padding-left: 1px;
+        font-size: $small-font-size;
+        line-height: $small-line-height;
+    }
 
     @include media-query($on-palm) {
         padding-left: 0px;
     }
-}
-
-.post-meta {
-    font-size: $small-font-size;
-    margin: 0;
-    padding-left: 1px;
 }
 
 .post-tags {

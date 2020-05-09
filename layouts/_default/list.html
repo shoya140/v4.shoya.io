@@ -12,12 +12,12 @@
   </p>
   <div>
     {{ range .Pages.ByPublishDate }}
-    <div class="post-list-item">
+    <div class="list-container">
       <a href="{{ .RelPermalink }}"></a>
         <img class="list-img" src="/img/twemoji/{{ index .Params.tags 0 }}.svg">
       <div class="list-body">
-        <p class="post-meta">{{ .Date.Format "2006.01.02" }}</p>
-        <h2 class="post-link">{{ .Title }}</h2>
+        <p>{{ .Date.Format "2006.01.02" }}</p>
+        <h2>{{ .Title }}</h2>
       </div>
     </div>
     {{ end }}
