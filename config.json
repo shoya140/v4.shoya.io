@@ -35,7 +35,25 @@
     ]
   },
   "params": {
-    "eyecatch": "/img/icon_dot_small.png"
+    "eyecatch": "/img/icon_dot_small.png",
+    "navigation": [
+      {
+        "name": "projects",
+        "display": "Projects"
+      },
+      {
+        "name": "publications",
+        "display": "Publications"
+      },
+      {
+        "name": "software",
+        "display": "Software"
+      },
+      {
+        "name": "posts",
+        "display": "Blog"
+      }
+    ]
   },
   "outputFormats" : {
     "RSS": {
@@ -46,12 +64,6 @@
   "Languages": {
     "en": {
       "params": {
-        "navigation": [
-          {"name": "projects", "display": "Projects"},
-          {"name": "publications", "display": "Publications"},
-          {"name": "software", "display": "Software"},
-          {"name": "posts", "display": "Blog"}
-        ],
         "language": "English page",
         "researchProject": "Research projects",
         "privateProject": "Private projects",
@@ -63,12 +75,6 @@
     },
     "ja": {
       "params": {
-        "navigation": [
-          {"name": "projects", "display": "プロジェクト"},
-          {"name": "publications", "display": "論文"},
-          {"name": "software", "display": "ソフトウェア"},
-          {"name": "posts", "display": "ブログ"}
-        ],
         "language": "日本語のページ",
         "researchProject": "研究プロジェクト",
         "privateProject": "個人開発プロジェクト",

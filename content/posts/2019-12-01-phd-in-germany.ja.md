@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ドイツの博士課程で習得したマネジメント能力"
-tags: ["research", "note"]
+tags: ["note"]
 keywords: ["Ph.D", "博士", "ドイツ", "海外", "振り返り", "DFKI", "ドイツ人工知能研究センター", "カイザースラウテルン工科大学"]
 description: "研究留学Advent Calendar 2019 1日目の記事です。ドイツのカイザースラウテルン工科大学で工学博士号をとることができたので、自分の目から見た日本とドイツの博士課程の違いや、その後のキャリアの選択肢について紹介します。"
 eyecatch: /img/blog_phd_in_germany2.jpg

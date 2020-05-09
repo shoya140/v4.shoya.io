@@ -7,7 +7,7 @@ $base-line-height: 1.5;
 $small-line-height: 1.2;
 
 $white-color: #ffffff;
-$gray-color: #f7f9f9;
+$gray-color: #f1f3f4;
 $black-color: #444444;
 $brand-color: #2561a2;
 
@@ -62,7 +62,7 @@ dl, dd, ol, ul {
 
 pre {
     font-size: $small-font-size;
-    border: 1px solid darken($gray-color, 4%);
+    border: 1px solid $gray-color;
     padding: 8px;
     overflow-x: scroll;
     border-radius: 0.3rem;
@@ -374,18 +374,18 @@ figure {
     #button-10 .knobs:after {
         content: 'あ';
         right: 4px;
-        color: #4e4e4e;
+        color: $black-color;
     }
 
     #button-10 .knobs span {
         display: inline-block;
         left: 4px;
-        color: #fff;
+        color: $white-color;
         z-index: 1;
     }
 
     #button-10 .checkbox:checked + .knobs span {
-        color: #4e4e4e;
+        color: $black-color;
     }
 
     #button-10 .checkbox:checked + .knobs:before {
@@ -393,7 +393,7 @@ figure {
     }
 
     #button-10 .checkbox:checked + .knobs:after {
-        color: #fff;
+        color: $white-color;
     }
 
     &.disabled {
@@ -429,8 +429,8 @@ figure {
     transition: all .2s;
 
     &:hover {
-        color: $white-color;
-        background-color: $brand-color;
+        // color: $white-color;
+        background-color: $gray-color;
         -webkit-transition: all .1s;
         transition: all .1s;
     }
@@ -484,22 +484,18 @@ figure {
 }
 
 .post-list-item{
-    position:relative;
-    padding-top: 9px;
-    padding-bottom: 15px;
-    padding-left: 9px;
-    padding-right: 9px;
-    border-top: 1px solid darken($gray-color, 4%);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 10px;
     -webkit-transition: all .2s;
     transition: all .2s;
 
-    &:last-child {
-        border-bottom: 1px solid darken($gray-color, 4%);
-    }
-
     &:hover {
-        color: $white-color;
-        background-color: $brand-color;
+        // color: $white-color;
+        background-color: $gray-color;
         -webkit-transition: all .1s;
         transition: all .1s;
     }
@@ -518,9 +514,28 @@ figure {
         top: 0;
     }
 
+    .list-img {
+        position: relative;
+        width: 2em;
+        height: 2em;
+        padding: 10px;
+        object-fit: contain;
+        border-radius: 0.3rem;
+        background-color: $gray-color;
+    }
+
+    .list-body {
+        margin-left: 10px;
+    }
+
     @include media-query($on-palm) {
         margin-left: calc(-1 * #{$wrapper-padding});
         margin-right: calc(-1 * #{$wrapper-padding});
+        border-top: 1px solid $gray-color;
+
+        &:last-child {
+            border-bottom: 1px solid $gray-color;
+        }
     }
 }
 
