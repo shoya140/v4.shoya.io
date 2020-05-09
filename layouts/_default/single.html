@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ $reAltIn := "<p><img src=\"([^\"]+)\" alt=\"([^\"]+)\" /></p>" }}
+  {{ $reAltIn := "<p><img src=\"([^\"]+)\" alt=\"([^\"]+)\"></p>" }}
   {{ $reAltOut := "<figure><img src=\"$1\" alt=\"$2\"><figcaption>$2</figcaption></figure>" }}
   {{ $altContent := .Content | replaceRE $reAltIn $reAltOut | safeHTML }}
   {{ $altContent }}
