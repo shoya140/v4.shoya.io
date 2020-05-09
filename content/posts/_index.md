@@ -1,3 +1,3 @@
 ---
-title: Shoya Ishimaru's Blog Posts
+title: Blog Posts
 ---

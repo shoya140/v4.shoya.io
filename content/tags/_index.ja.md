@@ -1,4 +1,4 @@
 ---
-title: "タグ"
+title: "Tags"
 layout: "tags"
 ---

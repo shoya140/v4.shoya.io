@@ -1,5 +1,5 @@
 ---
-title: Shoya Ishimaru's Software
+title: Software
 ---
 
 ## iPhone

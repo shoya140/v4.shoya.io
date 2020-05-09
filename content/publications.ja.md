@@ -1,5 +1,5 @@
 ---
-title: "石丸翔也の論文"
+title: "Publications"
 ---
 
 ## 論文誌

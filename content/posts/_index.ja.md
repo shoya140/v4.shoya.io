@@ -1,3 +1,3 @@
 ---
-title: "石丸翔也のブログ"
+title: "Blog Posts"
 ---

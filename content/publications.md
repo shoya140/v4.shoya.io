@@ -1,5 +1,5 @@
 ---
-title: "Shoya Ishimaru's Publications"
+title: "Publications"
 ---
 
 ## Journal Paper

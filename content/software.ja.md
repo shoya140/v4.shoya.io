@@ -1,5 +1,5 @@
 ---
-title: 石丸翔也のソフトウェア
+title: Software
 ---
 
 ## iPhone

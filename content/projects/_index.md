@@ -1,4 +1,4 @@
 ---
-title: "Shoya Ishimaru's Projects"
+title: "Projects"
 layout: "projects"
 ---

@@ -1,4 +1,4 @@
 ---
-title: "石丸翔也のプロジェクト"
+title: "Projects"
 layout: "projects"
 ---
