@@ -2,13 +2,15 @@
   {{ .Content }}
   <p class="post-tags">
     {{ range $tagName, $entries := .Site.Taxonomies.tags }}
-      <img src="/img/twemoji/{{ $tagName }}.svg" width="10px">
-      {{ if in $.RelPermalink $tagName}}
-        <span class="post-tag no-wrap">{{ $tagName }} ({{ $entries.Count }})</span>
-      {{ else }}
-        <a href='{{ "/tags/" | relLangURL }}{{ $tagName | urlize }}/' class="post-tag no-wrap">{{ $tagName }}
-        ({{ $entries.Count }})</a>
-      {{ end }}
+      <span style="display: inline-block;">
+        <img src="/img/twemoji/{{ $tagName }}.svg" width="10px">
+        {{ if in $.RelPermalink $tagName}}
+          <span class="post-tag no-wrap">{{ $tagName }} ({{ $entries.Count }})</span>
+        {{ else }}
+          <a href='{{ "/tags/" | relLangURL }}{{ $tagName | urlize }}/' class="post-tag no-wrap">{{ $tagName }}
+          ({{ $entries.Count }})</a>
+        {{ end }}
+      </span>
     {{ end }}
   </p>
 {{ end }}
