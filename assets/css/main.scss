@@ -142,7 +142,7 @@ table {
 
 tr:nth-child(odd) {
     @include media-query($on-palm) {
-        background: $gray-color;
+        background: lighten($gray-color, 3%);
     }
 }
 
@@ -426,7 +426,6 @@ figure {
     transition: all .2s;
 
     &:hover {
-        // color: $white-color;
         background-color: $gray-color;
         -webkit-transition: all .1s;
         transition: all .1s;
@@ -485,8 +484,10 @@ figure {
     display: flex;
     flex-direction: row;
     align-items: center;
-
     padding: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    z-index: 1;
     -webkit-transition: all .2s;
     transition: all .2s;
 
@@ -503,6 +504,7 @@ figure {
         height: 100%;
         left: 0;
         top: 0;
+        z-index: 2;
     }
 
     @include media-query($on-palm) {
@@ -534,6 +536,10 @@ figure {
         margin-bottom: 0;
         line-height: $small-line-height;
         font-size: $base-font-size;
+
+        @include media-query($on-palm) {
+            font-size: $small-font-size;
+        }
     }
 
     p {
@@ -573,6 +579,7 @@ figure {
 
 .post-tag {
     margin-right: 8px;
+    line-height: $large-line-height;
 }
 
 .post-link {
@@ -586,7 +593,7 @@ figure {
 }
 
 .post-related {
-    background-color: #f7f9f9;
+    background: lighten($gray-color, 3%);
     margin-top: 40px;
     padding: 16px 24px;
     border-radius: 0.3rem;
