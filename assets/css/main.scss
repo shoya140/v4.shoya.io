@@ -245,6 +245,10 @@ figure {
         text-align: center;
         border-bottom: none;
     }
+
+    .wrapper {
+        max-width: calc(#{$content-width} + 160px);
+    }
 }
 
 .nav-line {
@@ -291,7 +295,7 @@ figure {
 
 .nav-container {
     float: right;
-    padding-right: 65px;
+    padding-right: 72px;
     line-height: $nav-height;
     z-index: 10;
     background-color: $white-color;
@@ -306,8 +310,8 @@ figure {
 .page-link {
     color: $black-color;
     line-height: $base-line-height;
-    margin-left: 6px;
-    margin-right: 6px;
+    margin-left: 7px;
+    margin-right: 7px;
 }
 
 // https://codepen.io/himalayasingh/pen/EdVzNL
