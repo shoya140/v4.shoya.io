@@ -14,7 +14,7 @@ $brand-color: #2561a2;
 $content-width: 700px;
 $on-palm: 530px;
 $nav-height: 56px;
-$wrapper-padding: 20px;
+$wrapper-padding: 16px;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
@@ -99,7 +99,7 @@ code {
 
 body {
     margin: 0;
-    padding: 20px;
+    padding: 0;
     font-family: $font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
@@ -112,12 +112,6 @@ body {
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
     -ms-hyphens: auto;
-
-    @include media-query($on-palm) {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding: 0 $wrapper-padding;
-    }
 }
 
 blockquote {
@@ -235,11 +229,14 @@ figure {
     max-width: $content-width;
     margin-right: auto;
     margin-left: auto;
+    padding-left: $wrapper-padding;
+    padding-right: $wrapper-padding;
 }
 
 .site-header {
     margin-bottom: 40px;
     min-height: $nav-height;
+    border-bottom: 1px solid $gray-color;
 
     @include media-query($on-palm) {
         text-align: center;
@@ -318,7 +315,7 @@ figure {
 #language-switch {
     position: absolute;
     top: 14px;
-    right: 0;
+    right: $wrapper-padding;
 
     &.disabled {
         opacity: 0.6;
