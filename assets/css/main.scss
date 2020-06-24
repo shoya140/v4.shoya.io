@@ -184,10 +184,16 @@ td:nth-child(2) {
     }
 
     img.image-portrait{
+        display: block;
+        background-size: contain;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+
         margin-right: 20px;
 
         @include media-query($on-palm) {
-            margin-right: 0;
+            display: none;
         }
     }
 }
@@ -653,14 +659,6 @@ figure {
 
 .line-it-button {
     margin-left: 4px;
-}
-
-img.image-portrait{
-    display: block;
-    background-size: contain;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
 }
 
 .footnotes{
