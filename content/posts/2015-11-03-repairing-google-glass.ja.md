@@ -13,8 +13,8 @@ Google Glassには本体から送られる光を目に届けるためのプリ�
 
 ## 解決策
 
-**※修理は自己責任でお願いします。**<br/>
-**失敗したり保証を失っても一切の責任を負いかねます。**<br/>
+**※修理は自己責任でお願いします。失敗したり保証を失っても一切の責任を負いかねます。**
+
 用意するもの: 金属光沢シート・はさみ(カッター)・ピンセット
 
 <div class="babylink-box" style="overflow: hidden; font-size: small; zoom: 1; margin: 15px 0; text-align: left;"><div class="babylink-image" style="float: left; margin: 0px 15px 10px 0px; width: 75px; height: 75px; text-align: center;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B001GQ2WP8/mrk1869-22/" rel="nofollow" target="_blank"><img style="border-top: medium none; border-right: medium none; border-bottom: medium none; border-left: medium none;" src="http://ecx.images-amazon.com/images/I/41o25COrUcL._SL75_.jpg" width="36" height="75" /></a></div><div class="babylink-info" style="overflow: hidden; zoom: 1; line-height: 120%;"><div class="babylink-title" style="margin-bottom: 2px; line-height: 120%;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B001GQ2WP8/mrk1869-22/" rel="nofollow" target="_blank">トライツール TF01 ミラー フィニッシュ</a></div><div class="babylink-manufacturer" style="margin-bottom: 5px;">ハセガワ</div></div><div class="booklink-footer" style="clear: left"></div></div>
