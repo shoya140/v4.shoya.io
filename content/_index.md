@@ -4,13 +4,10 @@ keywords: ["Shoya Ishimaru", "Ishimaru Shoya", "石丸 翔也", "石丸翔也", 
 description: "Dr.-Ing. Shoya Ishimaru is a Senior Researcher at the German Research Center for Artificial Intelligence (DFKI). His research interests are to invent new technologies augmenting abilities of human begins and investigating influences of the augmentations to human minds."
 ---
 
-<img src="/img/icon_portrait.jpg" class="image-portrait" width="150px" alt="Shoya Ishimaru">
-
-# Shoya Ishimaru
-
-Dr.-Ing. Shoya Ishimaru is a Senior Researcher at the German Research Center for Artificial Intelligence (DFKI). His research interests are to invent new technologies augmenting abilities of human begins and investigating influences of the augmentations to human minds [[publications](/publications/), [Google Scholar](https://scholar.google.com/citations?user=052bgSAAAAAJ)\]. After receiving Bachelor and Master degrees in Engineering from Osaka Prefecture University in 2014 and 2016, he defended his PhD in Engineering at the University of Kaiserslautern in 2019 (Doktor der Ingenieurwissenschaften mit auszeichnung <i>summa cum laude</i>).
-
-He is also a software developer [[software](/software/)]. He likes not only programming but designing beautiful software. As an internship/part-time engineer, he worked for many IT companies including paperboy&co., Hatena, and Recruit. In 2016, he received a title of MITOU Super Creator by Ministry of Economy, Trade, and Industry in Japan by developing a system for visualizing the mental state. He gave a number of invited talks at universities, high schools, and TEDx. His mission in life is to invent amazing applications and to satisfy people all over the world.
+<div class="bio">
+    <img src="/img/icon_portrait.jpg" class="image-portrait" width="130px" height="130px" alt="Shoya Ishimaru">
+    <p>Dr. Shoya Ishimaru is a Senior Researcher at the German Research Center for Artificial Intelligence (DFKI). His research interests are to invent new technologies augmenting abilities of human begins and investigating influences of the augmentations to human minds [<a href="/publications/">publications</a>, <a href="https://scholar.google.com/citations?user=052bgSAAAAAJ">Google Scholar</a>]. After receiving Bachelor and Master degrees in Engineering from Osaka Prefecture University in 2014 and 2016, he defended his PhD in Engineering at the University of Kaiserslautern in 2019 (Doktor der Ingenieurwissenschaften mit auszeichnung <i>summa cum laude</i>).</p>
+</div>
 
 <h2 class="profile">Work Experience</h2>
 

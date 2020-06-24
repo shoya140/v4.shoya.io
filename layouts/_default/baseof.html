@@ -4,6 +4,11 @@
     <body>
         {{- partial "header.html" . -}}
         <div class='content{{ if eq .Site.Language.Lang "ja" }} lang-ja{{ end }}'>
+            <div class="title">
+                <div class="wrapper">
+                    <h1>{{ .Title }}</h1>
+                </div>
+            </div>
             <div class="wrapper">
                 {{- block "main" . }}{{- end }}
             </div>

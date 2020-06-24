@@ -7,6 +7,4 @@ project: private
 
 <script async class="speakerdeck-embed" data-id="2dca30a5af0a474bbf51fa9576640dd2" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-# Shin' on kei (心温計)
-
 Mental illness, especially depression is one of the most pressing concerns all over the world. We propose a system estimating mental states of a user from activity log derived from wearable devices. It uses the analogy of thermometer for the visualization. Everyone should have gone through hardships with fever, and they can understand how much tired by this format.

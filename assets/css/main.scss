@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: calc(1.2 * #{$large-font-size});
     @include media-query($on-palm) {
-        font-size: calc(1.1 * #{$base-font-size});
+        font-size: calc(1.15 * #{$base-font-size});
     }
 }
 
@@ -112,6 +112,10 @@ body {
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
     -ms-hyphens: auto;
+
+    @include media-query($on-palm) {
+        margin: 20px 0;
+    }
 }
 
 blockquote {
@@ -169,6 +173,23 @@ td:nth-child(2) {
 
 .no-wrap {
     display: inline-block;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+
+    @include media-query($on-palm) {
+        flex-direction: column;
+    }
+
+    img.image-portrait{
+        margin-right: 20px;
+
+        @include media-query($on-palm) {
+            margin-right: 0;
+        }
+    }
 }
 
 .profile {
@@ -234,7 +255,6 @@ figure {
 }
 
 .site-header {
-    margin-bottom: 40px;
     min-height: $nav-height;
     border-bottom: 1px solid $gray-color;
 
@@ -554,35 +574,39 @@ figure {
     }
 }
 
-.post-title {
-    margin-bottom: 1.5em;
+.title {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: $gray-color;
+    margin-bottom: 40px;
 
     h1 {
         margin: 0;
         line-height: $small-line-height;
-    }
-
-    p {
-        margin: 0 0 2px 0;
-        padding-left: 1px;
-        font-size: $small-font-size;
-        line-height: $small-line-height;
+        text-align: center;
     }
 
     @include media-query($on-palm) {
-        padding-left: 0px;
+        margin-top: 30px;
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
 }
 
 .post-tags {
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     text-align: center;;
 }
 
 .post-tag {
     margin-right: 8px;
     line-height: $large-line-height;
+}
+
+.post-date {
+    text-align: right;
+    font-size: $small-font-size;
 }
 
 .post-related {
@@ -632,26 +656,11 @@ figure {
 }
 
 img.image-portrait{
-    max-width: 100%;
-    position: relative;
     display: block;
-    padding: 5px;
-    margin: 10px auto;
-    border: 1px solid #ebebeb;
-    box-shadow: 0 0 5px #ebebeb;
-    -webkit-box-shadow: 0 0 5px #ebebeb;
-    -moz-box-shadow: 0 0 5px #ebebeb;
-    -o-box-shadow: 0 0 5px #ebebeb;
-    -ms-box-shadow: 0 0 5px #ebebeb;
-
+    background-size: contain;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    background-size: contain;
-
-    @include media-query($on-palm) {
-        max-width: 96%;
-    }
 }
 
 .footnotes{
