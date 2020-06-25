@@ -3,7 +3,7 @@
   <p class="post-tags">
     {{ range $tagName, $entries := .Site.Taxonomies.tags }}
       <span style="display: inline-block;">
-        <img src="/img/twemoji/{{ $tagName }}.svg" width="10px">
+        <img src="/img/twemoji/{{ $tagName }}.svg" width="16px" style="margin-bottom:-2px">
         {{ if in $.RelPermalink $tagName}}
           <span class="post-tag no-wrap">{{ $tagName }} ({{ $entries.Count }})</span>
         {{ else }}
