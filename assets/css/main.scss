@@ -52,14 +52,14 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: calc(1.2 * #{$large-font-size});
     @include media-query($on-palm) {
-        font-size: calc(1.18 * #{$base-font-size});
+        font-size: calc(1.2 * #{$base-font-size});
     }
 }
 
 h2 {
     font-size: $large-font-size;
     @include media-query($on-palm) {
-        font-size: calc(1.1 * #{$base-font-size});
+        font-size: calc(1.2 * #{$base-font-size});
     }
 }
 
@@ -262,7 +262,6 @@ figure {
 
 .site-header {
     min-height: $nav-height;
-    border-bottom: 1px solid $gray-color;
 
     @include media-query($on-palm) {
         text-align: center;
@@ -321,7 +320,6 @@ figure {
     padding-right: 72px;
     line-height: $nav-height;
     z-index: 10;
-    background-color: $white-color;
 
     @include media-query($on-palm) {
         float: none;
