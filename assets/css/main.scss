@@ -22,7 +22,7 @@ $wrapper-padding: 16px;
     --surface: 35, 40, 52; // #232834;
     --background: 25, 30, 42; // #191e2a;
     --text: 238, 238, 238; // #eeeeee;
-    --brand: 92, 207, 230; // #5ccfe6;
+    --brand: 164, 211, 249; // #a4d3f9;
   }
 }
 
@@ -205,15 +205,15 @@ td:nth-child(2) {
 
     img.image-portrait{
         display: block;
+        margin-right: 20px;
         background-size: contain;
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
 
-        margin-right: 20px;
-
         @include media-query($on-palm) {
-            display: none;
+            margin-right: 0;
+            margin-bottom: 10px;
         }
     }
 }
