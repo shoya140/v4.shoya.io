@@ -53,7 +53,7 @@ $ repo sync -j8
 
 The acceptable connection interval is defined in two files. Modify them with your favorite editor.
 
-``` bash
+``` xml
 $ vim ~/android-src/packages/apps/Bluetooth/res/values/config.xml
 - <integer name="gatt_high_priority_min_interval">9</integer>
 + <integer name="gatt_high_priority_min_interval">6</integer>
