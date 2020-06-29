@@ -12,18 +12,17 @@ $nav-height: 56px;
 $wrapper-padding: 16px;
 
 :root{
-  @media (prefers-color-scheme: light) {
     --surface: 255, 255, 255;  // #ffffff
     --background: 241, 243, 244; // #f1f3f4
     --text: 68, 68, 68;  // #444444
     --brand: 37, 97, 162; // #2561a2
-  }
-  @media (prefers-color-scheme: dark) {
-    --surface: 35, 40, 52; // #232834;
-    --background: 25, 30, 42; // #191e2a;
-    --text: 238, 238, 238; // #eeeeee;
-    --brand: 164, 211, 249; // #a4d3f9;
-  }
+
+    @media (prefers-color-scheme: dark) {
+        --surface: 35, 40, 52; // #232834;
+        --background: 25, 30, 42; // #191e2a;
+        --text: 238, 238, 238; // #eeeeee;
+        --brand: 164, 211, 249; // #a4d3f9;
+    }
 }
 
 $surface-color: rgba(var(--surface), 1.0);
@@ -205,11 +204,13 @@ td:nth-child(2) {
 
     img.image-portrait{
         display: block;
-        margin-right: 20px;
         background-size: contain;
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
+
+        max-width: unset;
+        margin-right: 20px;
 
         @include media-query($on-palm) {
             margin-right: 0;
