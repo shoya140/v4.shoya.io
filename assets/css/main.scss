@@ -11,15 +11,30 @@ $on-palm: 530px;
 $nav-height: 56px;
 $wrapper-padding: 16px;
 
-$surface-color: #ffffff;
-$background-color: #f1f3f4;
-$text-color: #444444;
-$brand-color: #2561a2;
+:root{
+  @media (prefers-color-scheme: light) {
+    --surface: 255, 255, 255;  // #ffffff
+    --background: 241, 243, 244; // #f1f3f4
+    --text: 68, 68, 68;  // #444444
+    --brand: 37, 97, 162; // #2561a2
+  }
+  @media (prefers-color-scheme: dark) {
+    --surface: 35, 40, 52; // #232834;
+    --background: 25, 30, 42; // #191e2a;
+    --text: 238, 238, 238; // #eeeeee;
+    --brand: 92, 207, 230; // #5ccfe6;
+  }
+}
 
-$quote-text-color: rgba($text-color, 0.6);
-$quote-border-color: rgba($brand-color, 0.5);
-$related-color: rgba($background-color, 0.5);
-$switch-color: rgba($text-color, 0.9);
+$surface-color: rgba(var(--surface), 1.0);
+$background-color: rgba(var(--background), 1.0);
+$text-color: rgba(var(--text), 1.0);
+$brand-color: rgba(var(--brand), 1.0);
+
+$related-color: rgba(var(--background), 0.5);
+$switch-color: rgba(var(--text), 0.9);
+$quote-text-color: rgba(var(--text), 0.7);
+$quote-border-color: rgba(var(--brand), 0.5);
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
