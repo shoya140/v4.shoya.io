@@ -2,7 +2,7 @@
 title: "Publications"
 ---
 
-## Journal Paper
+## Journal Papers
 
 {{< pub "brishtel2020mind" "amft2015making" >}}
 
