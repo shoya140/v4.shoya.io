@@ -15,6 +15,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |:---:|:---|
 |<tt>2019-現在</tt>|<a href="https://www.dfki.de/web/">ドイツ人工知能研究センター (DFKI)</a> <span class="no-wrap">シニアリサーチャー</span>|
 |<tt>2016-2019</tt>|<a href="https://www.dfki.de/web/">ドイツ人工知能研究センター (DFKI)</a> <span class="no-wrap">リサーチャー</span>|
+|<tt>2016-2019</tt>|<a href="https://www.uni-kl.de">カイザースラウテルン工科大学</a> <span class="no-wrap">リサーチアソシエイト</span>|
 
 <h2 class="profile">非常勤・インターン・ボランティア</h2>
 
@@ -23,7 +24,6 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |<tt>2020-現在</tt>|<a href="https://jr.mitou.org/">未踏ジュニア</a> メンター (PM)|
 |<tt>2016-現在</tt>|<a href="http://www.osakafu-u.ac.jp/">大阪府立大学</a> <span class="no-wrap">客員研究員</span>|
 |<tt>2014-現在</tt>|<a href="http://www.kmd.keio.ac.jp/jp/">慶應義塾大学KMD研究所</a> <span class="no-wrap">研究員</span>|
-|<tt>2016-2019</tt>|<a href="https://www.uni-kl.de">カイザースラウテルン工科大学</a> <span class="no-wrap">リサーチアソシエイト</span>|
 |<tt>2013-2015</tt>|<a href="https://life-is-tech.com/">株式会社ライフイズテック</a> メンター|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</tt>|<a href="https://www.recruit.jp/">株式会社リクルートホールディングス</a> <span class="no-wrap">インターンシップ</span>|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014</tt>|<a href="https://www.livesense.co.jp/">株式会社リブセンス</a> <span class="no-wrap">エンジニア インターンシップ</span>|
@@ -36,17 +36,25 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 
 |||
 |:---:|:---|
-|<tt>2016-2019</tt>|<a href="https://www.uni-kl.de">カイザースラウテルン工科大学</a> <span class="no-wrap">博士課程 (PhD)</span>|
-|<tt>2014-2016</tt>|<a href="http://www.eng.osakafu-u.ac.jp/">大阪府立大学大学院</a> 工学研究科 <span class="no-wrap">博士前期課程 (修士)</span>|
-||└<a href="http://www.univ-larochelle.fr/?lang=en">ラ・ロシェル大学</a> <span class="no-wrap">1ヶ月留学</span>|
-|<tt>2010-2014</tt>|<a href="http://www.osakafu-u.ac.jp/">大阪府立大学</a> 工学部 <span class="no-wrap">知能情報工学科 (学士)</span>|
-||└<a href="https://www.uni-kl.de">カイザースラウテルン工科大学</a> <span class="no-wrap">6ヶ月留学</span>|
+|<tt>2016-2019</tt>|博士 (工学) <a href="https://www.uni-kl.de">カイザースラウテルン工科大学</a> <span class="no-wrap"></span>|
+||“Meta-Augmented Human: From Physical to Cognitive Towards Affective State Recognition” (Reviewed by Prof. Andreas Dengel, Prof. Paul Lukowicz, and Prof. Koichi Kise)
+|<tt>2014-2016</tt>|修士 (工学) <a href="http://www.eng.osakafu-u.ac.jp/">大阪府立大学大学院</a> 工学研究科|
+||“Eyewear Computing for Cognitive Activity Recognition” (Reviewed by Prof. Koichi Kise, Prof. Tomoharu Nakashima, and Prof. Hisao Ishibuchi)|
+|<tt>2010-2014</tt>|学士 (工学) <a href="http://www.osakafu-u.ac.jp/">大阪府立大学</a> 工学部 <span class="no-wrap">知能情報工学科</span>|
+||“Activity Recognition with Google Glass: Combining Head Motion and Eye Blink Frequency” (Reviewed by Prof. Koichi Kise and Prof. Kai Kunze)|
+|<tt>留学</tt>|<a href="http://www.univ-larochelle.fr/?lang=en">ラ・ロシェル大学</a> (2015.09-10), <a href="https://www.uni-kl.de/en/home/">カイザースラウテルン工科大学</a> (2013.10-2014.03)|
+
+<h2 class="profile">講義</h2>
+
+|||
+|:---:|:---|
+|<tt>2020.SS</tt>|Collaborative Intelligence (Dengel教授との共同講義)|
+|<tt>2019.SS</tt>|Collaborative Intelligence (Dengel教授との共同講義)|
 
 <h2 class="profile">獲得資金</h2>
 
 |||
 |:---:|:---|
-|<tt>2020-2022</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20H04213/">JSPS 科研費 基盤 \(B\)</a> 分担研究者|
 |<tt>2017-2019</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K00276/">JSPS 科研費 基盤 \(C\)</a> 分担研究者|
 |<tt>2017-2019</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K12728/">JSPS 科研費 若手 (B)</a> 代表研究者|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</tt>|<a href="https://www.ipa.go.jp/jinzai/mitou/2015/gaiyou_s-4.html">IPA 未踏IT人材発掘・育成事業</a> クリエータ|
@@ -60,7 +68,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |<tt>2019.03</tt>|<a href="https://perpersuasion.ubi-lab.com/?fbclid=IwAR1QiuoopBcAkAVmGFygEcY4mYqrO-KjhzXZF664nhMdBb1uK1o5tFp7E4I">PerPersuasion 2019</a> Program Committee|
 |<tt>2018.10</tt>|<a href="http://www.dfki.uni-kl.de/~kieni/read2018/">READ 2018</a> Program Committee|
 |<tt>2015.03</tt>|<a href="http://recruit-jinji.jp/adf_fes2015/">Application Developer Festival 2015</a> Co-Organizer|
-|<tt>査読</tt>|IMWUT, IJDAR, CHI '20, MobileHCI '20, PerPersuasion '19, READ '18, HDI '17|
+|<tt>査読</tt>|IMWUT, IJDAR, ISWC '20, CHI '20, MobileHCI '20, PerPersuasion '19, READ '18, HDI '17|
 
 <h2 class="profile">受賞</h2>
 

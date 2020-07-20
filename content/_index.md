@@ -15,39 +15,48 @@ description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research C
 |:---:|:---|
 |<tt>2019-*&nbsp;&nbsp;&nbsp;</tt>|Senior Researcher, <a href="http://www.dfki.de/web">German Research Center for Artificial Intelligence (DFKI)</a>|
 |<tt>2016-2019</tt>|Researcher, <a href="http://www.dfki.de/web">German Research Center for Artificial Intelligence (DFKI)</a>|
+|<tt>2016-2019</tt>|Research Associate, <span class="no-wrap"><a href="https://www.uni-kl.de">University of Kaiserslautern</a></span>|
 
 <h2 class="profile">Part-Time Job, Internship, and Service</h2>
 
 |||
 |:---:|:---|
 |<tt>2020-*&nbsp;&nbsp;&nbsp;</tt>|Mentor (PM), <a href="https://jr.mitou.org/">Mitou Junior</a>|
-|<tt>2016-*&nbsp;&nbsp;&nbsp;</tt>|Visiting researcher, <span class="no-wrap"><a href="http://www.osakafu-u.ac.jp/english/">Osaka Prefecture University</a></span>|
+|<tt>2016-*&nbsp;&nbsp;&nbsp;</tt>|Visiting Researcher, <span class="no-wrap"><a href="http://www.osakafu-u.ac.jp/english/">Osaka Prefecture University</a></span>|
 |<tt>2014-*&nbsp;&nbsp;&nbsp;</tt>|Researcher, <span class="no-wrap"><a href="http://www.kmd.keio.ac.jp/">Keio Media Design Research Institute</a></span>|
-|<tt>2016-2019</tt>|Research associate, <span class="no-wrap"><a href="https://www.uni-kl.de">University of Kaiserslautern</a></span>|
 |<tt>2013-2015</tt>|Engineering mentor, <span class="no-wrap"><a href="http://life-is-tech.com/">Life is Tech, Inc.</a></span>|
-|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</tt>|Internship, <span class="no-wrap"><a href="http://www.recruit.jp/">Recruit Holdings Co.</a></span>|
-|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014</tt>|Engineering internship, <span class="no-wrap"><a href="http://www.livesense.co.jp/">Livesense Inc.</a></span>|
-|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014</tt>|Engineering internship, <span class="no-wrap"><a href="https://info.cookpad.com/">Cookpad Inc.</a></span>|
-|<tt>2012-2013</tt>|Software engineer, <span class="no-wrap"><a href="http://campus-inc.org/">Campus. Inc.</a></span>|
-|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|Part-time software engineer, <span class="no-wrap"><a href="http://www.paperboy.co.jp/">Paperboy&co. Inc</a></span>|
-|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|Engineering internship, <span class="no-wrap"><a href="http://www.hatena.ne.jp/">Hatena Co.</a></span>|
+|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</tt>|Engineering Internship, <span class="no-wrap"><a href="http://www.recruit.jp/">Recruit Holdings Co.</a></span>|
+|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014</tt>|Engineering Internship, <span class="no-wrap"><a href="http://www.livesense.co.jp/">Livesense Inc.</a></span>|
+|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014</tt>|Engineering Internship, <span class="no-wrap"><a href="https://info.cookpad.com/">Cookpad Inc.</a></span>|
+|<tt>2012-2013</tt>|Software Engineer, <span class="no-wrap"><a href="http://campus-inc.org/">Campus. Inc.</a></span>|
+|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|Part-time Software Engineer, <span class="no-wrap"><a href="http://www.paperboy.co.jp/">Paperboy&co. Inc</a></span>|
+|<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|Engineering Internship, <span class="no-wrap"><a href="http://www.hatena.ne.jp/">Hatena Co.</a></span>|
 
 <h2 class="profile">Education</h2>
 
 |||
 |:---:|:---|
 |<tt>2016-2019</tt>|PhD in Engineering, <a href="https://www.uni-kl.de/en/home/">University of Kaiserslautern</a>|
+||“Meta-Augmented Human: From Physical to Cognitive Towards Affective State Recognition” (Reviewed by Prof. Andreas Dengel, Prof. Paul Lukowicz, and Prof. Koichi Kise)
 |<tt>2014-2016</tt>|Master of Engineering, <a href="http://www.eng.osakafu-u.ac.jp/english/">Graduate School of Engineering, Osaka Prefecture University</a>|
-||└Visited <a href="http://www.univ-larochelle.fr/?lang=en">University of La Rochelle</a> for 1 month|
+||“Eyewear Computing for Cognitive Activity Recognition” (Reviewed by Prof. Koichi Kise, Prof. Tomoharu Nakashima, and Prof. Hisao Ishibuchi)|
 |<tt>2010-2014</tt>|Bachelor of Engineering, <a href="https://www.osakafu-u.ac.jp/en/">Osaka Prefecture University</a>|
-||└Visited <a href="https://www.uni-kl.de/en/home/">University of Kaiserslautern</a> for 6 months|
+||“Activity Recognition with Google Glass: Combining Head Motion and Eye Blink Frequency” (Reviewed by Prof. Koichi Kise and Prof. Kai Kunze)|
+|<tt>Visiting</tt>|<a href="http://www.univ-larochelle.fr/?lang=en">University of La Rochelle</a> (2015.09-10), <a href="https://www.uni-kl.de/en/home/">University of Kaiserslautern</a> (2013.10-2014.03)|
+
+
+<h2 class="profile">Teaching</h2>
+
+|||
+|:---:|:---|
+|<tt>2020.SS</tt>|Collaborative Intelligence (Co-lecturing with Prof. Dengel)|
+|<tt>2019.SS</tt>|Collaborative Intelligence (Co-lecturing with Prof. Dengel)|
 
 <h2 class="profile">Grants</h2>
 
 |||
 |:---:|:---|
-|<tt>2020-2022</tt>|Co-investigator, <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20H04213/">JSPS Grant-in-Aid for Scientific Research \(B\)</a>|
-|<tt>2017-2019</tt>|Co-investigator, <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K00276/">JSPS Grant-in-Aid for Scientific Research \(C\)</a>|
+|<tt>2017-2019</tt>|Co-Investigator, <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K00276/">JSPS Grant-in-Aid for Scientific Research \(C\)</a>|
 |<tt>2017-2019</tt>|Representative, <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K12728/">JSPS Grant-in-Aid for Young Scientists (B)</a>|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</tt>|Creator, <a href="https://www.ipa.go.jp/jinzai/mitou/2015/gaiyou_s-4.html">IPA MITOU Exploratory IT Human Resources Project</a>|
 
@@ -60,7 +69,7 @@ description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research C
 |<tt>2019.03</tt>|Program Committee for <a href="https://perpersuasion.ubi-lab.com/?fbclid=IwAR1QiuoopBcAkAVmGFygEcY4mYqrO-KjhzXZF664nhMdBb1uK1o5tFp7E4I">PerPersuasion 2019</a>|
 |<tt>2018.10</tt>|Program Committee for <a href="http://www.dfki.uni-kl.de/~kieni/read2018/">READ 2018</a>|
 |<tt>2015.03</tt>|Co-Organizer for <a href="http://recruit-jinji.jp/adf_fes2015/">Application Developer Festival 2015</a>|
-|<tt>Reviewer</tt>|IMWUT, IJDAR, CHI '20, MobileHCI '20, PerPersuasion '19, READ '18, HDI '17|
+|<tt>Reviewing</tt>|IMWUT, IJDAR, ISWC '20, CHI '20, MobileHCI '20, PerPersuasion '19, READ '18, HDI '17|
 
 <h2 class="profile">Awards</h2>
 
