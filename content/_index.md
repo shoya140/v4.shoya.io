@@ -6,7 +6,7 @@ description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research C
 
 <div class="bio">
     <img src="/img/icon_portrait.jpg" class="image-portrait" width="130px" height="130px" alt="Shoya Ishimaru">
-    <p>Dr. Shoya Ishimaru is a Senior Researcher at the German Research Center for Artificial Intelligence (DFKI). His research interests are to invent new technologies augmenting abilities of human begins and investigating influences of the augmentations to human minds [<a href="/publications/">publications</a>, <a href="https://scholar.google.com/citations?user=052bgSAAAAAJ">Google Scholar</a>]. After receiving Bachelor and Master degrees in Engineering from Osaka Prefecture University in 2014 and 2016, he defended his PhD in Engineering at the University of Kaiserslautern in 2019 (Doktor der Ingenieurwissenschaften mit auszeichnung <i>summa cum laude</i>).</p>
+    <p>Dr. Shoya Ishimaru is a Senior Researcher at the German Research Center for Artificial Intelligence (DFKI). His research interests are to invent new technologies augmenting abilities of human begins and investigating influences of the augmentations to human minds [<a href="/publications/">publications</a>, <a href="https://scholar.google.com/citations?user=052bgSAAAAAJ">Google Scholar</a>]. He defended his PhD in Engineering at the University of Kaiserslautern in 2019 (Doktor der Ingenieurwissenschaften mit auszeichnung <i>summa cum laude</i>). He has also been certificated as MITOU Super Creator by Ministry of Economy, Trade, and Industry in Japan.</p>
 </div>
 
 <h2 class="profile">Work Experience</h2>
@@ -71,7 +71,7 @@ description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research C
 |<tt>2015.03</tt>|Co-Organizer for <a href="http://recruit-jinji.jp/adf_fes2015/">Application Developer Festival 2015</a>|
 |<tt>Reviewing</tt>|IMWUT, IJDAR, ISWC '20, CHI '20, MobileHCI '20, PerPersuasion '19, READ '18, HDI '17|
 
-<h2 class="profile">Awards</h2>
+<h2 class="profile">Awards and Honorable Activities</h2>
 
 |||
 |:---:|:---|
@@ -79,6 +79,7 @@ description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research C
 |<tt>2019.10</tt>|2nd Place at <a href="http://ligp.gingerapp.co.jp/">Learning Innovation Grand Prix</a>|
 |<tt>2019.05</tt>|PhD with an award <i>summa cum laude</i> (with highest praise)|
 |<tt>2018.10</tt>|Poster Track Honorable Mention at <a href="http://ubicomp.org/ubicomp2018/">UbiComp/ISWC 2018</a>|
+|<tt>2017.07</tt>|Gave a talk at <a href="http://tedxnagoyau.com">TEDxNagouaU</a>|
 |<tt>2016.06</tt>|Certificated as <a href="http://www.meti.go.jp/english/press/2016/0602_01.html">Super Creator by METI and IPA Japan</a>|
 |<tt>2015.11</tt>|<a href="http://shoya.io/ja/posts/honor2/">President's Honor in Osaka Prefecture University</a>|
 |<tt>2015.11</tt>|Semifinal stage of <a href="http://mashupaward.jp/">MashupAwards11</a>|

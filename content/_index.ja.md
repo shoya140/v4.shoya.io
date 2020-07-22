@@ -6,7 +6,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 
 <div class="bio">
     <img src="/img/icon_portrait.jpg" class="image-portrait" width="130px" height="130px" alt="石丸 翔也">
-    <p>2015年度IPA未踏スーパークリエータ。2016年に大阪府立大学大学院工学研究科の博士前期課程を修了したのち渡欧。2019年にカイザースラウテルン工科大学で工学博士号 (Doktor der Ingenieurwissenschaften) を取得。現在はドイツ人工知能研究センター (DFKI) シニアリサーチャー。情報工学と認知科学を専門とし、人の知性を拡張する技術の研究に取り組んでいる。</p>
+    <p>2015年度IPA未踏スーパークリエータ。2016年に大阪府立大学大学院の修士課程を修了して渡欧。2019年にカイザースラウテルン工科大学で工学博士号を取得 (Doktor der Ingenieurwissenschaften mit auszeichnung <i>summa cum laude</i>)。現在はドイツ人工知能研究センター (DFKI) シニアリサーチャー。情報工学と認知科学を専門とし、人の知性を拡張する技術の研究に取り組んでいる。</p>
 </div>
 
 <h2 class="profile">職歴</h2>
@@ -70,7 +70,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |<tt>2015.03</tt>|<a href="http://recruit-jinji.jp/adf_fes2015/">Application Developer Festival 2015</a> Co-Organizer|
 |<tt>査読</tt>|IMWUT, IJDAR, ISWC '20, CHI '20, MobileHCI '20, PerPersuasion '19, READ '18, HDI '17|
 
-<h2 class="profile">受賞</h2>
+<h2 class="profile">受賞・特筆的活動</h2>
 
 |||
 |:---:|:---|
@@ -78,6 +78,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |<tt>2019.10</tt>|<a href="http://ligp.gingerapp.co.jp/">ラーニングイノベーショングランプリ</a> 優秀ラーニングイノベーション賞|
 |<tt>2019.05</tt>|博士号公聴会にて<i>summa cum laude</i> (最優秀) の称号を授与される|
 |<tt>2018.10</tt>|<a href="http://ubicomp.org/ubicomp2018/">UbiComp/ISWC 2018</a> Poster Track Honorable Mention|
+|<tt>2017.07</tt>|<a href="http://tedxnagoyau.com">TEDxNagoyaU</a> 登壇|
 |<tt>2016.06</tt>|<a href="https://www.ipa.go.jp/about/press/20160602.html">2015年度IPA未踏スーパークリエータ</a>に認定される|
 |<tt>2015.11</tt>|<a href="http://mashupaward.jp/">MashupAwards11</a> 準決勝|
 |<tt>2015.11</tt>|<a href="http://shoya.io/ja/posts/honor2/">平成27年度大阪府立大学学長顕彰</a> 受賞|
