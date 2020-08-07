@@ -103,3 +103,5 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |E-mail|<span class="mail"><button>表示する</button></span>|
 |GitHub|[@shoya140](https://github.com/shoya140/)|
 |Twitter|[@shoya140](https://twitter.com/shoya140)|
+
+[CVをダウンロードする](/cv.pdf)

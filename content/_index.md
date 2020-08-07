@@ -104,3 +104,5 @@ description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research C
 |E-mail|<span class="mail"><button>show</button></span>|
 |GitHub|[@shoya140](https://github.com/shoya140/)|
 |Twitter|[@shoya140](https://twitter.com/shoya140)|
+
+[Download CV](/cv.pdf)
