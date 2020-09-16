@@ -1,43 +1,42 @@
 {{ define "main" }}
+  <div class="post-content">
     {{ $reAltIn := "<p><img src=\"([^\"]+)\" alt=\"([^\"]+)\"></p>" }}
     {{ $reAltOut := "<figure><img src=\"$1\" alt=\"$2\"><figcaption>$2</figcaption></figure>" }}
     {{ $altContent := .Content | replaceRE $reAltIn $reAltOut | safeHTML }}
     {{ $altContent }}
-    <p class="post-date">{{ .Date.Format "2006.01.02" }} (<a href="https://github.com/shoya140/shoya.io/commits/master/content/{{ .File.Path }}">{{ .Site.Params.UpdatedOn }} {{ .Lastmod.Format "2006.01.02" }}</a>)</p>
-    <div class="post-related">
+  </div>
+  <div class="social">
+    <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-counter" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png"
+    alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+    <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <div class="fb-share-button" data-href="{{ .Permalink }}" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | safeURL }}&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+  </div>
+  <div class="post-related">
     {{ $posts := .Site.RegularPages.Related . | first 5 }}
     {{ $related := .Site.Params.Related }}
     {{ with $posts.ByDate.Reverse }}
-      <h3>{{ $related }}</h3>
+    <h3>{{ $related }}</h3>
+    <ul>
+      {{ range . }}
+        <li>{{ .Date.Format "06.01.02" }}&nbsp;<a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+    {{ end }}
+    {{ if gt (len (where .Site.RegularPages "Section" "==" "posts")) 2 }}
+      <h3>{{ .Site.Params.PreviousAndNext }}</h3>
       <ul>
-        {{ range . }}
-          <li>{{ .Date.Format "06.01.02" }}&nbsp;<a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ end }}
+      {{ with .NextInSection }}
+        <li>{{ .Date.Format "06.01.02" }}&nbsp;<a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+      {{ with .PrevInSection }}
+        <li>{{ .Date.Format "06.01.02" }}&nbsp;<a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
       </ul>
     {{ end }}
-      {{ if gt (len (where .Site.RegularPages "Section" "==" "posts")) 2 }}
-        <h3>{{ .Site.Params.PreviousAndNext }}</h3>
-        <ul>
-        {{ with .NextInSection }}
-          <li>{{ .Date.Format "06.01.02" }}&nbsp;<a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ end }}
-        {{ with .PrevInSection }}
-          <li>{{ .Date.Format "06.01.02" }}&nbsp;<a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ end }}
-        </ul>
-      {{ end }}
-      <div class="social">
-        <a href="/feed.xml"><img src="/img/rss.png" width=20px /></a>
-
-        <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-counter" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png"
-        alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
-        <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
-
-        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-        <div class="fb-share-button" data-href="{{ .Permalink }}" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | safeURL }}&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-        <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
-      </div>
-    </div>
+  </div>
 {{ end }}

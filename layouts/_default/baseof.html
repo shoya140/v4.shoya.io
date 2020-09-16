@@ -3,15 +3,14 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
-        <div class='content{{ if eq .Site.Language.Lang "ja" }} lang-ja{{ end }}'>
-            <div class="title">
-                <div class="wrapper">
-                    <h1>{{ .Title }}</h1>
-                </div>
-            </div>
+        <div class="title">
             <div class="wrapper">
-                {{- block "main" . }}{{- end }}
+                <h1>{{ .Title }}</h1>
+                <p class="post-date">{{ if and (gt .Date.Year 2010) (in $.RelPermalink "/posts/") }}{{ .Date.Format "2006.01.02" }}{{ else }}&nbsp;{{ end }}</p>
             </div>
+        </div>
+        <div class='content{{ if eq .Site.Language.Lang "ja" }} lang-ja{{ end }} wrapper'>
+            {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
     </body>
