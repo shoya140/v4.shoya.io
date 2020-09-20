@@ -649,7 +649,7 @@ figure {
 
 .post-related {
     background: $related-color;
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 16px 24px;
     border-radius: 0.3rem;
 
@@ -676,14 +676,6 @@ figure {
         padding: 12px $wrapper-padding;
         margin-left: calc(-1 * #{$wrapper-padding});
         margin-right: calc(-1 * #{$wrapper-padding});
-    }
-}
-
-.social {
-    margin-top: 50px;
-
-    @include media-query($on-palm) {
-        margin-top: 30px;
     }
 }
 
