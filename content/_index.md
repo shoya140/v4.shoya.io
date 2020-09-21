@@ -44,6 +44,24 @@ description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research C
 ||“Activity Recognition with Google Glass: Combining Head Motion and Eye Blink Frequency” (Reviewed by Prof. Koichi Kise and Prof. Kai Kunze)|
 |<tt>Visiting</tt>|<a href="http://www.univ-larochelle.fr/?lang=en">University of La Rochelle</a> (2015.09-10), <a href="https://www.uni-kl.de/en/home/">University of Kaiserslautern</a> (2013.10-2014.03)|
 
+<h2 class="profile">Completed Master Thesis Supervision</h2>
+
+|||
+|:---:|:---|
+|<tt>2020</tt>|Arka Sinha, "Object Recognition on Learning Materials with Deep Neural Networks for Document Understanding"|
+|<tt>2020</tt>|Ann-Sophie Steinert, "Preference-Aware Learning Material with Document Layout Optimization"|
+|<tt>2020</tt>|Emil Baitemirov, "Automated Detection of Mind Wandering while Reading and Listening Music"|
+|<tt>2019</tt>|Jan Holub, "Estimating Cognitive Load Using Deep Learning Methods"|
+|<tt>2019</tt>|Jayasankar Santhosh, "Objective Readability Measurement of Unknown Documents by Generating Artificial Eye Movements"|
+|<tt>2018</tt>|Iuliia Brishtel, "Mental Workload When Reading From Different Media"|
+|<tt>2018</tt>|Soumy Jacob, "Predicting Human Perception while Reading using Eye Tracking and Other Metrics"|
+|<tt>2018</tt>|Jawad Hussain, "Investigating Reading and Skimming Classifier and Its Application in Gaze Oriented Reading"|
+
+<h2 class="profile">Completed Bachelor Thesis Supervision</h2>
+
+|||
+|:---:|:---|
+|<tt>2018</tt>|Ann-Sophie Steinert, "Investigation of the Relationship between Reading Order and Reading Behaviour on a Textbook using Eye Tracking"|
 
 <h2 class="profile">Teaching</h2>
 

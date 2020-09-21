@@ -32,7 +32,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|<a href="https://pepabo.com/"/>株式会社Paperboy＆co.</a> <span class="no-wrap">アプリエンジニア アルバイト</span>|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|<a href="https://markovlabo.net/?p=1214">株式会社はてな</a> <span class="no-wrap">サマーインターンシップ</span>|
 
-<h2 class="profile">学歴</h2>
+<h2 class="profile">学位</h2>
 
 |||
 |:---:|:---|
@@ -43,6 +43,25 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |<tt>2010-2014</tt>|学士 (工学) <a href="http://www.osakafu-u.ac.jp/">大阪府立大学</a> 工学部 <span class="no-wrap">知能情報工学科</span>|
 ||“Activity Recognition with Google Glass: Combining Head Motion and Eye Blink Frequency” (Reviewed by Prof. Koichi Kise and Prof. Kai Kunze)|
 |<tt>留学</tt>|<a href="http://www.univ-larochelle.fr/?lang=en">ラ・ロシェル大学</a> (2015.09-10), <a href="https://www.uni-kl.de/en/home/">カイザースラウテルン工科大学</a> (2013.10-2014.03)|
+
+<h2 class="profile">修士論文指導</h2>
+
+|||
+|:---:|:---|
+|<tt>2020</tt>|Arka Sinha, "Object Recognition on Learning Materials with Deep Neural Networks for Document Understanding"|
+|<tt>2020</tt>|Ann-Sophie Steinert, "Preference-Aware Learning Material with Document Layout Optimization"|
+|<tt>2020</tt>|Emil Baitemirov, "Automated Detection of Mind Wandering while Reading and Listening Music"|
+|<tt>2019</tt>|Jan Holub, "Estimating Cognitive Load Using Deep Learning Methods"|
+|<tt>2019</tt>|Jayasankar Santhosh, "Objective Readability Measurement of Unknown Documents by Generating Artificial Eye Movements"|
+|<tt>2018</tt>|Iuliia Brishtel, "Mental Workload When Reading From Different Media"|
+|<tt>2018</tt>|Soumy Jacob, "Predicting Human Perception while Reading using Eye Tracking and Other Metrics"|
+|<tt>2018</tt>|Jawad Hussain, "Investigating Reading and Skimming Classifier and Its Application in Gaze Oriented Reading"|
+
+<h2 class="profile">卒業論文指導</h2>
+
+|||
+|:---:|:---|
+|<tt>2018</tt>|Ann-Sophie Steinert, "Investigation of the Relationship between Reading Order and Reading Behaviour on a Textbook using Eye Tracking"|
 
 <h2 class="profile">講義</h2>
 
