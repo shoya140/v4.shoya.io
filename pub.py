@@ -19,7 +19,7 @@ for entry in bdata.entries:
             output += ' and ' + name
         else:
             output += ', ' + name
-    output += '. <b>&#147;' + entry['title'] + '&#148;</b>. '
+    output += '. <b>&#147;<a href="#' + key + '" class="anchor-title">' + entry['title'] + '</a>&#148;</b>. '
 
     if 'journal' in entry.keys():
         output += ' ' + entry['journal'] + ', '
@@ -51,7 +51,7 @@ for entry in bdata.entries:
     output = output.replace('{\\&}', '&amp;')
     output = output.replace('--', '&ndash;')
     output = output.replace('Shoya Ishimaru', '<u>Shoya Ishimaru</u>')
-    output = '<p id="' + key + '">' + output + '</p>'
+    output = '<p><span class="anchor-position" id="' + key + '"></span>' + output + '</p>'
 
     with open('./layouts/partials/publications/' + key + '.html', "w") as f:
         f.write(output)
