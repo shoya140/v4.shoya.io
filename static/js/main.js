@@ -22,3 +22,13 @@ const query = 'a[href^="http"]:not([href*="' + location.hostname + '"])'
 Array.from(document.querySelectorAll(query), function(e) {
   e.setAttribute('target', '_blank')
 })
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});

@@ -9,7 +9,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
     <p>2015年度IPA未踏スーパークリエータ。2016年に大阪府立大学大学院の修士課程を修了して渡欧。2019年にカイザースラウテルン工科大学で工学博士号を取得 (Doktor der Ingenieurwissenschaften mit auszeichnung <i>summa cum laude</i>)。現在はドイツ人工知能研究センター (DFKI) シニアリサーチャー。情報工学と認知科学を専門とし、人の知性を拡張する技術の研究に取り組んでいる。</p>
 </div>
 
-<h2 class="profile">職歴</h2>
+{{< anchor class="profile" id="work-experience" title="職歴" >}}
 
 |||
 |:---:|:---|
@@ -17,7 +17,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |<tt>2016-2019</tt>|<a href="https://www.dfki.de/web/">ドイツ人工知能研究センター (DFKI)</a> <span class="no-wrap">リサーチャー</span>|
 |<tt>2016-2019</tt>|<a href="https://www.uni-kl.de">カイザースラウテルン工科大学</a> <span class="no-wrap">リサーチアソシエイト</span>|
 
-<h2 class="profile">非常勤・インターン・ボランティア</h2>
+{{< anchor class="profile" id="part-time-job" title="非常勤・インターン・ボランティア" >}}
 
 |||
 |:---:|:---|
@@ -32,7 +32,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|<a href="https://pepabo.com/"/>株式会社Paperboy＆co.</a> <span class="no-wrap">アプリエンジニア アルバイト</span>|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|<a href="https://markovlabo.net/?p=1214">株式会社はてな</a> <span class="no-wrap">サマーインターンシップ</span>|
 
-<h2 class="profile">学位</h2>
+{{< anchor class="profile" id="education" title="学歴" >}}
 
 |||
 |:---:|:---|
@@ -44,7 +44,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 ||“Activity Recognition with Google Glass: Combining Head Motion and Eye Blink Frequency” (Reviewed by Prof. Koichi Kise and Prof. Kai Kunze)|
 |<tt>留学</tt>|<a href="http://www.univ-larochelle.fr/?lang=en">ラ・ロシェル大学</a> (2015.09-10), <a href="https://www.uni-kl.de/en/home/">カイザースラウテルン工科大学</a> (2013.10-2014.03)|
 
-<h2 class="profile">修士論文指導</h2>
+{{< anchor class="profile" id="master-thesis" title="修士論文指導" >}}
 
 |||
 |:---:|:---|
@@ -57,20 +57,20 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |<tt>2018</tt>|Soumy Jacob, "Predicting Human Perception while Reading using Eye Tracking and Other Metrics"|
 |<tt>2018</tt>|Jawad Hussain, "Investigating Reading and Skimming Classifier and Its Application in Gaze Oriented Reading"|
 
-<h2 class="profile">卒業論文指導</h2>
+{{< anchor class="profile" id="bachelor-thesis" title="卒業論文指導" >}}
 
 |||
 |:---:|:---|
 |<tt>2018</tt>|Ann-Sophie Steinert, "Investigation of the Relationship between Reading Order and Reading Behaviour on a Textbook using Eye Tracking"|
 
-<h2 class="profile">講義</h2>
+{{< anchor class="profile" id="teaching" title="講義" >}}
 
 |||
 |:---:|:---|
 |<tt>2020.SS</tt>|Collaborative Intelligence (Dengel教授との共同講義)|
 |<tt>2019.SS</tt>|Collaborative Intelligence (Dengel教授との共同講義)|
 
-<h2 class="profile">獲得資金</h2>
+{{< anchor class="profile" id="grants" title="獲得資金" >}}
 
 |||
 |:---:|:---|
@@ -78,7 +78,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |<tt>2017-2019</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K12728/">JSPS 科研費 若手 (B)</a> 代表研究者|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</tt>|<a href="https://www.ipa.go.jp/jinzai/mitou/2015/gaiyou_s-4.html">IPA 未踏IT人材発掘・育成事業</a> クリエータ|
 
-<h2 class="profile">会議運営</h2>
+{{< anchor class="profile" id="organizing" title="会議運営" >}}
 
 |||
 |:---:|:---|
@@ -89,7 +89,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |<tt>2015.03</tt>|<a href="http://recruit-jinji.jp/adf_fes2015/">Application Developer Festival 2015</a> Co-Organizer|
 |<tt>査読</tt>|IMWUT, IJDAR, ISWC '20, CHI '20, MobileHCI '20, PerPersuasion '19, READ '18, HDI '17|
 
-<h2 class="profile">受賞・特筆的活動</h2>
+{{< anchor class="profile" id="awards" title="受賞・特筆的活動" >}}
 
 |||
 |:---:|:---|
@@ -115,7 +115,7 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 |<tt>2012.06</tt>|<a href="https://www.cyberagent.co.jp/list/mockplan.html">株式会社サイバーエージェントモックプランコンテスト</a> 決勝|
 |<tt>2012.01</tt>|<a href="http://tech-tokyo.com/?p=679">学生のためのアプリ開発コンテストTech-Tokyo</a> 個人戦優勝|
 
-<h2 class="profile">連絡先</h2>
+{{< anchor class="profile" id="contact" title="連絡先" >}}
 
 |||
 |:---:|:---|

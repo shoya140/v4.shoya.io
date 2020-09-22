@@ -4,12 +4,12 @@ keywords: ["Shoya Ishimaru", "Ishimaru Shoya", "石丸 翔也", "石丸翔也", 
 description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research Center for Artificial Intelligence (DFKI). His research interests are to invent new technologies augmenting abilities of human begins and investigating influences of the augmentations to human minds."
 ---
 
-<div class="bio">
+<div class="bio"">
     <img src="/img/icon_portrait.jpg" class="image-portrait" width="130px" height="130px" alt="Shoya Ishimaru">
     <p>Dr. Shoya Ishimaru is a Senior Researcher at the German Research Center for Artificial Intelligence (DFKI). His research interests are to invent new technologies augmenting abilities of human begins and investigating influences of the augmentations to human minds [<a href="/publications/">publications</a>, <a href="https://scholar.google.com/citations?user=052bgSAAAAAJ">Google Scholar</a>]. He defended his PhD in Engineering at the University of Kaiserslautern in 2019 (Doktor der Ingenieurwissenschaften mit auszeichnung <i>summa cum laude</i>). He has also been certificated as MITOU Super Creator by Ministry of Economy, Trade, and Industry in Japan.</p>
 </div>
 
-<h2 class="profile">Work Experience</h2>
+{{< anchor class="profile" id="work-experience" title="Work Experience" >}}
 
 |||
 |:---:|:---|
@@ -17,7 +17,7 @@ description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research C
 |<tt>2016-2019</tt>|Researcher, <a href="http://www.dfki.de/web">German Research Center for Artificial Intelligence (DFKI)</a>|
 |<tt>2016-2019</tt>|Research Associate, <span class="no-wrap"><a href="https://www.uni-kl.de">University of Kaiserslautern</a></span>|
 
-<h2 class="profile">Part-Time Job, Internship, and Service</h2>
+{{< anchor class="profile" id="part-time-job" title="Part-Time Job, Internship, and Service" >}}
 
 |||
 |:---:|:---|
@@ -32,7 +32,7 @@ description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research C
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|Part-time Software Engineer, <span class="no-wrap"><a href="http://www.paperboy.co.jp/">Paperboy&co. Inc</a></span>|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|Engineering Internship, <span class="no-wrap"><a href="http://www.hatena.ne.jp/">Hatena Co.</a></span>|
 
-<h2 class="profile">Education</h2>
+{{< anchor class="profile" id="education" title="Education" >}}
 
 |||
 |:---:|:---|
@@ -44,7 +44,7 @@ description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research C
 ||“Activity Recognition with Google Glass: Combining Head Motion and Eye Blink Frequency” (Reviewed by Prof. Koichi Kise and Prof. Kai Kunze)|
 |<tt>Visiting</tt>|<a href="http://www.univ-larochelle.fr/?lang=en">University of La Rochelle</a> (2015.09-10), <a href="https://www.uni-kl.de/en/home/">University of Kaiserslautern</a> (2013.10-2014.03)|
 
-<h2 class="profile">Completed Master Thesis Supervision</h2>
+{{< anchor class="profile" id="master-thesis" title="Completed Master Thesis Supervision" >}}
 
 |||
 |:---:|:---|
@@ -57,20 +57,20 @@ description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research C
 |<tt>2018</tt>|Soumy Jacob, "Predicting Human Perception while Reading using Eye Tracking and Other Metrics"|
 |<tt>2018</tt>|Jawad Hussain, "Investigating Reading and Skimming Classifier and Its Application in Gaze Oriented Reading"|
 
-<h2 class="profile">Completed Bachelor Thesis Supervision</h2>
+{{< anchor class="profile" id="bachelor-thesis" title="Completed Bachelor Thesis Supervision" >}}
 
 |||
 |:---:|:---|
 |<tt>2018</tt>|Ann-Sophie Steinert, "Investigation of the Relationship between Reading Order and Reading Behaviour on a Textbook using Eye Tracking"|
 
-<h2 class="profile">Teaching</h2>
+{{< anchor class="profile" id="teaching" title="Teaching" >}}
 
 |||
 |:---:|:---|
 |<tt>2020.SS</tt>|Collaborative Intelligence (Co-lecturing with Prof. Dengel)|
 |<tt>2019.SS</tt>|Collaborative Intelligence (Co-lecturing with Prof. Dengel)|
 
-<h2 class="profile">Grants</h2>
+{{< anchor class="profile" id="grants" title="Grants" >}}
 
 |||
 |:---:|:---|
@@ -78,7 +78,7 @@ description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research C
 |<tt>2017-2019</tt>|Representative, <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K12728/">JSPS Grant-in-Aid for Young Scientists (B)</a>|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</tt>|Creator, <a href="https://www.ipa.go.jp/jinzai/mitou/2015/gaiyou_s-4.html">IPA MITOU Exploratory IT Human Resources Project</a>|
 
-<h2 class="profile">Organizing</h2>
+{{< anchor class="profile" id="organizing" title="Organizing" >}}
 
 |||
 |:---:|:---|
@@ -89,7 +89,7 @@ description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research C
 |<tt>2015.03</tt>|Co-Organizer for <a href="http://recruit-jinji.jp/adf_fes2015/">Application Developer Festival 2015</a>|
 |<tt>Reviewing</tt>|IMWUT, IJDAR, ISWC '20, CHI '20, MobileHCI '20, PerPersuasion '19, READ '18, HDI '17|
 
-<h2 class="profile">Awards and Honorable Activities</h2>
+{{< anchor class="profile" id="awards" title="Awards and Honorable Activities" >}}
 
 |||
 |:---:|:---|
@@ -115,7 +115,7 @@ description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research C
 |<tt>2012.06</tt>|Final stage of <a href="https://www.cyberagent.co.jp/list/mockplan.html">Mock App Planning Contest, CyberAgent Inc</a>|
 |<tt>2012.01</tt>|Champion at <a href="http://tech-tokyo.com/?p=679">Tech-Tokyo, Application Development Contest for Students</a>|
 
-<h2 class="profile">Contact</h2>
+{{< anchor class="profile" id="contact" title="Contact" >}}
 
 |||
 |:---:|:---|

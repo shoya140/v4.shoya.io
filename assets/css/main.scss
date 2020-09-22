@@ -699,3 +699,14 @@ figure {
         display: none;
     }
 }
+
+a.anchor-title {
+    color: $text-color;
+}
+
+.anchor-position {
+    display: block;
+    position: relative;
+    top: -1.0rem;
+    visibility: hidden;
+}
