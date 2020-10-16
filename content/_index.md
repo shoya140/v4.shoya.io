@@ -74,6 +74,8 @@ description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research C
 
 |||
 |:---:|:---|
+|<tt>2020-2022</tt>|Key Researcher, <a href="https://idw-online.de/en/news756007">DFG ANR JST International Call on Artificial Intelligence</a>|
+|<tt>2020-2022</tt>|Co-Investigator, <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20H04213/">JSPS Grant-in-Aid for Scientific Research \(B\)</a>|
 |<tt>2017-2019</tt>|Co-Investigator, <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K00276/">JSPS Grant-in-Aid for Scientific Research \(C\)</a>|
 |<tt>2017-2019</tt>|Representative, <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K12728/">JSPS Grant-in-Aid for Young Scientists (B)</a>|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</tt>|Creator, <a href="https://www.ipa.go.jp/jinzai/mitou/2015/gaiyou_s-4.html">IPA MITOU Exploratory IT Human Resources Project</a>|

@@ -74,6 +74,8 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
 
 |||
 |:---:|:---|
+|<tt>2020-2022</tt>|<a href="https://idw-online.de/en/news756007">DFG ANR JST International Call on Artificial Intelligence</a> Key Researcher|
+|<tt>2020-2022</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20H04213/">JSPS 科研費 基盤 \(B\)</a> 分担研究者|
 |<tt>2017-2019</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K00276/">JSPS 科研費 基盤 \(C\)</a> 分担研究者|
 |<tt>2017-2019</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K12728/">JSPS 科研費 若手 (B)</a> 代表研究者|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</tt>|<a href="https://www.ipa.go.jp/jinzai/mitou/2015/gaiyou_s-4.html">IPA 未踏IT人材発掘・育成事業</a> クリエータ|
