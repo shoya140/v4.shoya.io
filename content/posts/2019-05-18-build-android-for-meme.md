@@ -132,4 +132,4 @@ $ adb install memelogger-academic-v0.6.0.apk
 
 If everything works well, data will be streamed for more than 20 seconds.
 
-{{< youtube ysnn3vbPc6M >}}
+{{< youtube "ysnn3vbPc6M?rel=0&modestbranding=1" >}}
