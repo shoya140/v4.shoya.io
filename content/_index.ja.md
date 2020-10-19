@@ -9,6 +9,8 @@ description: "石丸翔也は工学博士・ソフトウェア開発者。ドイ
     <p>2015年度IPA未踏スーパークリエータ。2016年に大阪府立大学大学院の修士課程を修了して渡欧。2019年にカイザースラウテルン工科大学で工学博士号を取得 (Doktor der Ingenieurwissenschaften mit auszeichnung <i>summa cum laude</i>)。現在はドイツ人工知能研究センター (DFKI) シニアリサーチャー。情報工学と認知科学を専門とし、人の知性を拡張する技術の研究に取り組んでいる。</p>
 </div>
 
+![ ](/img/topics.png)
+
 {{< anchor class="profile" id="work-experience" title="職歴" >}}
 
 |||

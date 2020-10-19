@@ -9,6 +9,8 @@ description: "Dr. Shoya Ishimaru is a Senior Researcher at the German Research C
     <p>Dr. Shoya Ishimaru is a Senior Researcher at the German Research Center for Artificial Intelligence (DFKI). His research interests are to invent new technologies augmenting abilities of human begins and investigating influences of the augmentations to human minds [<a href="/publications/">publications</a>, <a href="https://scholar.google.com/citations?user=052bgSAAAAAJ">Google Scholar</a>]. He defended his PhD in Engineering at the University of Kaiserslautern in 2019 (Doktor der Ingenieurwissenschaften mit auszeichnung <i>summa cum laude</i>). He has also been certificated as MITOU Super Creator by Ministry of Economy, Trade, and Industry in Japan.</p>
 </div>
 
+![ ](/img/topics.png)
+
 {{< anchor class="profile" id="work-experience" title="Work Experience" >}}
 
 |||
