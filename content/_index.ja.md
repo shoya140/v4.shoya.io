@@ -1,12 +1,12 @@
 ---
 title: "石丸 翔也"
 keywords: ["Shoya Ishimaru", "Ishimaru Shoya", "石丸 翔也", "石丸翔也", "Shoya", "Ishimaru", "shoya140", "DFKI", "Kaiserslautern", "Portfolio", "ポートフォリオ"]
-description: "石丸翔也は工学博士・ソフトウェア開発者。ドイツ人工知能研究センター (DFKI) シニアリサーチャー。情報工学と認知科学を専門とし、人の知性を拡張する技術の研究に取り組んでいる。"
+description: "石丸翔也は工学博士・ドイツ人工知能研究センター (DFKI) シニアリサーチャー・IPA未踏スーパークリエータ・未踏ジュニアメンター。眼鏡型ウェアラブルコンピューティングや学習支援を中心に、人の知性 (物事を学び・考え・伝える能力) を拡張する技術の研究をしています。"
 ---
 
 <div class="bio">
     <img src="/img/icon_portrait.jpg" class="image-portrait" width="130px" height="130px" alt="石丸 翔也">
-    <p>2015年度IPA未踏スーパークリエータ。2016年に大阪府立大学大学院の修士課程を修了して渡欧。2019年にカイザースラウテルン工科大学で工学博士号を取得 (Doktor der Ingenieurwissenschaften mit auszeichnung <i>summa cum laude</i>)。現在はドイツ人工知能研究センター (DFKI) シニアリサーチャー。情報工学と認知科学を専門とし、人の知性を拡張する技術の研究に取り組んでいる。</p>
+    <p>工学博士 / ドイツ人工知能研究センター (DFKI) シニアリサーチャー / IPA未踏スーパークリエータ / 未踏ジュニア メンター。眼鏡型ウェアラブルコンピューティングや学習支援を中心に、人の知性 (物事を学び・考え・伝える能力) を拡張する技術の研究をしています。[<a href="https://scholar.google.com/citations?user=052bgSAAAAAJ">Google Scholar</a>]</p>
 </div>
 
 ![ ](/img/topics.png)
