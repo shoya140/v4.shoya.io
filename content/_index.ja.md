@@ -11,7 +11,7 @@ description: "石丸翔也は工学博士・ドイツ人工知能研究センタ
 
 ![ ](/img/topics.png)
 
-{{< anchor class="profile" id="work-experience" title="職歴" >}}
+{{< anchor id="work-experience" title="職歴" >}}
 
 |||
 |:---:|:---|
@@ -19,7 +19,7 @@ description: "石丸翔也は工学博士・ドイツ人工知能研究センタ
 |<tt>2016-2019</tt>|<a href="https://www.dfki.de/web/">ドイツ人工知能研究センター (DFKI)</a> <span class="no-wrap">リサーチャー</span>|
 |<tt>2016-2019</tt>|<a href="https://www.uni-kl.de">カイザースラウテルン工科大学</a> <span class="no-wrap">リサーチアソシエイト</span>|
 
-{{< anchor class="profile" id="part-time-job" title="非常勤・インターン・ボランティア" >}}
+{{< anchor id="part-time-job" title="非常勤・インターン・ボランティア" >}}
 
 |||
 |:---:|:---|
@@ -34,7 +34,7 @@ description: "石丸翔也は工学博士・ドイツ人工知能研究センタ
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|<a href="https://pepabo.com/"/>株式会社Paperboy＆co.</a> <span class="no-wrap">アプリエンジニア アルバイト</span>|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012</tt>|<a href="https://markovlabo.net/?p=1214">株式会社はてな</a> <span class="no-wrap">サマーインターンシップ</span>|
 
-{{< anchor class="profile" id="education" title="学歴" >}}
+{{< anchor id="education" title="学歴" >}}
 
 |||
 |:---:|:---|
@@ -46,7 +46,7 @@ description: "石丸翔也は工学博士・ドイツ人工知能研究センタ
 ||“Activity Recognition with Google Glass: Combining Head Motion and Eye Blink Frequency” (Reviewed by Prof. Koichi Kise and Prof. Kai Kunze)|
 |<tt>留学</tt>|<a href="http://www.univ-larochelle.fr/?lang=en">ラ・ロシェル大学</a> (2015.09-10), <a href="https://www.uni-kl.de/en/home/">カイザースラウテルン工科大学</a> (2013.10-2014.03)|
 
-{{< anchor class="profile" id="master-thesis" title="修士論文指導" >}}
+{{< anchor id="master-thesis" title="修士論文指導" >}}
 
 |||
 |:---:|:---|
@@ -59,30 +59,30 @@ description: "石丸翔也は工学博士・ドイツ人工知能研究センタ
 |<tt>2018</tt>|Soumy Jacob, "Predicting Human Perception while Reading using Eye Tracking and Other Metrics"|
 |<tt>2018</tt>|Jawad Hussain, "Investigating Reading and Skimming Classifier and Its Application in Gaze Oriented Reading"|
 
-{{< anchor class="profile" id="bachelor-thesis" title="卒業論文指導" >}}
+{{< anchor id="bachelor-thesis" title="卒業論文指導" >}}
 
 |||
 |:---:|:---|
 |<tt>2018</tt>|Ann-Sophie Steinert, "Investigation of the Relationship between Reading Order and Reading Behaviour on a Textbook using Eye Tracking"|
 
-{{< anchor class="profile" id="teaching" title="講義" >}}
+{{< anchor id="teaching" title="講義" >}}
 
 |||
 |:---:|:---|
 |<tt>2020.SS</tt>|Collaborative Intelligence (Dengel教授との共同講義)|
 |<tt>2019.SS</tt>|Collaborative Intelligence (Dengel教授との共同講義)|
 
-{{< anchor class="profile" id="grants" title="獲得資金" >}}
+{{< anchor id="grants" title="獲得資金" >}}
 
 |||
 |:---:|:---|
-|<tt>2020-2022</tt>|<a href="https://idw-online.de/en/news756007">DFG ANR JST International Call on Artificial Intelligence</a> Key Researcher|
+|<tt>2020-2023</tt>|<a href="https://idw-online.de/en/news756007">DFG ANR JST International Call on Artificial Intelligence</a> Key Researcher|
 |<tt>2020-2022</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20H04213/">JSPS 科研費 基盤 \(B\)</a> 分担研究者|
 |<tt>2017-2019</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K00276/">JSPS 科研費 基盤 \(C\)</a> 分担研究者|
 |<tt>2017-2019</tt>|<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K12728/">JSPS 科研費 若手 (B)</a> 代表研究者|
 |<tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015</tt>|<a href="https://www.ipa.go.jp/jinzai/mitou/2015/gaiyou_s-4.html">IPA 未踏IT人材発掘・育成事業</a> クリエータ|
 
-{{< anchor class="profile" id="organizing" title="会議運営" >}}
+{{< anchor id="organizing" title="会議運営" >}}
 
 |||
 |:---:|:---|
@@ -93,7 +93,7 @@ description: "石丸翔也は工学博士・ドイツ人工知能研究センタ
 |<tt>2015.03</tt>|<a href="http://recruit-jinji.jp/adf_fes2015/">Application Developer Festival 2015</a> Co-Organizer|
 |<tt>査読</tt>|IMWUT, IJDAR, ISWC '20, CHI '20, MobileHCI '20, PerPersuasion '19, READ '18, HDI '17|
 
-{{< anchor class="profile" id="awards" title="受賞・特筆的活動" >}}
+{{< anchor id="awards" title="受賞・特筆的活動" >}}
 
 |||
 |:---:|:---|
@@ -119,7 +119,7 @@ description: "石丸翔也は工学博士・ドイツ人工知能研究センタ
 |<tt>2012.06</tt>|<a href="https://www.cyberagent.co.jp/list/mockplan.html">株式会社サイバーエージェントモックプランコンテスト</a> 決勝|
 |<tt>2012.01</tt>|<a href="http://tech-tokyo.com/?p=679">学生のためのアプリ開発コンテストTech-Tokyo</a> 個人戦優勝|
 
-{{< anchor class="profile" id="contact" title="連絡先" >}}
+{{< anchor id="contact" title="連絡先" >}}
 
 |||
 |:---:|:---|

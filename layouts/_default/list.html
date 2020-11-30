@@ -18,8 +18,8 @@
       <a href="{{ .RelPermalink }}"></a>
         <img class="list-img" src="/img/twemoji/{{ index .Params.tags 0 }}.svg">
       <div class="list-body">
-        <p>{{ .Date.Format "2006.01.02" }}</p>
-        <h2>{{ .Title }}</h2>
+        <p class="list-date">{{ .Date.Format "2006.01.02" }}</p>
+        <p class="list-title">{{ .Title }}</p>
       </div>
     </div>
     {{ end }}
