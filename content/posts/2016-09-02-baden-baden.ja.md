@@ -12,7 +12,7 @@ eyecatch: /img/blog_baden-baden01.jpg
 
 ![ ](/img/blog_baden-baden01.jpg)
 
-### フリードリヒス浴場
+## フリードリヒス浴場
 
 ![ ](/img/blog_baden-baden02.jpg)
 
@@ -20,7 +20,7 @@ eyecatch: /img/blog_baden-baden01.jpg
 
 1877年に完成した豪華な浴場。案内に従って全裸のままシャワーやサウナ、異なる温度設定のお風呂に浸かる。火・水・金・日・祝・2/14は男女混浴、月・木・土は男女別浴。混浴の日に行ったのでなかなかカルチャーショックな体験になった。
 
-### カラカラ浴場
+## カラカラ浴場
 
 ![ ](/img/blog_baden-baden04.jpg)
 

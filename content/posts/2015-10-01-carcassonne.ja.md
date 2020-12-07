@@ -12,7 +12,7 @@ eyecatch: /img/blog_carcassonne16.jpg
 
 オード川にかかるポン・ヴィユー(旧橋)から望むシテの全景。
 
-### サン・ジメール教会
+## サン・ジメール教会
 
 ![ ](/img/blog_carcassonne02.jpg)
 
@@ -20,7 +20,7 @@ eyecatch: /img/blog_carcassonne16.jpg
 
 シテ入口前の広場に教会がある。教会の近くから見る城壁は圧巻。
 
-### コンタル城
+## コンタル城
 
 ![ ](/img/blog_carcassonne04.jpg)
 
@@ -52,7 +52,7 @@ eyecatch: /img/blog_carcassonne16.jpg
 
 途中でパレードに遭遇した。
 
-### サン・ナゼールバジリカ聖堂
+## サン・ナゼールバジリカ聖堂
 
 ![ ](/img/blog_carcassonne13.jpg)
 
